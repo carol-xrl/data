@@ -1,19 +1,17 @@
 cd ~/Desktop
 
-# 获取每个视频的时长
 DUR1=$(ffprobe -v error -show_entries format=duration -of csv=p=0 Chiikawa_episode1.mp4)
 DUR2=$(ffprobe -v error -show_entries format=duration -of csv=p=0 Chiikawa_episode2.mp4)
 DUR3=$(ffprobe -v error -show_entries format=duration -of csv=p=0 Chiikawa_episode3.mp4)
 
-# Trim + 水印 (各去掉最后30秒)
-# episode3 = pudding
-ffmpeg -i Chiikawa_episode3.mp4 -t $(echo "$DUR3 - 30" | bc) -vf "drawtext=text='CHIIKAWA · pudding':fontcolor=black:fontsize=48:x=w-tw-20:y=20" -codec:a copy Chiikawa_episode3_watermarked.mp4
+# episode1 = pudding
+ffmpeg -i Chiikawa_episode1.mp4 -t $(echo "$DUR1 - 30" | bc) -vf "drawtext=text='CHIIKAWA · pudding':fontcolor=black:fontsize=48:x=w-tw-20:y=20" -codec:a copy Chiikawa_episode1_watermarked.mp4
 
-# episode2 = cream_soup
-ffmpeg -i Chiikawa_episode2.mp4 -t $(echo "$DUR2 - 30" | bc) -vf "drawtext=text='CHIIKAWA · cream_soup':fontcolor=black:fontsize=48:x=w-tw-20:y=20" -codec:a copy Chiikawa_episode2_watermarked.mp4
+# episode3 = cream_soup
+ffmpeg -i Chiikawa_episode3.mp4 -t $(echo "$DUR3 - 30" | bc) -vf "drawtext=text='CHIIKAWA · cream_soup':fontcolor=black:fontsize=48:x=w-tw-20:y=20" -codec:a copy Chiikawa_episode3_watermarked.mp4
 
-# episode1 = egypt
-ffmpeg -i Chiikawa_episode1.mp4 -t $(echo "$DUR1 - 30" | bc) -vf "drawtext=text='CHIIKAWA · egypt':fontcolor=black:fontsize=48:x=w-tw-20:y=20" -codec:a copy Chiikawa_episode1_watermarked.mp4
+# episode2 = egypt
+ffmpeg -i Chiikawa_episode2.mp4 -t $(echo "$DUR2 - 30" | bc) -vf "drawtext=text='CHIIKAWA · egypt':fontcolor=black:fontsize=48:x=w-tw-20:y=20" -codec:a copy Chiikawa_episode2_watermarked.mp4
 
-# 合并: pudding(ep3) → cream_soup(ep2) → egypt(ep1)
-ffmpeg -i Chiikawa_episode3_watermarked.mp4 -i Chiikawa_episode2_watermarked.mp4 -i Chiikawa_episode1_watermarked.mp4 -filter_complex "[0:v][0:a][1:v][1:a][2:v][2:a]concat=n=3:v=1:a=1[outv][outa]" -map "[outv]" -map "[outa]" Chiikawa.mp4
+# 合并: pudding(ep1) → cream_soup(ep3) → egypt(ep2)
+ffmpeg -i Chiikawa_episode1_watermarked.mp4 -i Chiikawa_episode3_watermarked.mp4 -i Chiikawa_episode2_watermarked.mp4 -filter_complex "[0:v][0:a][1:v][1:a][2:v][2:a]concat=n=3:v=1:a=1[outv][outa]" -map "[outv]" -map "[outa]" Chiikawa.mp4

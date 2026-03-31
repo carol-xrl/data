@@ -174,16 +174,10 @@
           "description": "Internal finance team discussions and PO approvals",
           "isPrivate": true,
           "isStarred": true,
-          "members": [
-            "user_finance_1",
-            "user_finance_mgr",
-            "user_procurement"
-          ],
+          "members": ["user_finance_1", "user_finance_mgr", "user_procurement"],
           "createdBy": "user_finance_mgr",
           "createdAt": "2024-01-01T09:00:00Z",
-          "pinnedMessages": [
-            "msg_rules_dec_2025"
-          ]
+          "pinnedMessages": ["msg_rules_dec_2025"]
         },
         {
           "channelId": "general",
@@ -191,18 +185,7 @@
           "description": "Company wide announcements",
           "isPrivate": false,
           "isStarred": false,
-          "members": [
-            "user_finance_1",
-            "user_eng_lead",
-            "user_mkt_lead",
-            "user_design",
-            "user_hr",
-            "user_it",
-            "user_vp_ops",
-            "user_sales",
-            "user_hr_mgr",
-            "user_procurement"
-          ],
+          "members": ["user_finance_1", "user_eng_lead", "user_mkt_lead", "user_design", "user_hr", "user_it", "user_vp_ops", "user_sales", "user_hr_mgr", "user_procurement", "user_eng_2", "user_mkt_2", "user_sales_mgr"],
           "createdBy": "user_vp_ops",
           "createdAt": "2023-01-01T09:00:00Z",
           "pinnedMessages": []
@@ -213,12 +196,7 @@
           "description": "Engineering team discussions",
           "isPrivate": true,
           "isStarred": false,
-          "members": [
-            "user_eng_lead",
-            "user_eng_2",
-            "user_it",
-            "user_finance_1"
-          ],
+          "members": ["user_eng_lead", "user_eng_2", "user_it", "user_finance_1"],
           "createdBy": "user_eng_lead",
           "createdAt": "2024-03-01T09:00:00Z",
           "pinnedMessages": []
@@ -229,13 +207,7 @@
           "description": "Q1 2026 marketing campaign planning",
           "isPrivate": true,
           "isStarred": false,
-          "members": [
-            "user_mkt_lead",
-            "user_mkt_2",
-            "user_design",
-            "user_finance_1",
-            "user_vp_ops"
-          ],
+          "members": ["user_mkt_lead", "user_mkt_2", "user_design", "user_finance_1", "user_vp_ops"],
           "createdBy": "user_mkt_lead",
           "createdAt": "2025-11-15T09:00:00Z",
           "pinnedMessages": []
@@ -246,13 +218,7 @@
           "description": "Office management and facilities",
           "isPrivate": false,
           "isStarred": false,
-          "members": [
-            "user_finance_1",
-            "user_hr",
-            "user_hr_mgr",
-            "user_procurement",
-            "user_design"
-          ],
+          "members": ["user_finance_1", "user_hr", "user_hr_mgr", "user_procurement", "user_design"],
           "createdBy": "user_hr_mgr",
           "createdAt": "2024-06-01T09:00:00Z",
           "pinnedMessages": []
@@ -263,13 +229,31 @@
           "description": "Sales operations and tooling",
           "isPrivate": true,
           "isStarred": false,
-          "members": [
-            "user_sales",
-            "user_sales_mgr",
-            "user_finance_1"
-          ],
+          "members": ["user_sales", "user_sales_mgr", "user_finance_1"],
           "createdBy": "user_sales_mgr",
           "createdAt": "2024-09-01T09:00:00Z",
+          "pinnedMessages": []
+        },
+        {
+          "channelId": "team-outing-dec",
+          "name": "team-outing-dec",
+          "description": "December team outing planning",
+          "isPrivate": false,
+          "isStarred": false,
+          "members": ["user_hr", "user_hr_mgr", "user_eng_2", "user_mkt_2", "user_design", "user_sales", "user_finance_1"],
+          "createdBy": "user_hr",
+          "createdAt": "2025-12-08T09:00:00Z",
+          "pinnedMessages": []
+        },
+        {
+          "channelId": "holiday-party-2025",
+          "name": "holiday-party-2025",
+          "description": "2025 holiday party planning (Nov event)",
+          "isPrivate": false,
+          "isStarred": false,
+          "members": ["user_hr", "user_hr_mgr", "user_finance_1", "user_procurement", "user_mkt_2", "user_eng_2"],
+          "createdBy": "user_hr_mgr",
+          "createdAt": "2025-10-15T09:00:00Z",
           "pinnedMessages": []
         }
       ],
@@ -278,67 +262,91 @@
           {
             "messageId": "msg_rules_dec_2025",
             "senderId": "user_finance_mgr",
-            "content": "Hi Team, regarding Dec 2025 purchase requests, strict rules in effect:\n\n1. **Budget**: Max $2,000 per hardware item.\n2. **Vendors**: IT = 'CorpTech Solutions' ONLY. Office = 'OfficeDepot'.\n3. **Freeze**: NO 'Team Building' or 'Entertainment'.\n4. **Software**: Annual subscriptions ONLY.\n5. **Deadline**: Only requests submitted by Dec 20 qualify for December processing. Anything after goes to January.\n\nPlease DM me if you have questions on specific items.",
-            "timestamp": "2025-12-15T08:00:00.000000Z",
+            "content": "Hi Team, December purchase order cycle is now open.\n\nAs a reminder, the November batch was finalized and submitted to procurement on Dec 1. If you had anything in that batch, it's already being processed.\n\nFor this month's cycle:\n\n1. **Hardware cap**: $2,000 per line item. No change from last month.\n2. **Approved vendors** — IT hardware: CorpTech Solutions only. Office supplies: OfficeDepot only. Other categories: use the vendor specified in your request, subject to approval.\n3. **Software**: annual subscriptions only. Monthly plans require separate VP-level approval.\n4. **Team Building & Entertainment**: FROZEN this month. We are over budget in this category for Q4. No exceptions regardless of amount.\n5. **Submission deadline**: December 20. Late submissions roll to January.\n\nVP-level approvals can override rules 1 and 2 on a case-by-case basis. If you have a VP sign-off, make sure it's documented (channel message or email).\n\nEverything that meets the above rules can be processed without checking with me. For anything that doesn't, DM me before submitting.",
+            "timestamp": "2025-12-12T08:00:00.000000Z",
             "threadId": null,
-            "reactions": [
-              {
-                "emoji": "👀",
-                "users": [
-                  "user_finance_1"
-                ]
-              }
-            ],
+            "reactions": [{"emoji": "👀", "users": ["user_finance_1"]}, {"emoji": "👍", "users": ["user_procurement"]}],
             "isEdited": false
           },
           {
-            "messageId": "msg_fa_nina_1",
+            "messageId": "msg_fa_2",
             "senderId": "user_procurement",
-            "content": "Sarah, just FYI — I got a bulk discount quote from CorpTech Solutions on monitors. 15% off if we order 5+. Want me to hold the December orders and combine with January?",
-            "timestamp": "2025-12-16T10:00:00.000000Z",
+            "content": "Sarah, quick FYI — I got a bulk discount quote from CorpTech on monitors. 15% off if we order 5+. Want me to hold the December monitor orders and combine with January to hit the threshold?",
+            "timestamp": "2025-12-13T10:00:00.000000Z",
             "threadId": null,
             "reactions": [],
             "isEdited": false
           },
           {
-            "messageId": "msg_fa_sarah_2",
+            "messageId": "msg_fa_3",
             "senderId": "user_finance_mgr",
-            "content": "No, don't hold December orders. Process them normally. We can try to batch January orders later if the discount is still available.",
-            "timestamp": "2025-12-16T10:05:00.000000Z",
+            "content": "No, don't hold December orders. Process them normally on their own timeline. We can try to batch January orders later if the discount is still available.",
+            "timestamp": "2025-12-13T10:05:00.000000Z",
             "threadId": null,
-            "reactions": [
-              {
-                "emoji": "👍",
-                "users": [
-                  "user_procurement"
-                ]
-              }
-            ],
+            "reactions": [{"emoji": "👍", "users": ["user_procurement"]}],
             "isEdited": false
           },
           {
-            "messageId": "msg_fa_john_q",
+            "messageId": "msg_fa_4",
+            "senderId": "user_procurement",
+            "content": "Got it. Also, I finally closed out the OfficeDepot corporate account reconciliation for November. All invoices matched. Clean month.",
+            "timestamp": "2025-12-15T09:00:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_fa_5",
+            "senderId": "user_finance_mgr",
+            "content": "Great work Nina. Can you send me the reconciliation summary? I need it for the Q4 review deck.",
+            "timestamp": "2025-12-15T09:10:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_fa_6",
+            "senderId": "user_procurement",
+            "content": "Will do, sending it over this afternoon.",
+            "timestamp": "2025-12-15T09:12:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_fa_7",
             "senderId": "user_finance_1",
-            "content": "Sarah, quick question — the VP mentioned in the Q1 campaign channel that he personally approved the camera purchase for marketing. Does that override the $2K hardware cap?",
+            "content": "Sarah, quick question — I saw in the Q1 campaign channel that David might have approved a hardware purchase that's over the $2K cap. Does a VP approval in a channel count as documented sign-off per your rules?",
             "timestamp": "2025-12-22T08:30:00.000000Z",
             "threadId": null,
             "reactions": [],
             "isEdited": false
           },
           {
-            "messageId": "msg_fa_sarah_3",
+            "messageId": "msg_fa_8",
             "senderId": "user_finance_mgr",
-            "content": "Yes, VP-level approval overrides the hardware cap. If David signed off on it, process it. But ONLY for that specific item — the cap still applies to everything else.",
+            "content": "Yes — if David explicitly approved it in a channel message, that counts as documented VP sign-off. It overrides the hardware cap for that specific item only. Everything else still follows the standard rules.",
             "timestamp": "2025-12-22T08:35:00.000000Z",
             "threadId": null,
-            "reactions": [
-              {
-                "emoji": "✅",
-                "users": [
-                  "user_finance_1"
-                ]
-              }
-            ],
+            "reactions": [{"emoji": "✅", "users": ["user_finance_1"]}],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_fa_9",
+            "senderId": "user_procurement",
+            "content": "Btw John, when you finalize the December POs can you CC me? I need to prepare the vendor PO packets before the holiday closure.",
+            "timestamp": "2025-12-22T09:00:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_fa_10",
+            "senderId": "user_finance_1",
+            "content": "Sure Nina, will do. Hoping to have it wrapped up by end of day tomorrow.",
+            "timestamp": "2025-12-22T09:05:00.000000Z",
+            "threadId": null,
+            "reactions": [],
             "isEdited": false
           }
         ],
@@ -346,25 +354,16 @@
           {
             "messageId": "msg_gen_1",
             "senderId": "user_vp_ops",
-            "content": "Reminder: End of year office closure Dec 24–Jan 1. All purchase orders for December must be finalized by Dec 23.",
+            "content": "Hi everyone — quick reminder that our end-of-year office closure runs Dec 24 through Jan 1. All purchase orders for December must be finalized by Dec 23. If you have outstanding requests, please make sure they're submitted to finance ASAP.",
             "timestamp": "2025-12-10T09:00:00.000000Z",
             "threadId": null,
-            "reactions": [
-              {
-                "emoji": "🎄",
-                "users": [
-                  "user_hr",
-                  "user_mkt_2",
-                  "user_eng_2"
-                ]
-              }
-            ],
+            "reactions": [{"emoji": "🎄", "users": ["user_hr", "user_mkt_2", "user_eng_2"]}],
             "isEdited": false
           },
           {
             "messageId": "msg_gen_2",
             "senderId": "user_hr_mgr",
-            "content": "Team — please submit any remaining expense reports for 2025 by Dec 20. Finance will be doing a hard close on the books.",
+            "content": "Team — please submit any remaining expense reports for 2025 by Dec 20. Finance will be doing a hard close on the books. No exceptions on late expense reports this year.",
             "timestamp": "2025-12-11T09:00:00.000000Z",
             "threadId": null,
             "reactions": [],
@@ -373,42 +372,89 @@
           {
             "messageId": "msg_gen_3",
             "senderId": "user_it",
-            "content": "Heads up everyone: we're migrating to a new VPN provider in January. No action needed right now, but expect setup instructions in the first week of Jan.",
+            "content": "Heads up everyone: we're migrating to a new VPN provider in January. No action needed right now, but expect setup instructions in the first week of Jan. I'll be ordering the necessary hardware (security keys etc.) in the January PO cycle.",
             "timestamp": "2025-12-12T14:00:00.000000Z",
+            "threadId": null,
+            "reactions": [{"emoji": "👍", "users": ["user_eng_lead"]}],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_gen_4",
+            "senderId": "user_vp_ops",
+            "content": "Also — great work everyone on the Q4 product launch. Sales numbers are looking strong. Let's keep the momentum going into Q1.",
+            "timestamp": "2025-12-13T10:00:00.000000Z",
+            "threadId": null,
+            "reactions": [{"emoji": "🚀", "users": ["user_sales", "user_sales_mgr", "user_eng_lead", "user_mkt_lead"]}],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_gen_5",
+            "senderId": "user_hr",
+            "content": "Hey all! 🍕 Would anyone be interested in a team pizza lunch before the holiday break? Thinking Dec 22 or 23. React if you're in!",
+            "timestamp": "2025-12-15T11:00:00.000000Z",
+            "threadId": null,
+            "reactions": [{"emoji": "🍕", "users": ["user_eng_2", "user_mkt_2", "user_design", "user_sales"]}, {"emoji": "👍", "users": ["user_hr_mgr"]}],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_gen_6",
+            "senderId": "user_hr_mgr",
+            "content": "Love the idea Mike! But check with finance first — I think there might be a category freeze this month that could affect Team Building expenses.",
+            "timestamp": "2025-12-15T11:15:00.000000Z",
             "threadId": null,
             "reactions": [],
             "isEdited": false
           },
           {
-            "messageId": "msg_gen_4",
-            "senderId": "user_hr",
-            "content": "Hey all! 🍕 Would anyone be interested in a team pizza lunch before the holiday break? Thinking Dec 22 or 23. React if you're in!",
-            "timestamp": "2025-12-15T11:00:00.000000Z",
+            "messageId": "msg_gen_7",
+            "senderId": "user_eng_2",
+            "content": "Oh no, I hope pizza isn't considered Team Building 😅 It's just lunch!",
+            "timestamp": "2025-12-15T11:20:00.000000Z",
             "threadId": null,
-            "reactions": [
-              {
-                "emoji": "🍕",
-                "users": [
-                  "user_eng_2",
-                  "user_mkt_2",
-                  "user_design",
-                  "user_sales"
-                ]
-              },
-              {
-                "emoji": "👍",
-                "users": [
-                  "user_hr_mgr"
-                ]
-              }
-            ],
+            "reactions": [{"emoji": "😂", "users": ["user_mkt_2", "user_design"]}],
             "isEdited": false
           },
           {
-            "messageId": "msg_gen_5",
-            "senderId": "user_hr_mgr",
-            "content": "Love the idea Mike! But check with finance first — I think there's a category freeze this month that might affect this.",
-            "timestamp": "2025-12-15T11:15:00.000000Z",
+            "messageId": "msg_gen_8",
+            "senderId": "user_hr",
+            "content": "I'll check with John from finance and see if there's a way to make it work. Fingers crossed 🤞",
+            "timestamp": "2025-12-15T11:25:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_gen_9",
+            "senderId": "user_it",
+            "content": "Random but has anyone else noticed the office printer on the 3rd floor is jamming constantly? I've submitted a maintenance ticket but just wanted to flag it.",
+            "timestamp": "2025-12-16T14:00:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_gen_10",
+            "senderId": "user_procurement",
+            "content": "James, yeah we're getting a replacement toner cartridge delivered tomorrow. Should fix the jamming issue. If not, I'll escalate to the vendor.",
+            "timestamp": "2025-12-16T14:10:00.000000Z",
+            "threadId": null,
+            "reactions": [{"emoji": "🙏", "users": ["user_it"]}],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_gen_11",
+            "senderId": "user_mkt_lead",
+            "content": "Quick shoutout to the design team — the Q1 campaign landing page mockups look incredible. Can't wait to get the photography gear sorted so we can start shooting product content! 📸",
+            "timestamp": "2025-12-18T16:30:00.000000Z",
+            "threadId": null,
+            "reactions": [{"emoji": "🎨", "users": ["user_design", "user_mkt_2"]}, {"emoji": "🔥", "users": ["user_vp_ops"]}],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_gen_12",
+            "senderId": "user_sales_mgr",
+            "content": "Reminder to the sales team: Q4 pipeline review is Thursday at 2pm. Please have your deal updates ready.",
+            "timestamp": "2025-12-19T09:00:00.000000Z",
             "threadId": null,
             "reactions": [],
             "isEdited": false
@@ -416,9 +462,36 @@
         ],
         "eng-team": [
           {
+            "messageId": "msg_eng_old_1",
+            "senderId": "user_eng_2",
+            "content": "Hey Alex, the mechanical keyboards finally arrived. Mine is the Keychron K8 Pro — feels amazing. Thanks for pushing that through finance!",
+            "timestamp": "2025-08-22T10:00:00.000000Z",
+            "threadId": null,
+            "reactions": [{"emoji": "⌨️", "users": ["user_eng_lead"]}],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_eng_old_2",
+            "senderId": "user_eng_lead",
+            "content": "Glad they came in. John processed the PO in the August batch — should all be settled now.",
+            "timestamp": "2025-08-22T10:05:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_eng_old_3",
+            "senderId": "user_finance_1",
+            "content": "Yep, August PO batch is closed out. All keyboards accounted for. ✅",
+            "timestamp": "2025-08-22T10:10:00.000000Z",
+            "threadId": null,
+            "reactions": [{"emoji": "👍", "users": ["user_eng_2"]}],
+            "isEdited": false
+          },
+          {
             "messageId": "msg_eng_1",
             "senderId": "user_eng_lead",
-            "content": "Team — we have two new hires starting Jan 6. I need to get their hardware ordered ASAP. Working on MacBook Pro M3s and monitors.",
+            "content": "Team — we have two new hires starting Jan 6. I need to get their hardware ordered this month so everything is set up when they arrive. Working on MacBook Pro M3s and external monitors.",
             "timestamp": "2025-12-16T10:00:00.000000Z",
             "threadId": null,
             "reactions": [],
@@ -427,7 +500,7 @@
           {
             "messageId": "msg_eng_2",
             "senderId": "user_eng_2",
-            "content": "Alex, I found MacBook Pro M3s on Amazon for $1,999 — that's $200 cheaper than CorpTech. Should I send you the link?",
+            "content": "Alex, I found MacBook Pro M3s on Amazon for $1,999 each — that's like $200 cheaper than CorpTech's listed price. Should I send you the link?",
             "timestamp": "2025-12-16T10:15:00.000000Z",
             "threadId": null,
             "reactions": [],
@@ -436,7 +509,7 @@
           {
             "messageId": "msg_eng_3",
             "senderId": "user_eng_lead",
-            "content": "Yeah, send it over. Let me try submitting through Amazon — worst case finance tells us to switch vendors.",
+            "content": "Yeah send it over. Let me try submitting through Amazon — worst case finance tells us to switch vendors and we resubmit.",
             "timestamp": "2025-12-16T10:20:00.000000Z",
             "threadId": null,
             "reactions": [],
@@ -445,7 +518,7 @@
           {
             "messageId": "msg_eng_4",
             "senderId": "user_it",
-            "content": "Heads up Alex — finance has a strict vendor policy for IT hardware. Pretty sure it's CorpTech only. You might want to check before submitting.",
+            "content": "Heads up Alex — finance has a strict vendor policy for IT hardware. Pretty sure it's CorpTech Solutions only. You might want to check before submitting. I got burned on this last quarter when I tried ordering switches from CDW.",
             "timestamp": "2025-12-16T10:30:00.000000Z",
             "threadId": null,
             "reactions": [],
@@ -454,7 +527,7 @@
           {
             "messageId": "msg_eng_5",
             "senderId": "user_eng_lead",
-            "content": "Thanks James. I'll submit both and let finance sort it out. The monitors are already from CorpTech so those should be fine.",
+            "content": "Thanks James. I'll submit both options and let finance sort it out. The monitors are from CorpTech already so those should be fine at least.",
             "timestamp": "2025-12-16T10:35:00.000000Z",
             "threadId": null,
             "reactions": [],
@@ -463,26 +536,91 @@
           {
             "messageId": "msg_eng_6",
             "senderId": "user_eng_2",
-            "content": "BTW Alex, should I also request a mechanical keyboard? My current one is dying. Maybe a Keychron Q1 Pro — around $200 from Amazon.",
-            "timestamp": "2025-12-18T09:00:00.000000Z",
+            "content": "Anyone else having issues with the staging server today? Deployments keep timing out.",
+            "timestamp": "2025-12-17T09:00:00.000000Z",
             "threadId": null,
             "reactions": [],
             "isEdited": false
           },
           {
             "messageId": "msg_eng_7",
+            "senderId": "user_it",
+            "content": "Yeah, there's a known issue with the load balancer. I'm working on it. Should be fixed by lunch.",
+            "timestamp": "2025-12-17T09:10:00.000000Z",
+            "threadId": null,
+            "reactions": [{"emoji": "🙏", "users": ["user_eng_2"]}],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_eng_8",
+            "senderId": "user_eng_2",
+            "content": "BTW Alex, should I also request a new mechanical keyboard? My Keychron from August is developing a sticky spacebar. Maybe a Keychron Q1 Pro this time — around $200. I could order from CorpTech or Amazon.",
+            "timestamp": "2025-12-18T09:00:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_eng_9",
             "senderId": "user_eng_lead",
-            "content": "Let's hold off on peripherals this month. Budget is tight. Put it on the Jan list.",
+            "content": "Let's hold off on peripherals this month Kevin. Budget is tight with the two new hire setups. Put it on the January list and we'll revisit.",
             "timestamp": "2025-12-18T09:10:00.000000Z",
             "threadId": null,
-            "reactions": [
-              {
-                "emoji": "👌",
-                "users": [
-                  "user_eng_2"
-                ]
-              }
-            ],
+            "reactions": [{"emoji": "👌", "users": ["user_eng_2"]}],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_eng_10",
+            "senderId": "user_eng_2",
+            "content": "Fair enough. Found this interesting article btw — \"Why Rust is eating the world\" https://example.com/rust-article — thoughts?",
+            "timestamp": "2025-12-18T11:00:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_eng_11",
+            "senderId": "user_eng_lead",
+            "content": "Good read. Let's discuss at the next standup — might be worth prototyping something in Rust for the new microservice.",
+            "timestamp": "2025-12-18T11:15:00.000000Z",
+            "threadId": null,
+            "reactions": [{"emoji": "🦀", "users": ["user_eng_2"]}],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_eng_12",
+            "senderId": "user_eng_2",
+            "content": "Anyone else having VPN issues today? Can't connect to the internal dashboard.",
+            "timestamp": "2025-12-20T09:00:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_eng_13",
+            "senderId": "user_it",
+            "content": "Yeah known issue, same VPN hiccup as last week. Fix is being deployed, should be back within the hour.",
+            "timestamp": "2025-12-20T09:10:00.000000Z",
+            "threadId": null,
+            "reactions": [{"emoji": "👍", "users": ["user_eng_2"]}],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_eng_14",
+            "senderId": "user_eng_lead",
+            "content": "James, when you do the VPN migration in January, can you make sure the new provider supports split tunneling? The current setup kills our connection speeds when we're on calls.",
+            "timestamp": "2025-12-20T09:30:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_eng_15",
+            "senderId": "user_it",
+            "content": "Already on the requirements list. The new provider supports split tunneling natively. Should be a big improvement.",
+            "timestamp": "2025-12-20T09:35:00.000000Z",
+            "threadId": null,
+            "reactions": [{"emoji": "🎉", "users": ["user_eng_lead", "user_eng_2"]}],
             "isEdited": false
           }
         ],
@@ -490,7 +628,7 @@
           {
             "messageId": "msg_q1_1",
             "senderId": "user_mkt_lead",
-            "content": "Team, Q1 campaign planning is in full swing. We need to nail down our content production gear. I'm looking at the Canon EOS R5 Kit for product photography — it's $3,899 but it's professional grade and we'll use it for at least 3 years.",
+            "content": "Team, Q1 campaign planning is officially kicking off. Our biggest priority is product photography — we need professional-grade content for the new landing pages and social ads. I'm looking at getting a proper camera setup.",
             "timestamp": "2025-12-10T14:00:00.000000Z",
             "threadId": null,
             "reactions": [],
@@ -498,87 +636,164 @@
           },
           {
             "messageId": "msg_q1_2",
-            "senderId": "user_design",
-            "content": "That's a great camera. I've used the R5 before — the autofocus is insane for product shots. Fully support this.",
-            "timestamp": "2025-12-10T14:10:00.000000Z",
+            "senderId": "user_mkt_2",
+            "content": "Agree. Our current phone photos are not cutting it anymore. What are you thinking for the camera?",
+            "timestamp": "2025-12-10T14:05:00.000000Z",
             "threadId": null,
             "reactions": [],
             "isEdited": false
           },
           {
             "messageId": "msg_q1_3",
-            "senderId": "user_mkt_2",
-            "content": "Also, should we get a proper lighting kit? I've been using my personal softbox and it's not cutting it anymore. There's a Godox 3-light kit for $650 on B&H.",
-            "timestamp": "2025-12-10T14:20:00.000000Z",
+            "senderId": "user_mkt_lead",
+            "content": "Canon EOS R5 Kit. It's \$3,899 from B&H Photo, which I know is over the hardware cap. But it's professional grade — we'll use it for at least 3 years across all campaigns. The ROI is there.",
+            "timestamp": "2025-12-10T14:10:00.000000Z",
             "threadId": null,
             "reactions": [],
             "isEdited": false
           },
           {
             "messageId": "msg_q1_4",
-            "senderId": "user_mkt_lead",
-            "content": "Good call Rachel. But let's prioritize the camera first — we can add lighting in January if budget allows. One big purchase at a time.",
-            "timestamp": "2025-12-10T14:25:00.000000Z",
+            "senderId": "user_design",
+            "content": "I've used the R5 before for a freelance project — the autofocus is insane for product shots. Fully support this purchase. It would be a game changer for our content quality.",
+            "timestamp": "2025-12-10T14:15:00.000000Z",
             "threadId": null,
-            "reactions": [
-              {
-                "emoji": "👍",
-                "users": [
-                  "user_mkt_2"
-                ]
-              }
-            ],
+            "reactions": [{"emoji": "💯", "users": ["user_mkt_lead"]}],
             "isEdited": false
           },
           {
             "messageId": "msg_q1_5",
-            "senderId": "user_vp_ops",
-            "content": "Sarah J — I looked at the camera request. $3,899 is over the hardware cap but this is strategic for Q1. I'm personally approving this as a VP exception. Go ahead and submit it through John.",
-            "timestamp": "2025-12-18T16:00:00.000000Z",
-            "threadId": null,
-            "reactions": [
-              {
-                "emoji": "🎉",
-                "users": [
-                  "user_mkt_lead",
-                  "user_mkt_2"
-                ]
-              }
-            ],
-            "isEdited": false
-          },
-          {
-            "messageId": "msg_q1_6",
-            "senderId": "user_mkt_lead",
-            "content": "Thank you David! Will send the details to John right away.",
-            "timestamp": "2025-12-18T16:05:00.000000Z",
+            "senderId": "user_mkt_2",
+            "content": "Also, should we get a proper lighting kit? I've been using my personal softbox and it's starting to fall apart. There's a Godox 3-light studio kit for \$650 on B&H.",
+            "timestamp": "2025-12-10T14:20:00.000000Z",
             "threadId": null,
             "reactions": [],
             "isEdited": false
           },
           {
+            "messageId": "msg_q1_6",
+            "senderId": "user_mkt_lead",
+            "content": "Good call Rachel, but let's prioritize the camera first. One big purchase at a time — we can add lighting to the January or February cycle if budget allows.",
+            "timestamp": "2025-12-10T14:25:00.000000Z",
+            "threadId": null,
+            "reactions": [{"emoji": "👍", "users": ["user_mkt_2"]}],
+            "isEdited": false
+          },
+          {
             "messageId": "msg_q1_7",
             "senderId": "user_mkt_2",
-            "content": "While we're at it — should I also submit the Canva Pro Team subscription? We've been using individual accounts and it's a mess. Annual plan is $500 for 5 seats.",
-            "timestamp": "2025-12-19T09:00:00.000000Z",
+            "content": "Makes sense. I'll hold on the lighting for now.",
+            "timestamp": "2025-12-10T14:30:00.000000Z",
             "threadId": null,
             "reactions": [],
             "isEdited": false
           },
           {
             "messageId": "msg_q1_8",
+            "senderId": "user_mkt_2",
+            "content": "Sharing this for inspo — look at what CompetitorX did for their Q4 campaign: https://example.com/competitorx-campaign. Their product photography is so clean. We need to get on that level.",
+            "timestamp": "2025-12-12T10:00:00.000000Z",
+            "threadId": null,
+            "reactions": [{"emoji": "👀", "users": ["user_mkt_lead", "user_design"]}],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_q1_9",
             "senderId": "user_mkt_lead",
-            "content": "Great idea but let's wait until January. I want to see if we can bundle it with the Adobe renewal. Don't submit it yet.",
+            "content": "Exactly. This is why the camera investment is so important. Their shots are clearly done with a full-frame mirrorless setup. We can absolutely match that quality with the R5.",
+            "timestamp": "2025-12-12T10:15:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_q1_10",
+            "senderId": "user_design",
+            "content": "I've started working on the landing page layouts. Here's the initial mockup for the hero section: https://example.com/mockup-v1. Feedback welcome!",
+            "timestamp": "2025-12-15T09:00:00.000000Z",
+            "threadId": null,
+            "reactions": [{"emoji": "🎨", "users": ["user_mkt_lead", "user_mkt_2"]}],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_q1_11",
+            "senderId": "user_mkt_lead",
+            "content": "Love it Jessica! The layout is great. Once we have the camera we can replace the placeholder images with real product shots.",
+            "timestamp": "2025-12-15T09:10:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_q1_12",
+            "senderId": "user_vp_ops",
+            "content": "Sarah J — I reviewed the camera request. \$3,899 is over the hardware cap but I agree this is a strategic investment for Q1 and beyond. I'm personally approving this as a VP exception. Go ahead and submit it through John in finance.",
+            "timestamp": "2025-12-18T16:00:00.000000Z",
+            "threadId": null,
+            "reactions": [{"emoji": "🎉", "users": ["user_mkt_lead", "user_mkt_2"]}, {"emoji": "🙌", "users": ["user_design"]}],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_q1_13",
+            "senderId": "user_mkt_lead",
+            "content": "Thank you David!! Will send the details to John right away. This is going to make a huge difference for Q1 content. 🎉",
+            "timestamp": "2025-12-18T16:05:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_q1_14",
+            "senderId": "user_mkt_2",
+            "content": "Amazing!! While we're on a roll — should I also submit the Canva Pro Team subscription? We've been using individual free accounts and it's a mess with shared assets. Annual plan is \$500 for 5 seats.",
+            "timestamp": "2025-12-19T09:00:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_q1_15",
+            "senderId": "user_mkt_lead",
+            "content": "Great idea but let's hold on Canva until January. I want to see if we can negotiate a bundle deal with our Adobe Creative Cloud renewal — the rep mentioned a potential discount if we add Canva through their marketplace. Don't submit anything yet.",
             "timestamp": "2025-12-19T09:10:00.000000Z",
             "threadId": null,
-            "reactions": [
-              {
-                "emoji": "👌",
-                "users": [
-                  "user_mkt_2"
-                ]
-              }
-            ],
+            "reactions": [{"emoji": "👌", "users": ["user_mkt_2"]}],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_q1_16",
+            "senderId": "user_design",
+            "content": "Updated the landing page mockup with the new color palette: https://example.com/mockup-v2. I think this version is much stronger. The contrast works better for product highlights.",
+            "timestamp": "2025-12-20T10:00:00.000000Z",
+            "threadId": null,
+            "reactions": [{"emoji": "🔥", "users": ["user_mkt_lead", "user_mkt_2"]}],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_q1_17",
+            "senderId": "user_mkt_2",
+            "content": "Love it! The purple accent is perfect. Can't wait to see real product photos in there instead of the stock images.",
+            "timestamp": "2025-12-20T10:10:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_q1_18",
+            "senderId": "user_mkt_lead",
+            "content": "OK team, I've scheduled the first product shoot for Jan 15. That gives us a couple weeks after the camera arrives to get everything set up. Jessica, can you coordinate the product samples with the warehouse?",
+            "timestamp": "2025-12-21T14:00:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_q1_19",
+            "senderId": "user_design",
+            "content": "On it! I'll reach out to the warehouse team after the holidays.",
+            "timestamp": "2025-12-21T14:10:00.000000Z",
+            "threadId": null,
+            "reactions": [{"emoji": "👍", "users": ["user_mkt_lead"]}],
             "isEdited": false
           }
         ],
@@ -586,7 +801,7 @@
           {
             "messageId": "msg_office_1",
             "senderId": "user_design",
-            "content": "Hi everyone, I've been having serious back pain from my current chair. I need to get an ergonomic chair. Looking at the Herman Miller Aeron — it's $1,400 from OfficeDepot.",
+            "content": "Hi everyone, I've been having serious lower back pain from my current desk chair. My physio recommended getting a proper ergonomic chair. I've been researching options and the Herman Miller Aeron seems to be the gold standard — it's \$1,400 from OfficeDepot.",
             "timestamp": "2025-12-14T10:00:00.000000Z",
             "threadId": null,
             "reactions": [],
@@ -595,7 +810,7 @@
           {
             "messageId": "msg_office_2",
             "senderId": "user_hr_mgr",
-            "content": "Jessica, I totally understand the need for ergonomic furniture. However $1,400 is really steep for a single chair. Have you looked at the budget alternatives? The Autonomous ErgoChair is around $400 and has great reviews.",
+            "content": "Jessica, I totally understand the need for ergonomic furniture — we take workplace health seriously. But \$1,400 is really steep for a single chair. Have you looked at the budget alternatives? The Autonomous ErgoChair Pro is around \$400 and has excellent reviews.",
             "timestamp": "2025-12-14T10:15:00.000000Z",
             "threadId": null,
             "reactions": [],
@@ -604,7 +819,7 @@
           {
             "messageId": "msg_office_3",
             "senderId": "user_design",
-            "content": "I've tried cheaper chairs before and they don't last. The Aeron has a 12-year warranty. But I understand if budget is an issue — I'll check with finance.",
+            "content": "I've tried cheaper ergonomic chairs before and they don't hold up. The Aeron has a 12-year warranty and is built like a tank. But I understand if the budget doesn't allow it — I'll check with finance and see what they say.",
             "timestamp": "2025-12-14T10:20:00.000000Z",
             "threadId": null,
             "reactions": [],
@@ -613,7 +828,7 @@
           {
             "messageId": "msg_office_4",
             "senderId": "user_procurement",
-            "content": "FWIW, I can get OfficeDepot to do 10% off on the Aeron if we order through our corporate account. That brings it to $1,260.",
+            "content": "FWIW I can get 10% off the Aeron through our OfficeDepot corporate account. That would bring it down to about \$1,260. Want me to lock that in?",
             "timestamp": "2025-12-14T10:30:00.000000Z",
             "threadId": null,
             "reactions": [],
@@ -622,7 +837,7 @@
           {
             "messageId": "msg_office_5",
             "senderId": "user_design",
-            "content": "That would be great! But let me first see if finance approves the full price. If not, maybe I'll go with the discounted version.",
+            "content": "That would be great Nina, thanks! Let me first check with John in finance to see if the price is going to be an issue even with the discount.",
             "timestamp": "2025-12-14T10:35:00.000000Z",
             "threadId": null,
             "reactions": [],
@@ -631,7 +846,7 @@
           {
             "messageId": "msg_office_6",
             "senderId": "user_hr",
-            "content": "Speaking of office stuff — I want to order some standing desk converters for the team. About $300 each from OfficeDepot, need 3 of them. Should I submit this for December or wait?",
+            "content": "Speaking of office stuff — I've been thinking about getting standing desk converters for our team. The FlexiSpot ones are about \$300 each from OfficeDepot and I'd need 3 of them. Worth submitting for December?",
             "timestamp": "2025-12-17T11:00:00.000000Z",
             "threadId": null,
             "reactions": [],
@@ -640,17 +855,64 @@
           {
             "messageId": "msg_office_7",
             "senderId": "user_hr_mgr",
-            "content": "Hold off Mike. We're getting new office furniture in Q1 as part of the office renovation. The standing desks will be included in that project. No need to buy converters now.",
+            "content": "Hold off on that Mike. The Q1 office renovation project includes new sit-stand desks for everyone. Facilities already has it budgeted. No point buying converters now when we're getting proper desks in February.",
             "timestamp": "2025-12-17T11:10:00.000000Z",
             "threadId": null,
-            "reactions": [
-              {
-                "emoji": "👍",
-                "users": [
-                  "user_hr"
-                ]
-              }
-            ],
+            "reactions": [{"emoji": "👍", "users": ["user_hr"]}],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_office_8",
+            "senderId": "user_design",
+            "content": "Oh also — separate from the chair situation, my wrists have been bothering me too. I've been looking at ergonomic keyboards. The Logitech Ergo K860 is \$250 at OfficeDepot. Anyone here use one?",
+            "timestamp": "2025-12-17T14:00:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_office_9",
+            "senderId": "user_hr_mgr",
+            "content": "I have the K860 at home actually — love it. The split layout takes a few days to get used to but it made a huge difference for my wrist pain. Definitely recommend it.",
+            "timestamp": "2025-12-17T14:10:00.000000Z",
+            "threadId": null,
+            "reactions": [{"emoji": "👍", "users": ["user_design"]}],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_office_10",
+            "senderId": "user_procurement",
+            "content": "Jessica, OfficeDepot has the K860 in stock right now. I can confirm it falls under Office Supplies in our procurement categories. Should be a straightforward purchase if you want to submit it.",
+            "timestamp": "2025-12-17T14:15:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_office_11",
+            "senderId": "user_design",
+            "content": "Thanks Linda and Nina! I'll DM John and add it to my December request. At $250 it should be well within budget 🤞",
+            "timestamp": "2025-12-17T14:20:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_office_12",
+            "senderId": "user_hr",
+            "content": "Anyone else notice the kitchen fridge is making a weird noise? I think the compressor might be dying.",
+            "timestamp": "2025-12-18T09:00:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_office_13",
+            "senderId": "user_procurement",
+            "content": "I'll put in a maintenance request. That fridge is ancient — might be time for a replacement but that would come out of the facilities budget, not departmental POs.",
+            "timestamp": "2025-12-18T09:10:00.000000Z",
+            "threadId": null,
+            "reactions": [],
             "isEdited": false
           }
         ],
@@ -658,7 +920,7 @@
           {
             "messageId": "msg_sales_1",
             "senderId": "user_sales",
-            "content": "Tom, we need to talk about our sales tooling. Our Salesforce license is up for renewal and LinkedIn Sales Nav subscriptions are expiring. I want to submit both for December.",
+            "content": "Tom, we need to talk about our sales tooling before the December PO deadline. Two things are urgent: Salesforce license renewal and LinkedIn Sales Navigator.",
             "timestamp": "2025-12-16T14:00:00.000000Z",
             "threadId": null,
             "reactions": [],
@@ -667,7 +929,7 @@
           {
             "messageId": "msg_sales_2",
             "senderId": "user_sales_mgr",
-            "content": "Salesforce is a no-brainer — annual renewal, submit it. For LinkedIn, let me think about it. The monthly plan gives us flexibility to scale seats up/down.",
+            "content": "Good timing. Let's go through them:\n\nSalesforce — this is a no-brainer. Annual renewal, same terms as this year. Submit it ASAP, our access literally expires Jan 1. If we miss this one we're dead in the water.",
             "timestamp": "2025-12-16T14:10:00.000000Z",
             "threadId": null,
             "reactions": [],
@@ -676,7 +938,7 @@
           {
             "messageId": "msg_sales_3",
             "senderId": "user_sales",
-            "content": "Good point on the flexibility. Monthly is $79.99/seat and we need 5 seats. Annual would be $65/seat but we're locked in for a year.",
+            "content": "On it. The renewal quote is $1,800 for a single enterprise seat, vendor is Salesforce directly. Same as last year.\n\nFor LinkedIn Sales Nav — we need 5 seats. Monthly is $79.99/seat ($399.95/mo total). Annual would be $65/seat ($325/mo) but we're locked in for a year.",
             "timestamp": "2025-12-16T14:15:00.000000Z",
             "threadId": null,
             "reactions": [],
@@ -685,24 +947,17 @@
           {
             "messageId": "msg_sales_4",
             "senderId": "user_sales_mgr",
-            "content": "Go with monthly for now. We might be restructuring the sales team in Q2 and I don't want to be stuck paying for seats we don't need. Submit both to John.",
+            "content": "Go with monthly for LinkedIn. I know annual is cheaper per seat but we're likely restructuring the sales team in Q2. I might be cutting 2 seats or adding 3 — I don't want to be locked into a number right now. The flexibility is worth the premium.",
             "timestamp": "2025-12-16T14:20:00.000000Z",
             "threadId": null,
-            "reactions": [
-              {
-                "emoji": "👍",
-                "users": [
-                  "user_sales"
-                ]
-              }
-            ],
+            "reactions": [{"emoji": "👍", "users": ["user_sales"]}],
             "isEdited": false
           },
           {
             "messageId": "msg_sales_5",
             "senderId": "user_sales",
-            "content": "Also, I've been eyeing a ZoomInfo subscription for prospecting. $12,000/year. Think we should pitch it?",
-            "timestamp": "2025-12-18T09:00:00.000000Z",
+            "content": "Makes sense. I'll submit both to John — Salesforce as annual, LinkedIn as monthly.",
+            "timestamp": "2025-12-16T14:25:00.000000Z",
             "threadId": null,
             "reactions": [],
             "isEdited": false
@@ -710,132 +965,502 @@
           {
             "messageId": "msg_sales_6",
             "senderId": "user_sales_mgr",
-            "content": "Not this quarter. Let's revisit ZoomInfo in Q2 when we have the new budget. Too expensive to squeeze into December.",
+            "content": "Also, I've been eyeing a ZoomInfo subscription for prospecting. Enterprise tier is $12,000/year. The data quality is miles ahead of what we're getting from LinkedIn alone.",
+            "timestamp": "2025-12-18T09:00:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_sales_7",
+            "senderId": "user_sales",
+            "content": "That would be amazing for outbound. But $12K is a big ask — think finance will approve it?",
+            "timestamp": "2025-12-18T09:05:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_sales_8",
+            "senderId": "user_sales_mgr",
+            "content": "Not this quarter. Let's revisit in Q2 when we have the new annual budget allocated. I'll build a business case in January so we're ready. Don't submit anything for ZoomInfo now.",
             "timestamp": "2025-12-18T09:10:00.000000Z",
             "threadId": null,
-            "reactions": [
-              {
-                "emoji": "👌",
-                "users": [
-                  "user_sales"
-                ]
-              }
-            ],
+            "reactions": [{"emoji": "👌", "users": ["user_sales"]}],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_sales_9",
+            "senderId": "user_sales_mgr",
+            "content": "Hey Emily, how's the Q4 pipeline looking? I need updated numbers for the Thursday review meeting.",
+            "timestamp": "2025-12-19T10:00:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_sales_10",
+            "senderId": "user_sales",
+            "content": "Looking good — I'll have the full deck ready by Wednesday EOD. We closed two enterprise deals last week that put us over target 🎯",
+            "timestamp": "2025-12-19T10:10:00.000000Z",
+            "threadId": null,
+            "reactions": [{"emoji": "🚀", "users": ["user_sales_mgr"]}],
+            "isEdited": false
+          }
+        ],
+        "team-outing-dec": [
+          {
+            "messageId": "msg_outing_1",
+            "senderId": "user_hr",
+            "content": "Hey everyone! Since we won't be able to do the pizza lunch (budget freeze 😢), how about we plan a proper team outing instead? Maybe a dinner at that Italian place downtown?",
+            "timestamp": "2025-12-12T15:00:00.000000Z",
+            "threadId": null,
+            "reactions": [{"emoji": "🍝", "users": ["user_eng_2", "user_mkt_2"]}],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_outing_2",
+            "senderId": "user_mkt_2",
+            "content": "I'm in! When are you thinking?",
+            "timestamp": "2025-12-12T15:05:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_outing_3",
+            "senderId": "user_hr",
+            "content": "Maybe Dec 22 evening? Before the holiday break starts. I'm estimating about $100/person if we do a set menu with drinks. For 8 people that's around $800 total.",
+            "timestamp": "2025-12-12T15:10:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_outing_4",
+            "senderId": "user_eng_2",
+            "content": "Wait, isn't Team Building frozen this month? Would this fall under that category?",
+            "timestamp": "2025-12-12T15:15:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_outing_5",
+            "senderId": "user_hr",
+            "content": "Hmm good point. But it's not really \"team building\" — it's just a casual dinner. Maybe we can put it under a different category?",
+            "timestamp": "2025-12-12T15:20:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_outing_6",
+            "senderId": "user_design",
+            "content": "I think any group social event would fall under Team Building or Entertainment regardless of what we call it. Finance will catch it.",
+            "timestamp": "2025-12-12T15:25:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_outing_7",
+            "senderId": "user_hr_mgr",
+            "content": "Jessica's right. Don't try to recode it — that'll just create problems with audit. But honestly, last December we had the same freeze and finance still approved our holiday dinner. The freeze is more of a guideline than a hard rule in my experience.",
+            "timestamp": "2025-12-12T15:30:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_outing_8",
+            "senderId": "user_sales",
+            "content": "Yeah I remember that! We did the Korean BBQ place last year and it went through fine even though there was technically a freeze. I think Sarah just approves reasonable amounts.",
+            "timestamp": "2025-12-12T15:35:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_outing_9",
+            "senderId": "user_hr",
+            "content": "See? It'll be fine! @John what do you think — can we submit an $800 team dinner under Team Building? Linda says last year's freeze wasn't really enforced.",
+            "timestamp": "2025-12-12T15:40:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_outing_10",
+            "senderId": "user_finance_1",
+            "content": "I hear you guys, and I'd love to make it work. But I need to check with Sarah first — the rules this year specifically say \"no exceptions\" on the Team Building freeze. Let me find out and get back to you.",
+            "timestamp": "2025-12-12T15:45:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_outing_11",
+            "senderId": "user_eng_2",
+            "content": "Worst case we could all just split the bill personally? Not ideal but at least we still get to hang out 🤷",
+            "timestamp": "2025-12-12T15:50:00.000000Z",
+            "threadId": null,
+            "reactions": [{"emoji": "👍", "users": ["user_mkt_2"]}],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_outing_12",
+            "senderId": "user_hr",
+            "content": "Let's wait for John's answer first before we give up on company funding. Linda seemed pretty confident it would work based on last year.",
+            "timestamp": "2025-12-12T15:55:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_outing_13",
+            "senderId": "user_mkt_2",
+            "content": "Btw has anyone been to that new ramen place on 5th? I heard it's amazing.",
+            "timestamp": "2025-12-15T12:00:00.000000Z",
+            "threadId": null,
+            "reactions": [{"emoji": "🍜", "users": ["user_design", "user_eng_2"]}],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_outing_14",
+            "senderId": "user_design",
+            "content": "Yes!! Their tonkotsu is incredible. We should go there for the dinner instead of Italian!",
+            "timestamp": "2025-12-15T12:05:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_outing_15",
+            "senderId": "user_hr",
+            "content": "Haha let's figure out if we even have budget first before picking the restaurant 😄 Still waiting on John's update...",
+            "timestamp": "2025-12-15T12:10:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          }
+        ],
+        "holiday-party-2025": [
+          {
+            "messageId": "msg_holiday_1",
+            "senderId": "user_hr_mgr",
+            "content": "Team, let's start planning our November holiday party! 🎄 I'm thinking a nice dinner at the Grand Ballroom downtown. Budget is around $2,000 for 20 people.",
+            "timestamp": "2025-10-20T10:00:00.000000Z",
+            "threadId": null,
+            "reactions": [{"emoji": "🎉", "users": ["user_hr", "user_mkt_2", "user_eng_2"]}],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_holiday_2",
+            "senderId": "user_hr",
+            "content": "Love it! I can handle the venue coordination. Should I book it for Nov 22?",
+            "timestamp": "2025-10-20T10:10:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_holiday_3",
+            "senderId": "user_hr_mgr",
+            "content": "Nov 22 works great. Book it Mike!",
+            "timestamp": "2025-10-20T10:15:00.000000Z",
+            "threadId": null,
+            "reactions": [{"emoji": "🎄", "users": ["user_hr"]}],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_holiday_4",
+            "senderId": "user_hr",
+            "content": "Venue booked! Grand Ballroom, Nov 22, 7pm. Set menu with drinks included — final bill came to $1,850 for 20 people. Under budget! 🎉",
+            "timestamp": "2025-11-10T14:00:00.000000Z",
+            "threadId": null,
+            "reactions": [{"emoji": "🥂", "users": ["user_hr_mgr", "user_mkt_2", "user_eng_2"]}],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_holiday_5",
+            "senderId": "user_eng_2",
+            "content": "Had such a great time last night! Thanks for organizing Mike and Linda. The food was incredible 🍽️",
+            "timestamp": "2025-11-23T09:00:00.000000Z",
+            "threadId": null,
+            "reactions": [{"emoji": "❤️", "users": ["user_hr", "user_hr_mgr", "user_mkt_2", "user_design"]}],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_holiday_6",
+            "senderId": "user_mkt_2",
+            "content": "Best holiday party yet! The dessert table was 🤯",
+            "timestamp": "2025-11-23T09:10:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_holiday_7",
+            "senderId": "user_hr",
+            "content": "Glad everyone had fun! I'll submit the invoice to John for the November PO batch.",
+            "timestamp": "2025-11-25T10:00:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_holiday_8",
+            "senderId": "user_finance_1",
+            "content": "Got it Mike — $1,850 for the Grand Ballroom holiday dinner. Added to the November batch. All processed. ✅",
+            "timestamp": "2025-11-25T10:15:00.000000Z",
+            "threadId": null,
+            "reactions": [{"emoji": "👍", "users": ["user_hr"]}],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_holiday_9",
+            "senderId": "user_procurement",
+            "content": "Invoice from the Grand Ballroom has been paid and reconciled. Closing this one out. Final amount: $1,850.00.",
+            "timestamp": "2025-12-02T09:00:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_holiday_10",
+            "senderId": "user_hr_mgr",
+            "content": "Thanks Nina! Everything is squared away then. Great job team — already looking forward to next year's party 🎄",
+            "timestamp": "2025-12-02T09:10:00.000000Z",
+            "threadId": null,
+            "reactions": [{"emoji": "🎉", "users": ["user_hr", "user_mkt_2"]}],
             "isEdited": false
           }
         ],
         "dm_mgr": [
           {
             "messageId": "msg_dm_mgr_1",
-            "senderId": "user_finance_1",
-            "content": "Hi Sarah, I'm going through the requests on the Desktop now. Based on your rules post, I have a few that need your call.",
-            "timestamp": "2025-12-22T09:10:00.000000Z",
+            "senderId": "user_finance_mgr",
+            "content": "Hey John, did you finish the vendor reconciliation spreadsheet? Finance committee needs it by Friday.",
+            "timestamp": "2025-12-22T08:00:00.000000Z",
             "threadId": null,
             "reactions": [],
             "isEdited": false
           },
           {
             "messageId": "msg_dm_mgr_2",
-            "senderId": "user_finance_mgr",
-            "content": "Sure John, shoot. What are the outliers?",
-            "timestamp": "2025-12-22T09:12:00.000000Z",
+            "senderId": "user_finance_1",
+            "content": "Almost done — will send it EOD tomorrow. Hey while I have you, I'm working through the December POs and have a couple things I need your input on.",
+            "timestamp": "2025-12-22T08:05:00.000000Z",
             "threadId": null,
             "reactions": [],
             "isEdited": false
           },
           {
             "messageId": "msg_dm_mgr_3",
-            "senderId": "user_finance_1",
-            "content": "1. Marketing (Sarah Jones) wants a Canon Camera kit for $3,899 (Over $2k limit). VP David already approved it in the Q1 campaign channel.\n2. Design (Jessica Li) requested an Aeron Chair ($1,400). Procurement says they can get 10% off.\n3. Engineering (Alex) wants MacBooks but listed Amazon as the vendor.\n4. Sales wants LinkedIn Sales Nav as a monthly subscription — Tom pushed for monthly for flexibility.",
-            "timestamp": "2025-12-22T09:15:00.000000Z",
+            "senderId": "user_finance_mgr",
+            "content": "sure go ahead, I have a few minutes before my 9am",
+            "timestamp": "2025-12-22T08:07:00.000000Z",
             "threadId": null,
             "reactions": [],
             "isEdited": false
           },
           {
             "messageId": "msg_dm_mgr_4",
-            "senderId": "user_finance_mgr",
-            "content": "Okay, here is the decision:\n* **Marketing Camera**: **APPROVED**. David's VP exception is valid. Process it at full price from B&H Photo.\n* **Design Chair**: **REJECTED**. Even with the 10% discount it's still way too expensive for a single chair. Tell Jessica to get a standard $200 chair from OfficeDepot instead.\n* **MacBooks**: **REJECTED**. They must use CorpTech Solutions. No exceptions on vendors. I don't care if Amazon is cheaper.\n* **LinkedIn Sales Nav**: **REJECT** the current monthly request. I know Tom wants flexibility but our policy is annual subscriptions only. Tell Emily to resubmit as annual if they want it.",
-            "timestamp": "2025-12-22T09:20:00.000000Z",
+            "senderId": "user_finance_1",
+            "content": "Ok first one — marketing wants a Canon camera kit. It's $3,899 so way over the hardware cap. But I think David might have approved it in the Q1 campaign channel? I wasn't sure if that counts.",
+            "timestamp": "2025-12-22T08:10:00.000000Z",
             "threadId": null,
-            "reactions": [
-              {
-                "emoji": "✅",
-                "users": [
-                  "user_finance_1"
-                ]
-              }
-            ],
+            "reactions": [],
             "isEdited": false
           },
           {
             "messageId": "msg_dm_mgr_5",
-            "senderId": "user_finance_1",
-            "content": "Got it. Two more edge cases:\n- HR (Mike) put in a request for a 'Team Pizza Lunch' ($150). Linda seemed supportive in the general channel but flagged the freeze.\n- Rachel from Marketing wants a Canva Pro subscription but Sarah Jones told her to hold until January.",
-            "timestamp": "2025-12-22T09:25:00.000000Z",
+            "senderId": "user_finance_mgr",
+            "content": "hmm I'm not sure — I haven't been following that channel closely. Can you check and verify? If David explicitly approved it there as a VP exception, then yes it overrides the cap and you should process it. If he didn't, reject it — $3,899 is way over.",
+            "timestamp": "2025-12-22T08:12:00.000000Z",
             "threadId": null,
             "reactions": [],
             "isEdited": false
           },
           {
             "messageId": "msg_dm_mgr_6",
+            "senderId": "user_finance_1",
+            "content": "Got it, will verify. Next — Alex from engineering submitted MacBooks from Amazon. $1,999 each which is under the cap, but Amazon isn't CorpTech. He's arguing it's $400 cheaper.",
+            "timestamp": "2025-12-22T08:15:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_dm_mgr_7",
             "senderId": "user_finance_mgr",
-            "content": "Pizza is **REJECTED**. Category freeze is a hard rule — doesn't matter how many people want it. No Team Building or Entertainment this month.\n\nCanva — if Sarah Jones told Rachel to wait, that's correct. Do NOT process it. It's not even formally submitted.",
+            "content": "nope. CorpTech only for IT hardware, no exceptions. I don't care if Amazon is cheaper — vendor compliance is more important than saving $400. We have a negotiated support contract with CorpTech that we'd lose if we start buying elsewhere.",
+            "timestamp": "2025-12-22T08:17:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_dm_mgr_8",
+            "senderId": "user_finance_mgr",
+            "content": "actually wait — what's the price at CorpTech for the same MacBook?",
+            "timestamp": "2025-12-22T08:18:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_dm_mgr_9",
+            "senderId": "user_finance_1",
+            "content": "I think Alex said $2,199 at CorpTech. So it would be over the $2K cap if we switch vendors.",
+            "timestamp": "2025-12-22T08:20:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_dm_mgr_10",
+            "senderId": "user_finance_mgr",
+            "content": "Then it's a double reject — wrong vendor AND over cap at the approved vendor. Tell Alex to either find a MacBook config under $2K at CorpTech or wait until January when we might have more budget flexibility.",
+            "timestamp": "2025-12-22T08:22:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_dm_mgr_11",
+            "senderId": "user_finance_1",
+            "content": "Makes sense. Ok switching topics — did you get a chance to review the Q3 audit report draft I sent last week? Compliance wants feedback by the 27th.",
+            "timestamp": "2025-12-22T08:25:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_dm_mgr_12",
+            "senderId": "user_finance_mgr",
+            "content": "I skimmed it — looks mostly good. I'll send detailed comments by Christmas Eve. Remind me if I forget.",
+            "timestamp": "2025-12-22T08:27:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_dm_mgr_13",
+            "senderId": "user_finance_1",
+            "content": "Will do. Back to POs — Jessica from design wants a Herman Miller Aeron chair. $1,400 from OfficeDepot. Nina from procurement said she can get 10% off through our corporate account so maybe $1,260?",
             "timestamp": "2025-12-22T09:30:00.000000Z",
             "threadId": null,
-            "reactions": [
-              {
-                "emoji": "👍",
-                "users": [
-                  "user_finance_1"
-                ]
-              }
-            ],
+            "reactions": [],
             "isEdited": false
-          }
-        ],
-        "dm_vp": [
+          },
           {
-            "messageId": "msg_dm_vp_1",
-            "senderId": "user_vp_ops",
-            "content": "John, just making sure you saw my message in the Q1 campaign channel. The Canon camera for Sarah Jones is approved. I've cleared it with the board as a strategic investment.",
-            "timestamp": "2025-12-20T10:00:00.000000Z",
+            "messageId": "msg_dm_mgr_14",
+            "senderId": "user_finance_mgr",
+            "content": "Rejected. Even with 10% off that's still $1,260 for a single chair. That's absurd. Tell Jessica to get a standard ergonomic chair — OfficeDepot has decent options in the $200 range. We can't justify that kind of spend on one person's chair.",
+            "timestamp": "2025-12-22T09:33:00.000000Z",
             "threadId": null,
             "reactions": [],
             "isEdited": false
           },
           {
-            "messageId": "msg_dm_vp_2",
+            "messageId": "msg_dm_mgr_15",
             "senderId": "user_finance_1",
-            "content": "Yes David, I saw it. I'll confirm with Sarah Jenkins and process it. Thank you for the heads up.",
-            "timestamp": "2025-12-20T10:05:00.000000Z",
+            "content": "Fair enough. Two more quick ones:\n\nEmily from sales submitted LinkedIn Sales Navigator as a monthly subscription — $79.99/seat x 5 seats. Tom specifically wanted monthly for flexibility since they might restructure in Q2.",
+            "timestamp": "2025-12-22T09:35:00.000000Z",
             "threadId": null,
             "reactions": [],
             "isEdited": false
           },
           {
-            "messageId": "msg_dm_vp_3",
-            "senderId": "user_vp_ops",
-            "content": "Also — I want to upgrade the conference room AV system. Looking at a Poly Studio X70 setup, about $6,500. But that's a January project, don't include it in December POs.",
-            "timestamp": "2025-12-20T10:10:00.000000Z",
+            "messageId": "msg_dm_mgr_16",
+            "senderId": "user_finance_mgr",
+            "content": "Annual only for software. I understand Tom's reasoning but the policy is clear — monthly plans require VP-level approval and Tom is a Director, not VP. Reject the current request. If they want it, tell them to resubmit as annual.",
+            "timestamp": "2025-12-22T09:38:00.000000Z",
             "threadId": null,
             "reactions": [],
             "isEdited": false
           },
           {
-            "messageId": "msg_dm_vp_4",
+            "messageId": "msg_dm_mgr_17",
             "senderId": "user_finance_1",
-            "content": "Noted. I'll flag it for the January cycle.",
-            "timestamp": "2025-12-20T10:12:00.000000Z",
+            "content": "And last one — Mike from HR wants to do a pizza lunch for the team. \$150 from Domino's, categorized as Team Building.",
+            "timestamp": "2025-12-22T09:40:00.000000Z",
             "threadId": null,
-            "reactions": [
-              {
-                "emoji": "👍",
-                "users": [
-                  "user_vp_ops"
-                ]
-              }
-            ],
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_dm_mgr_18",
+            "senderId": "user_finance_mgr",
+            "content": "Rejected. Team Building is frozen. Period. Doesn't matter that it's only \$150.",
+            "timestamp": "2025-12-22T09:41:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_dm_mgr_19",
+            "senderId": "user_finance_1",
+            "content": "Yeah I figured. Btw there's been some chatter in the team outing channel about a group dinner too — \$800. Linda and some others are saying last year's freeze wasn't really enforced so they think it'll be fine this year too.",
+            "timestamp": "2025-12-22T09:43:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_dm_mgr_20",
+            "senderId": "user_finance_mgr",
+            "content": "I don't care what happened last year. This year is completely different — we are significantly over budget on Team Building for Q4 and the CFO flagged it in the last board meeting. The freeze is a HARD freeze. No exceptions, no workarounds, no recoding categories. If anyone pushes back, tell them to talk to me directly.",
+            "timestamp": "2025-12-22T09:45:00.000000Z",
+            "threadId": null,
+            "reactions": [{"emoji": "👍", "users": ["user_finance_1"]}],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_dm_mgr_21",
+            "senderId": "user_finance_mgr",
+            "content": "Oh also — Rachel from marketing mentioned something about a Canva subscription. Did she submit that?",
+            "timestamp": "2025-12-22T09:48:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_dm_mgr_22",
+            "senderId": "user_finance_1",
+            "content": "No, Sarah Jones told her to hold off until January — they want to try bundling it with the Adobe renewal for a better deal. So nothing to process there.",
+            "timestamp": "2025-12-22T09:50:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_dm_mgr_23",
+            "senderId": "user_finance_mgr",
+            "content": "Good, that's the right call. Ok I think that covers the tricky ones. You know the drill for everything else — if it checks all the boxes in the rules, just put it through. Don't overthink it. I trust your judgment on the straightforward stuff.",
+            "timestamp": "2025-12-22T09:52:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_dm_mgr_24",
+            "senderId": "user_finance_1",
+            "content": "Got it. I'll reject the ones you flagged and process everything that's compliant. Should have the form finalized by end of day tomorrow.",
+            "timestamp": "2025-12-22T09:55:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_dm_mgr_25",
+            "senderId": "user_finance_mgr",
+            "content": "Perfect. And don't forget to send me that vendor reconciliation spreadsheet 😄",
+            "timestamp": "2025-12-22T09:57:00.000000Z",
+            "threadId": null,
+            "reactions": [{"emoji": "😅", "users": ["user_finance_1"]}],
             "isEdited": false
           }
         ],
@@ -843,7 +1468,7 @@
           {
             "messageId": "msg_dm_alex_1",
             "senderId": "user_eng_lead",
-            "content": "Hi John, confirming details for my two requests:\n\n1. **Item**: MacBook Pro M3. **Category**: Hardware. **Vendor**: Amazon. **Qty**: 2. **Unit Price**: $1,999.00. **Total**: $3,998.00. **Reason**: New hires setup.\n2. **Item**: 27\" 4K Monitor. **Category**: Hardware. **Vendor**: CorpTech Solutions. **Qty**: 2. **Unit Price**: $450.00. **Total**: $900.00. **Reason**: New hires setup.",
+            "content": "Hey John, two items for the new hires starting Jan 6:\n\n1. MacBook Pro M3 — 2 units, $1,999 each from Amazon. Total $3,998. Hardware category.\n2. 27\" 4K monitors — 2 units, $450 each from CorpTech Solutions. Total $900. Hardware category.\n\nNeed them ordered this month so IT can set everything up before the new people start.",
             "timestamp": "2025-12-18T09:10:00.000000Z",
             "threadId": null,
             "reactions": [],
@@ -852,7 +1477,7 @@
           {
             "messageId": "msg_dm_alex_2",
             "senderId": "user_finance_1",
-            "content": "Got it Alex. Quick heads up — Amazon might be an issue for the MacBooks. Finance policy requires IT hardware through CorpTech Solutions only.",
+            "content": "Got it Alex. Quick heads up — Amazon might be an issue for the MacBooks. Finance policy requires IT hardware through CorpTech Solutions only. I'll check with Sarah but I think they'll push back on the vendor.",
             "timestamp": "2025-12-18T09:20:00.000000Z",
             "threadId": null,
             "reactions": [],
@@ -861,7 +1486,7 @@
           {
             "messageId": "msg_dm_alex_3",
             "senderId": "user_eng_lead",
-            "content": "I know, James mentioned that too. But CorpTech charges $2,199 for the same MacBook. That's $400 more. Can you check if there's an exception for price savings?",
+            "content": "I know, James mentioned that too. But CorpTech charges $2,199 for the exact same MacBook config. That's $400 more per unit — $800 total wasted. Is there really no exception for significant cost savings?",
             "timestamp": "2025-12-18T09:25:00.000000Z",
             "threadId": null,
             "reactions": [],
@@ -870,10 +1495,28 @@
           {
             "messageId": "msg_dm_alex_4",
             "senderId": "user_finance_1",
-            "content": "I'll ask Sarah. Will let you know.",
+            "content": "I hear you, it's frustrating. Let me raise it with Sarah and see what she says. The monitors from CorpTech should be fine though — $450 is well under the hardware cap.",
             "timestamp": "2025-12-18T09:30:00.000000Z",
             "threadId": null,
             "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_dm_alex_5",
+            "senderId": "user_eng_lead",
+            "content": "Thanks John. Let me know what she decides. If the MacBooks get rejected, I might need to spec a different laptop that's under $2K at CorpTech. But that would mean going with a lower-end model which isn't ideal for the devs.",
+            "timestamp": "2025-12-18T09:35:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_dm_alex_6",
+            "senderId": "user_finance_1",
+            "content": "Understood. I'll let you know as soon as I have an answer.",
+            "timestamp": "2025-12-18T09:40:00.000000Z",
+            "threadId": null,
+            "reactions": [{"emoji": "👍", "users": ["user_eng_lead"]}],
             "isEdited": false
           }
         ],
@@ -881,8 +1524,26 @@
           {
             "messageId": "msg_dm_sarahj_1",
             "senderId": "user_mkt_lead",
-            "content": "Hey John, here are the specs for my request:\n\n**Item**: Canon EOS R5 Kit\n**Category**: Hardware\n**Vendor**: B&H Photo\n**Qty**: 1\n**Unit Price**: $3,899.00\n**Total Price**: $3,899.00\n**Justification**: Q1 Ad Campaign\n\nDavid (VP) has already approved this in the Q1 campaign channel. Let me know if you need anything else.",
+            "content": "Hey John! Here are the details for the camera purchase:\n\nCanon EOS R5 Kit\nVendor: B&H Photo\nPrice: $3,899.00 (single unit)\nCategory: Hardware\n\nThis is for our Q1 product photography initiative. David reviewed it and approved it as a VP exception in the Q1 campaign channel — you should be able to see his message there. Let me know if you need anything else from my end!",
             "timestamp": "2025-12-19T09:15:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_dm_sarahj_2",
+            "senderId": "user_finance_1",
+            "content": "Thanks Sarah! I'll verify David's approval in the channel and get it processed. Quick question — quantity is 1, correct?",
+            "timestamp": "2025-12-19T09:20:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_dm_sarahj_3",
+            "senderId": "user_mkt_lead",
+            "content": "Yes, just 1 unit! Total is $3,899.00. Thanks John 🙏",
+            "timestamp": "2025-12-19T09:22:00.000000Z",
             "threadId": null,
             "reactions": [],
             "isEdited": false
@@ -892,7 +1553,7 @@
           {
             "messageId": "msg_dm_mike_1",
             "senderId": "user_hr",
-            "content": "Morning John! Quick request:\n\n**Item**: Team Pizza Lunch\n**Category**: Team Building\n**Vendor**: Domino's\n**Qty**: 1\n**Unit Price**: $150.00\n**Total Price**: $150.00\n**Reason**: End of year gathering\n\nI know it's small but wanted to do something nice for the team before the holidays 🍕",
+            "content": "Morning John! So I want to do something nice for the team before the holidays — a pizza lunch, nothing fancy. Domino's, about $150 for everyone. Would that be ok to put through as a Team Building expense?",
             "timestamp": "2025-12-19T09:20:00.000000Z",
             "threadId": null,
             "reactions": [],
@@ -901,7 +1562,7 @@
           {
             "messageId": "msg_dm_mike_2",
             "senderId": "user_finance_1",
-            "content": "Hey Mike, appreciate the thought! But I should flag that there's a category freeze on Team Building and Entertainment this month. I'll check with Sarah but it might get rejected.",
+            "content": "Hey Mike, I appreciate the thought! But I should flag that there's a category freeze on Team Building and Entertainment this month. I'll check with Sarah but I'm pretty sure it'll get rejected regardless of the amount.",
             "timestamp": "2025-12-19T09:25:00.000000Z",
             "threadId": null,
             "reactions": [],
@@ -910,7 +1571,7 @@
           {
             "messageId": "msg_dm_mike_3",
             "senderId": "user_hr",
-            "content": "Aw, that's a bummer. Linda (HR Director) said she was supportive. Could she override the freeze?",
+            "content": "Aw that's a bummer 😢 Linda said she was supportive and mentioned that last year they had a similar freeze but it wasn't really enforced. Could Linda override the freeze? She's HR Director after all.",
             "timestamp": "2025-12-19T09:30:00.000000Z",
             "threadId": null,
             "reactions": [],
@@ -919,17 +1580,28 @@
           {
             "messageId": "msg_dm_mike_4",
             "senderId": "user_finance_1",
-            "content": "Unfortunately the freeze is set by Finance — only Sarah Jenkins or David (VP) can override it. I'll ask but don't get your hopes up.",
+            "content": "Unfortunately the freeze is set by Finance — only Sarah Jenkins or someone at VP level can override it. Linda is a Director but that's not the same authority level for finance policy overrides. I'll ask Sarah but don't get your hopes up.",
             "timestamp": "2025-12-19T09:35:00.000000Z",
             "threadId": null,
-            "reactions": [
-              {
-                "emoji": "😢",
-                "users": [
-                  "user_hr"
-                ]
-              }
-            ],
+            "reactions": [{"emoji": "😢", "users": ["user_hr"]}],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_dm_mike_5",
+            "senderId": "user_hr",
+            "content": "Ok well thanks for trying. If it doesn't work out, we'll figure something out for January. Maybe the freeze will be lifted by then.",
+            "timestamp": "2025-12-19T09:40:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_dm_mike_6",
+            "senderId": "user_finance_1",
+            "content": "Hopefully! I'll let you know what Sarah says.",
+            "timestamp": "2025-12-19T09:42:00.000000Z",
+            "threadId": null,
+            "reactions": [],
             "isEdited": false
           }
         ],
@@ -937,7 +1609,7 @@
           {
             "messageId": "msg_dm_emily_1",
             "senderId": "user_sales",
-            "content": "Hi John, submitted two software renewals:\n\n1. **Item**: Salesforce License. **Category**: Software. **Vendor**: Salesforce. **Qty**: 1. **Unit Price**: $1,800.00. **Total**: $1,800.00. **Duration**: Annual. **Reason**: CRM Renewal.\n2. **Item**: LinkedIn Sales Nav. **Category**: Software. **Vendor**: LinkedIn. **Qty**: 5. **Unit Price**: $79.99. **Total**: $399.95. **Duration**: Monthly. **Reason**: Lead generation.\n\nTom approved both on our end. Let me know if there are any issues.",
+            "content": "Hi John, need to get two software renewals into the December batch:\n\n1. Salesforce — annual renewal, 1 enterprise seat, $1,800. Vendor is Salesforce directly. This is critical — our access expires Jan 1 so we really can't miss this one.\n\n2. LinkedIn Sales Navigator — 5 seats, $79.99/seat monthly = $399.95/month. Vendor is LinkedIn. Tom wants monthly for flexibility (possible team restructuring in Q2).\n\nTom approved both on our end. Let me know if there are any issues!",
             "timestamp": "2025-12-18T09:22:00.000000Z",
             "threadId": null,
             "reactions": [],
@@ -946,7 +1618,7 @@
           {
             "messageId": "msg_dm_emily_2",
             "senderId": "user_finance_1",
-            "content": "Thanks Emily. Salesforce looks good. I might need to flag the LinkedIn one though — finance policy requires annual subscriptions only for software. Let me check with Sarah.",
+            "content": "Thanks Emily. Salesforce looks good — annual subscription, straightforward. I'll get that processed.\n\nI might need to flag the LinkedIn one though. Finance policy requires annual subscriptions only for software. Monthly plans need separate VP-level approval. Let me check with Sarah.",
             "timestamp": "2025-12-18T09:30:00.000000Z",
             "threadId": null,
             "reactions": [],
@@ -955,7 +1627,7 @@
           {
             "messageId": "msg_dm_emily_3",
             "senderId": "user_sales",
-            "content": "Oh, Tom specifically wanted monthly for flexibility since we might restructure in Q2. Can Sarah make an exception?",
+            "content": "Oh, that might be an issue. Tom specifically wanted monthly because of the restructuring uncertainty. Can Sarah make an exception since Tom (our Director) approved it?",
             "timestamp": "2025-12-18T09:35:00.000000Z",
             "threadId": null,
             "reactions": [],
@@ -964,10 +1636,19 @@
           {
             "messageId": "msg_dm_emily_4",
             "senderId": "user_finance_1",
-            "content": "I'll ask but the policy is pretty clear. I'll let you know what she says.",
+            "content": "I'll ask but the policy says VP-level approval is needed for monthly plans, and Tom is a Director. Different authority level. I'll let you know what she says.",
             "timestamp": "2025-12-18T09:40:00.000000Z",
             "threadId": null,
             "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_dm_emily_5",
+            "senderId": "user_sales",
+            "content": "Got it, thanks for checking. If it gets rejected, we'll resubmit as annual I guess. The Salesforce renewal is the critical one anyway — that HAS to go through this month.",
+            "timestamp": "2025-12-18T09:45:00.000000Z",
+            "threadId": null,
+            "reactions": [{"emoji": "👍", "users": ["user_finance_1"]}],
             "isEdited": false
           }
         ],
@@ -975,8 +1656,8 @@
           {
             "messageId": "msg_dm_jess_1",
             "senderId": "user_design",
-            "content": "Hi John, request details below:\n\n**Item**: Aeron Chair\n**Category**: Office Supplies\n**Vendor**: OfficeDepot\n**Qty**: 1\n**Unit Price**: $1,400.00\n**Total Price**: $1,400.00\n**Justification**: Ergonomic support\n\nNina mentioned she can get 10% off through our corporate account — would that help with approval?",
-            "timestamp": "2025-12-18T09:25:00.000000Z",
+            "content": "Hi John! I need to submit a purchase request. I've been having serious back pain from my desk chair — my physio recommended an ergonomic upgrade. I'm looking at the Herman Miller Aeron from OfficeDepot. It's $1,400 but has a 12-year warranty. Category would be Office Supplies.\n\nNina mentioned she can get 10% off through our corporate account, which would bring it to about \$1,260. Would that help with approval?",
+            "timestamp": "2025-12-14T11:00:00.000000Z",
             "threadId": null,
             "reactions": [],
             "isEdited": false
@@ -984,8 +1665,64 @@
           {
             "messageId": "msg_dm_jess_2",
             "senderId": "user_finance_1",
-            "content": "Thanks Jessica. I'll flag it to Sarah — even with the discount it's quite expensive for a single chair. I'll let you know.",
-            "timestamp": "2025-12-18T09:30:00.000000Z",
+            "content": "Hey Jessica, sorry to hear about the back pain. I'll flag it to Sarah — even with the discount it's quite a lot for a single chair. But I'll definitely ask. What's the quantity — just 1?",
+            "timestamp": "2025-12-14T11:10:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_dm_jess_3",
+            "senderId": "user_design",
+            "content": "Yes just 1! And thanks for checking — I know it's pricey. If it gets rejected I'll look at cheaper alternatives.",
+            "timestamp": "2025-12-14T11:15:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_dm_jess_4",
+            "senderId": "user_design",
+            "content": "Oh also John — one more thing. My wrists have been bothering me too (I think it's from the current flat keyboard). I want to get an ergonomic keyboard as well. Logitech Ergo K860 from OfficeDepot, \$250. Same category — Office Supplies. This one should be pretty straightforward right? Just 1 unit, total \$250.",
+            "timestamp": "2025-12-18T10:00:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_dm_jess_5",
+            "senderId": "user_finance_1",
+            "content": "Yeah the keyboard looks fine to me — \$250 at OfficeDepot, Office Supplies category, well within the rules. I'll add it to the batch. Hope it helps with the wrist pain!",
+            "timestamp": "2025-12-18T10:05:00.000000Z",
+            "threadId": null,
+            "reactions": [{"emoji": "🙏", "users": ["user_design"]}],
+            "isEdited": false
+          }
+        ],
+        "dm_kevin": [
+          {
+            "messageId": "msg_dm_kevin_1",
+            "senderId": "user_eng_2",
+            "content": "Hey John, Alex said I should hold off on my keyboard request until January. So I'm NOT submitting anything for December. Was going to ask for a Keychron Q1 Pro (\$200) but it can wait.",
+            "timestamp": "2025-12-19T10:00:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_dm_kevin_2",
+            "senderId": "user_finance_1",
+            "content": "Thanks for letting me know Kevin. I'll note it for the January cycle. 👍",
+            "timestamp": "2025-12-19T10:05:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_dm_kevin_3",
+            "senderId": "user_eng_2",
+            "content": "Actually John — change of plans. My keyboard just completely died this morning. Spacebar is totally unresponsive. I literally can't type properly. Can you squeeze in a Keychron Q1 Pro ($200) from CorpTech Solutions for December? I know it's last minute but I really need it to work.",
+            "timestamp": "2025-12-21T08:30:00.000000Z",
             "threadId": null,
             "reactions": [],
             "isEdited": false
@@ -995,7 +1732,7 @@
           {
             "messageId": "msg_dm_rachel_1",
             "senderId": "user_mkt_2",
-            "content": "Hey John! I was going to submit a Canva Pro Team subscription ($500/year for 5 seats) but Sarah Jones told me to wait until January so we can bundle it with the Adobe renewal. Just letting you know so you don't wonder why there's no submission from me this month!",
+            "content": "Hey John! Just a heads up — I was going to submit a Canva Pro Team subscription ($500/year for 5 seats) but Sarah Jones told me to wait until January. She wants to see if we can bundle it with our Adobe Creative Cloud renewal for a better deal. So don't expect a submission from me this month!",
             "timestamp": "2025-12-19T14:00:00.000000Z",
             "threadId": null,
             "reactions": [],
@@ -1004,17 +1741,10 @@
           {
             "messageId": "msg_dm_rachel_2",
             "senderId": "user_finance_1",
-            "content": "Thanks for the heads up Rachel! That makes sense. I'll note it for January.",
+            "content": "Thanks for the heads up Rachel! Makes total sense to bundle. I'll note it for January.",
             "timestamp": "2025-12-19T14:05:00.000000Z",
             "threadId": null,
-            "reactions": [
-              {
-                "emoji": "👍",
-                "users": [
-                  "user_mkt_2"
-                ]
-              }
-            ],
+            "reactions": [{"emoji": "👍", "users": ["user_mkt_2"]}],
             "isEdited": false
           }
         ],
@@ -1022,7 +1752,7 @@
           {
             "messageId": "msg_dm_nina_1",
             "senderId": "user_procurement",
-            "content": "Hi John, just checking in. A few things on my end:\n\n1. I got the 10% OfficeDepot discount locked in for Jessica's Aeron Chair if finance approves it.\n2. The CorpTech bulk monitor discount (15% off for 5+) is still on the table. If we get more monitor orders in January we could save a lot.\n3. I'm also working on a new supplier contract with Dell for next year — might open up more options for engineering hardware.\n\nLet me know if you need any vendor quotes or PO paperwork.",
+            "content": "Hi John, just checking in on a few vendor things:\n\n1. I got the 10% OfficeDepot discount locked in for Jessica's Aeron Chair request if finance approves it. Quote is valid through end of December.\n2. The CorpTech bulk monitor discount (15% off for 5+ units) is still available. If engineering or other teams have more monitor orders in January we could save a decent amount by batching.\n3. I'm also working on a new supplier contract with Dell for next year — might open up more options for engineering hardware in Q1.\n\nLet me know if you need any vendor quotes or PO paperwork for the December batch.",
             "timestamp": "2025-12-20T08:00:00.000000Z",
             "threadId": null,
             "reactions": [],
@@ -1031,7 +1761,7 @@
           {
             "messageId": "msg_dm_nina_2",
             "senderId": "user_finance_1",
-            "content": "Thanks Nina! Good to know about the discounts. I'll keep you posted once Sarah finalizes the December approvals. The Dell option for January sounds promising for the engineering team.",
+            "content": "Thanks Nina! Good to know about the discounts. I'll keep you posted once Sarah finalizes the December approvals. The Dell contract sounds promising for engineering — Alex's team has been frustrated with CorpTech's pricing on laptops.",
             "timestamp": "2025-12-20T08:10:00.000000Z",
             "threadId": null,
             "reactions": [],
@@ -1042,7 +1772,7 @@
           {
             "messageId": "msg_dm_tom_1",
             "senderId": "user_sales_mgr",
-            "content": "Hey John, just wanted to give you context on the LinkedIn Sales Nav request. I told Emily to go with monthly because we're likely restructuring the sales team in Q2 — I don't want to be locked into annual seats we won't use. Can you push for a monthly exception?",
+            "content": "Hey John, wanted to give you some context on the LinkedIn Sales Nav request that Emily submitted. I specifically told her to go with monthly billing because we're likely restructuring the sales team in Q2 — I might be cutting 2 seats or adding 3, and I don't want to be locked into an annual commitment right now. Can you push for a monthly exception with Sarah?",
             "timestamp": "2025-12-19T15:00:00.000000Z",
             "threadId": null,
             "reactions": [],
@@ -1051,7 +1781,7 @@
           {
             "messageId": "msg_dm_tom_2",
             "senderId": "user_finance_1",
-            "content": "I hear you Tom, and it makes business sense. But the December policy is annual only for software subscriptions. I'll flag your reasoning to Sarah but she's been pretty firm on this one.",
+            "content": "I hear you Tom, and the business reasoning makes sense. But the December policy is annual only for software subscriptions — monthly requires VP-level approval. I'll flag your reasoning to Sarah but she's been pretty firm on this one.",
             "timestamp": "2025-12-19T15:05:00.000000Z",
             "threadId": null,
             "reactions": [],
@@ -1060,17 +1790,10 @@
           {
             "messageId": "msg_dm_tom_3",
             "senderId": "user_sales_mgr",
-            "content": "Understood. If she rejects it, we'll resubmit as annual I guess. The Salesforce renewal is the critical one anyway — that HAS to go through this month or we lose access Jan 1.",
+            "content": "Understood. If she rejects the monthly plan, we'll just resubmit as annual next month I guess. The Salesforce renewal is the critical one anyway — if that doesn't go through this month we literally lose CRM access on Jan 1.",
             "timestamp": "2025-12-19T15:10:00.000000Z",
             "threadId": null,
-            "reactions": [
-              {
-                "emoji": "👍",
-                "users": [
-                  "user_finance_1"
-                ]
-              }
-            ],
+            "reactions": [{"emoji": "👍", "users": ["user_finance_1"]}],
             "isEdited": false
           }
         ],
@@ -1078,7 +1801,7 @@
           {
             "messageId": "msg_dm_james_1",
             "senderId": "user_it",
-            "content": "John, heads up — I saw Alex is trying to order MacBooks from Amazon. Just want to confirm that CorpTech Solutions is still the only approved vendor for IT hardware, right? I told him in the eng-team channel but I don't think he listened 😅",
+            "content": "John, heads up — I saw Alex is trying to order MacBooks through Amazon. Just wanted to confirm that CorpTech Solutions is still the only approved vendor for IT hardware, right? I already mentioned it in the eng-team channel but I don't think he took it seriously 😅",
             "timestamp": "2025-12-18T11:00:00.000000Z",
             "threadId": null,
             "reactions": [],
@@ -1087,23 +1810,16 @@
           {
             "messageId": "msg_dm_james_2",
             "senderId": "user_finance_1",
-            "content": "Yes, CorpTech only. No exceptions per Sarah's rules. I'll handle it with Alex. Thanks for flagging!",
+            "content": "Yes, CorpTech only for IT hardware. No exceptions per Sarah's rules. I'll handle it with Alex — thanks for flagging!",
             "timestamp": "2025-12-18T11:05:00.000000Z",
             "threadId": null,
-            "reactions": [
-              {
-                "emoji": "🫡",
-                "users": [
-                  "user_it"
-                ]
-              }
-            ],
+            "reactions": [{"emoji": "🫡", "users": ["user_it"]}],
             "isEdited": false
           },
           {
             "messageId": "msg_dm_james_3",
             "senderId": "user_it",
-            "content": "Also, I need to order 10 YubiKey 5C security keys for the VPN migration in January. $55 each from CorpTech, total $550. But this is a January expense — I'll submit it in the new year. Just giving you a preview.",
+            "content": "Also, separate topic — I need to order 10 YubiKey 5C security keys for the VPN migration. \$55 each from CorpTech, total \$550. But this is a January expense since the migration doesn't start until then. I'll submit it in the January cycle — just giving you a heads up so you can plan for it.",
             "timestamp": "2025-12-18T11:10:00.000000Z",
             "threadId": null,
             "reactions": [],
@@ -1112,7 +1828,7 @@
           {
             "messageId": "msg_dm_james_4",
             "senderId": "user_finance_1",
-            "content": "Noted. I'll look for it in January. Thanks James.",
+            "content": "Noted — I'll look for it in January. Makes sense to align it with the migration timeline. Thanks James.",
             "timestamp": "2025-12-18T11:12:00.000000Z",
             "threadId": null,
             "reactions": [],
@@ -1123,7 +1839,7 @@
           {
             "messageId": "msg_dm_linda_1",
             "senderId": "user_hr_mgr",
-            "content": "Hi John, Mike mentioned he's submitting a team pizza lunch request. I think it's a great idea for morale but I know there's a category freeze. Is there any way to get it through? Maybe code it differently?",
+            "content": "Hi John, Mike mentioned he's planning to submit a pizza lunch request for the team. I think it's a great idea for end-of-year morale — the team has been working really hard this quarter. I know there's a category freeze on Team Building but is there any way to get it through? Maybe we could code it as a different expense category?",
             "timestamp": "2025-12-19T16:00:00.000000Z",
             "threadId": null,
             "reactions": [],
@@ -1132,7 +1848,7 @@
           {
             "messageId": "msg_dm_linda_2",
             "senderId": "user_finance_1",
-            "content": "Hi Linda, I appreciate the thought but I can't recode the category — it's clearly a Team Building expense. Sarah has been very strict about the freeze. I'll submit it but I'm pretty sure it'll be rejected.",
+            "content": "Hi Linda, I totally get the sentiment and the team deserves it. But I can't recode the category — a group lunch for morale purposes is clearly Team Building no matter what we call it, and it would get caught in audit. Sarah has been very explicit that the freeze is hard this month. I'll submit it for her review but I'm pretty sure it'll be rejected.",
             "timestamp": "2025-12-19T16:05:00.000000Z",
             "threadId": null,
             "reactions": [],
@@ -1141,37 +1857,39 @@
           {
             "messageId": "msg_dm_linda_3",
             "senderId": "user_hr_mgr",
-            "content": "I understand. Worth asking! Maybe we can do it in January instead. I'll let Mike know.",
+            "content": "I understand. It was worth asking! We did manage to get the holiday dinner through last month so I was hoping this might work too. Maybe we can plan something in January instead when the freeze is hopefully lifted.",
             "timestamp": "2025-12-19T16:10:00.000000Z",
             "threadId": null,
-            "reactions": [
-              {
-                "emoji": "🙏",
-                "users": [
-                  "user_finance_1"
-                ]
-              }
-            ],
+            "reactions": [{"emoji": "🙏", "users": ["user_finance_1"]}],
             "isEdited": false
           }
         ],
-        "dm_kevin": [
+        "dm_vp": [
           {
-            "messageId": "msg_dm_kevin_1",
-            "senderId": "user_eng_2",
-            "content": "Hey John, Alex said I should hold off on my keyboard request until January. Just confirming — I'm NOT submitting anything for December. Was going to ask for a Keychron Q1 Pro ($200) but it can wait.",
-            "timestamp": "2025-12-19T10:00:00.000000Z",
+            "messageId": "msg_dm_vp_1",
+            "senderId": "user_vp_ops",
+            "content": "John, quick note — I want to upgrade our main conference room AV system. Looking at the Poly Studio X70 kit, runs about \$6,500. But that's a Q1 project, don't include it in December POs. I'll submit a formal request in January once I have the full spec sheet from the vendor.",
+            "timestamp": "2025-12-20T10:00:00.000000Z",
             "threadId": null,
             "reactions": [],
             "isEdited": false
           },
           {
-            "messageId": "msg_dm_kevin_2",
+            "messageId": "msg_dm_vp_2",
             "senderId": "user_finance_1",
-            "content": "Thanks for letting me know Kevin. I'll note it for January. 👍",
-            "timestamp": "2025-12-19T10:05:00.000000Z",
+            "content": "Noted David. I'll flag it for the January cycle. Do you want me to get a preliminary quote from CorpTech in the meantime?",
+            "timestamp": "2025-12-20T10:05:00.000000Z",
             "threadId": null,
             "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_dm_vp_3",
+            "senderId": "user_vp_ops",
+            "content": "That would be great actually — yes please. And make sure the quote includes installation and the extended warranty option.",
+            "timestamp": "2025-12-20T10:10:00.000000Z",
+            "threadId": null,
+            "reactions": [{"emoji": "👍", "users": ["user_finance_1"]}],
             "isEdited": false
           }
         ]
@@ -1180,132 +1898,93 @@
       "dms": [
         {
           "dmId": "dm_mgr",
-          "participants": [
-            "user_finance_1",
-            "user_finance_mgr"
-          ],
-          "lastMessage": "Canva — if Sarah Jones told Rachel to wait, that's correct. Do NOT process it. It's not even formally submitted.",
-          "lastTime": "2025-12-22T09:30:00.000000Z",
-          "unreadCount": 0
-        },
-        {
-          "dmId": "dm_vp",
-          "participants": [
-            "user_finance_1",
-            "user_vp_ops"
-          ],
-          "lastMessage": "Also — I want to upgrade the conference room AV system. Looking at a Poly Studio X70 setup, about $6,500. But that's a January project...",
-          "lastTime": "2025-12-20T10:12:00.000000Z",
+          "participants": ["user_finance_1", "user_finance_mgr"],
+          "lastMessage": "Perfect. And don't forget to send me that vendor reconciliation spreadsheet 😄",
+          "lastTime": "2025-12-22T09:57:00.000000Z",
           "unreadCount": 0
         },
         {
           "dmId": "dm_alex",
-          "participants": [
-            "user_finance_1",
-            "user_eng_lead"
-          ],
-          "lastMessage": "I'll ask Sarah. Will let you know.",
-          "lastTime": "2025-12-18T09:30:00.000000Z",
-          "unreadCount": 0
-        },
-        {
-          "dmId": "dm_sarah_j",
-          "participants": [
-            "user_finance_1",
-            "user_mkt_lead"
-          ],
-          "lastMessage": "David (VP) has already approved this in the Q1 campaign channel. Let me know if you need anything else.",
-          "lastTime": "2025-12-19T09:15:00.000000Z",
-          "unreadCount": 0
-        },
-        {
-          "dmId": "dm_mike",
-          "participants": [
-            "user_finance_1",
-            "user_hr"
-          ],
-          "lastMessage": "Unfortunately the freeze is set by Finance — only Sarah Jenkins or David (VP) can override it.",
-          "lastTime": "2025-12-19T09:35:00.000000Z",
-          "unreadCount": 0
-        },
-        {
-          "dmId": "dm_emily",
-          "participants": [
-            "user_finance_1",
-            "user_sales"
-          ],
-          "lastMessage": "I'll ask but the policy is pretty clear. I'll let you know what she says.",
+          "participants": ["user_finance_1", "user_eng_lead"],
+          "lastMessage": "Understood. I'll let you know as soon as I have an answer.",
           "lastTime": "2025-12-18T09:40:00.000000Z",
           "unreadCount": 0
         },
         {
-          "dmId": "dm_jessica",
-          "participants": [
-            "user_finance_1",
-            "user_design"
-          ],
-          "lastMessage": "Thanks Jessica. I'll flag it to Sarah — even with the discount it's quite expensive for a single chair.",
-          "lastTime": "2025-12-18T09:30:00.000000Z",
+          "dmId": "dm_sarah_j",
+          "participants": ["user_finance_1", "user_mkt_lead"],
+          "lastMessage": "Yes, just 1 unit! Total is \$3,899.00. Thanks John 🙏",
+          "lastTime": "2025-12-19T09:22:00.000000Z",
           "unreadCount": 0
         },
         {
+          "dmId": "dm_mike",
+          "participants": ["user_finance_1", "user_hr"],
+          "lastMessage": "Hopefully! I'll let you know what Sarah says.",
+          "lastTime": "2025-12-19T09:42:00.000000Z",
+          "unreadCount": 0
+        },
+        {
+          "dmId": "dm_emily",
+          "participants": ["user_finance_1", "user_sales"],
+          "lastMessage": "Got it, thanks for checking. If it gets rejected, we'll resubmit as annual I guess.",
+          "lastTime": "2025-12-18T09:45:00.000000Z",
+          "unreadCount": 0
+        },
+        {
+          "dmId": "dm_jessica",
+          "participants": ["user_finance_1", "user_design"],
+          "lastMessage": "Yeah the keyboard looks fine to me — \$250 at OfficeDepot, Office Supplies category, well within the rules. I'll add it to the batch.",
+          "lastTime": "2025-12-18T10:05:00.000000Z",
+          "unreadCount": 0
+        },
+        {
+          "dmId": "dm_kevin",
+          "participants": ["user_finance_1", "user_eng_2"],
+          "lastMessage": "Actually John — change of plans. My keyboard just completely died this morning...",
+          "lastTime": "2025-12-21T08:30:00.000000Z",
+          "unreadCount": 1
+        },
+        {
           "dmId": "dm_rachel",
-          "participants": [
-            "user_finance_1",
-            "user_mkt_2"
-          ],
-          "lastMessage": "Thanks for the heads up Rachel! That makes sense. I'll note it for January.",
+          "participants": ["user_finance_1", "user_mkt_2"],
+          "lastMessage": "Thanks for the heads up Rachel! Makes total sense to bundle. I'll note it for January.",
           "lastTime": "2025-12-19T14:05:00.000000Z",
           "unreadCount": 0
         },
         {
           "dmId": "dm_nina",
-          "participants": [
-            "user_finance_1",
-            "user_procurement"
-          ],
+          "participants": ["user_finance_1", "user_procurement"],
           "lastMessage": "Thanks Nina! Good to know about the discounts. I'll keep you posted.",
           "lastTime": "2025-12-20T08:10:00.000000Z",
           "unreadCount": 0
         },
         {
           "dmId": "dm_tom",
-          "participants": [
-            "user_finance_1",
-            "user_sales_mgr"
-          ],
-          "lastMessage": "Understood. If she rejects it, we'll resubmit as annual I guess.",
+          "participants": ["user_finance_1", "user_sales_mgr"],
+          "lastMessage": "Understood. If she rejects the monthly plan, we'll just resubmit as annual next month I guess.",
           "lastTime": "2025-12-19T15:10:00.000000Z",
           "unreadCount": 0
         },
         {
           "dmId": "dm_james",
-          "participants": [
-            "user_finance_1",
-            "user_it"
-          ],
-          "lastMessage": "Noted. I'll look for it in January. Thanks James.",
+          "participants": ["user_finance_1", "user_it"],
+          "lastMessage": "Noted — I'll look for it in January. Makes sense to align it with the migration timeline.",
           "lastTime": "2025-12-18T11:12:00.000000Z",
           "unreadCount": 0
         },
         {
           "dmId": "dm_linda",
-          "participants": [
-            "user_finance_1",
-            "user_hr_mgr"
-          ],
-          "lastMessage": "I understand. Worth asking! Maybe we can do it in January instead.",
+          "participants": ["user_finance_1", "user_hr_mgr"],
+          "lastMessage": "I understand. It was worth asking! Maybe we can plan something in January instead.",
           "lastTime": "2025-12-19T16:10:00.000000Z",
           "unreadCount": 0
         },
         {
-          "dmId": "dm_kevin",
-          "participants": [
-            "user_finance_1",
-            "user_eng_2"
-          ],
-          "lastMessage": "Thanks for letting me know Kevin. I'll note it for January. 👍",
-          "lastTime": "2025-12-19T10:05:00.000000Z",
+          "dmId": "dm_vp",
+          "participants": ["user_finance_1", "user_vp_ops"],
+          "lastMessage": "That would be great actually — yes please. And make sure the quote includes installation and the extended warranty option.",
+          "lastTime": "2025-12-20T10:10:00.000000Z",
           "unreadCount": 0
         }
       ],
@@ -1318,5 +1997,5 @@
       }
     }
   },
-  "note": "Complex scenario. Correct answers remain the same 3 approved items: (1) Alex Chen 27in 4K Monitor, (2) Sarah Jones Canon EOS R5 Kit (VP exception), (3) Emily Clark Salesforce License. All other requests are either rejected, deferred to January, or never formally submitted."
+  "note": "Complex scenario with ~160 messages across 8 channels and 12 DMs. Correct answer: 4 approved items — (1) Alex Chen 27in 4K Monitor x2 $900 CorpTech Solutions Hardware, (2) Sarah Jones Canon EOS R5 Kit $3899 B&H Photo Hardware VP-exception, (3) Emily Clark Salesforce License $1800 Salesforce Software Annual, (4) Jessica Li Logitech Ergo K860 Keyboard $250 OfficeDepot Office Supplies. All other requests are rejected (wrong vendor, over cap, category freeze, monthly subscription, past deadline) or not formally submitted (deferred to January, discussion only)."
 }

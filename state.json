@@ -646,7 +646,7 @@
           {
             "messageId": "msg_q1_3",
             "senderId": "user_mkt_lead",
-            "content": "Canon EOS R5 Kit. It's \$3,899 from B&H Photo, which I know is over the hardware cap. But it's professional grade — we'll use it for at least 3 years across all campaigns. The ROI is there.",
+            "content": "Canon EOS R5 Kit. It's $3,899 from B&H Photo, which I know is over the hardware cap. But it's professional grade — we'll use it for at least 3 years across all campaigns. The ROI is there.",
             "timestamp": "2025-12-10T14:10:00.000000Z",
             "threadId": null,
             "reactions": [],
@@ -664,7 +664,7 @@
           {
             "messageId": "msg_q1_5",
             "senderId": "user_mkt_2",
-            "content": "Also, should we get a proper lighting kit? I've been using my personal softbox and it's starting to fall apart. There's a Godox 3-light studio kit for \$650 on B&H.",
+            "content": "Also, should we get a proper lighting kit? I've been using my personal softbox and it's starting to fall apart. There's a Godox 3-light studio kit for $650 on B&H.",
             "timestamp": "2025-12-10T14:20:00.000000Z",
             "threadId": null,
             "reactions": [],
@@ -727,7 +727,7 @@
           {
             "messageId": "msg_q1_12",
             "senderId": "user_vp_ops",
-            "content": "Sarah J — I reviewed the camera request. \$3,899 is over the hardware cap but I agree this is a strategic investment for Q1 and beyond. I'm personally approving this as a VP exception. Go ahead and submit it through John in finance.",
+            "content": "Sarah J — I reviewed the camera request. $3,899 is over the hardware cap but I agree this is a strategic investment for Q1 and beyond. I'm personally approving this as a VP exception. Go ahead and submit it through John in finance.",
             "timestamp": "2025-12-18T16:00:00.000000Z",
             "threadId": null,
             "reactions": [{"emoji": "🎉", "users": ["user_mkt_lead", "user_mkt_2"]}, {"emoji": "🙌", "users": ["user_design"]}],
@@ -745,7 +745,7 @@
           {
             "messageId": "msg_q1_14",
             "senderId": "user_mkt_2",
-            "content": "Amazing!! While we're on a roll — should I also submit the Canva Pro Team subscription? We've been using individual free accounts and it's a mess with shared assets. Annual plan is \$500 for 5 seats.",
+            "content": "Amazing!! While we're on a roll — should I also submit the Canva Pro Team subscription? We've been using individual free accounts and it's a mess with shared assets. Annual plan is $500 for 5 seats.",
             "timestamp": "2025-12-19T09:00:00.000000Z",
             "threadId": null,
             "reactions": [],
@@ -801,7 +801,7 @@
           {
             "messageId": "msg_office_1",
             "senderId": "user_design",
-            "content": "Hi everyone, I've been having serious lower back pain from my current desk chair. My physio recommended getting a proper ergonomic chair. I've been researching options and the Herman Miller Aeron seems to be the gold standard — it's \$1,400 from OfficeDepot.",
+            "content": "Hi everyone, I've been having serious lower back pain from my current desk chair. My physio recommended getting a proper ergonomic chair. I've been researching options and the Herman Miller Aeron seems to be the gold standard — it's $1,400 from OfficeDepot.",
             "timestamp": "2025-12-14T10:00:00.000000Z",
             "threadId": null,
             "reactions": [],
@@ -810,7 +810,7 @@
           {
             "messageId": "msg_office_2",
             "senderId": "user_hr_mgr",
-            "content": "Jessica, I totally understand the need for ergonomic furniture — we take workplace health seriously. But \$1,400 is really steep for a single chair. Have you looked at the budget alternatives? The Autonomous ErgoChair Pro is around \$400 and has excellent reviews.",
+            "content": "Jessica, I totally understand the need for ergonomic furniture — we take workplace health seriously. But $1,400 is really steep for a single chair. Have you looked at the budget alternatives? The Autonomous ErgoChair Pro is around $400 and has excellent reviews.",
             "timestamp": "2025-12-14T10:15:00.000000Z",
             "threadId": null,
             "reactions": [],
@@ -828,7 +828,7 @@
           {
             "messageId": "msg_office_4",
             "senderId": "user_procurement",
-            "content": "FWIW I can get 10% off the Aeron through our OfficeDepot corporate account. That would bring it down to about \$1,260. Want me to lock that in?",
+            "content": "FWIW I can get 10% off the Aeron through our OfficeDepot corporate account. That would bring it down to about $1,260. Want me to lock that in?",
             "timestamp": "2025-12-14T10:30:00.000000Z",
             "threadId": null,
             "reactions": [],
@@ -846,7 +846,7 @@
           {
             "messageId": "msg_office_6",
             "senderId": "user_hr",
-            "content": "Speaking of office stuff — I've been thinking about getting standing desk converters for our team. The FlexiSpot ones are about \$300 each from OfficeDepot and I'd need 3 of them. Worth submitting for December?",
+            "content": "Speaking of office stuff — I've been thinking about getting standing desk converters for our team. The FlexiSpot ones are about $300 each from OfficeDepot and I'd need 3 of them. Worth submitting for December?",
             "timestamp": "2025-12-17T11:00:00.000000Z",
             "threadId": null,
             "reactions": [],
@@ -864,7 +864,7 @@
           {
             "messageId": "msg_office_8",
             "senderId": "user_design",
-            "content": "Oh also — separate from the chair situation, my wrists have been bothering me too. I've been looking at ergonomic keyboards. The Logitech Ergo K860 is \$250 at OfficeDepot. Anyone here use one?",
+            "content": "Oh also — separate from the chair situation, my wrists have been bothering me too. I've been looking at ergonomic keyboards. The Logitech Ergo K860 is $250 at OfficeDepot. Anyone here use one?",
             "timestamp": "2025-12-17T14:00:00.000000Z",
             "threadId": null,
             "reactions": [],
@@ -1385,7 +1385,7 @@
           {
             "messageId": "msg_dm_mgr_17",
             "senderId": "user_finance_1",
-            "content": "And last one — Mike from HR wants to do a pizza lunch for the team. \$150 from Domino's, categorized as Team Building.",
+            "content": "And last one — Mike from HR wants to do a pizza lunch for the team. $150 from Domino's, categorized as Team Building.",
             "timestamp": "2025-12-22T09:40:00.000000Z",
             "threadId": null,
             "reactions": [],
@@ -1394,7 +1394,7 @@
           {
             "messageId": "msg_dm_mgr_18",
             "senderId": "user_finance_mgr",
-            "content": "Rejected. Team Building is frozen. Period. Doesn't matter that it's only \$150.",
+            "content": "Rejected. Team Building is frozen. Period. Doesn't matter that it's only $150.",
             "timestamp": "2025-12-22T09:41:00.000000Z",
             "threadId": null,
             "reactions": [],
@@ -1403,7 +1403,7 @@
           {
             "messageId": "msg_dm_mgr_19",
             "senderId": "user_finance_1",
-            "content": "Yeah I figured. Btw there's been some chatter in the team outing channel about a group dinner too — \$800. Linda and some others are saying last year's freeze wasn't really enforced so they think it'll be fine this year too.",
+            "content": "Yeah I figured. Btw there's been some chatter in the team outing channel about a group dinner too — $800. Linda and some others are saying last year's freeze wasn't really enforced so they think it'll be fine this year too.",
             "timestamp": "2025-12-22T09:43:00.000000Z",
             "threadId": null,
             "reactions": [],
@@ -1656,7 +1656,7 @@
           {
             "messageId": "msg_dm_jess_1",
             "senderId": "user_design",
-            "content": "Hi John! I need to submit a purchase request. I've been having serious back pain from my desk chair — my physio recommended an ergonomic upgrade. I'm looking at the Herman Miller Aeron from OfficeDepot. It's $1,400 but has a 12-year warranty. Category would be Office Supplies.\n\nNina mentioned she can get 10% off through our corporate account, which would bring it to about \$1,260. Would that help with approval?",
+            "content": "Hi John! I need to submit a purchase request. I've been having serious back pain from my desk chair — my physio recommended an ergonomic upgrade. I'm looking at the Herman Miller Aeron from OfficeDepot. It's $1,400 but has a 12-year warranty. Category would be Office Supplies.\n\nNina mentioned she can get 10% off through our corporate account, which would bring it to about $1,260. Would that help with approval?",
             "timestamp": "2025-12-14T11:00:00.000000Z",
             "threadId": null,
             "reactions": [],
@@ -1683,7 +1683,7 @@
           {
             "messageId": "msg_dm_jess_4",
             "senderId": "user_design",
-            "content": "Oh also John — one more thing. My wrists have been bothering me too (I think it's from the current flat keyboard). I want to get an ergonomic keyboard as well. Logitech Ergo K860 from OfficeDepot, \$250. Same category — Office Supplies. This one should be pretty straightforward right? Just 1 unit, total \$250.",
+            "content": "Oh also John — one more thing. My wrists have been bothering me too (I think it's from the current flat keyboard). I want to get an ergonomic keyboard as well. Logitech Ergo K860 from OfficeDepot, $250. Same category — Office Supplies. This one should be pretty straightforward right? Just 1 unit, total $250.",
             "timestamp": "2025-12-18T10:00:00.000000Z",
             "threadId": null,
             "reactions": [],
@@ -1692,7 +1692,7 @@
           {
             "messageId": "msg_dm_jess_5",
             "senderId": "user_finance_1",
-            "content": "Yeah the keyboard looks fine to me — \$250 at OfficeDepot, Office Supplies category, well within the rules. I'll add it to the batch. Hope it helps with the wrist pain!",
+            "content": "Yeah the keyboard looks fine to me — $250 at OfficeDepot, Office Supplies category, well within the rules. I'll add it to the batch. Hope it helps with the wrist pain!",
             "timestamp": "2025-12-18T10:05:00.000000Z",
             "threadId": null,
             "reactions": [{"emoji": "🙏", "users": ["user_design"]}],
@@ -1703,7 +1703,7 @@
           {
             "messageId": "msg_dm_kevin_1",
             "senderId": "user_eng_2",
-            "content": "Hey John, Alex said I should hold off on my keyboard request until January. So I'm NOT submitting anything for December. Was going to ask for a Keychron Q1 Pro (\$200) but it can wait.",
+            "content": "Hey John, Alex said I should hold off on my keyboard request until January. So I'm NOT submitting anything for December. Was going to ask for a Keychron Q1 Pro ($200) but it can wait.",
             "timestamp": "2025-12-19T10:00:00.000000Z",
             "threadId": null,
             "reactions": [],
@@ -1819,7 +1819,7 @@
           {
             "messageId": "msg_dm_james_3",
             "senderId": "user_it",
-            "content": "Also, separate topic — I need to order 10 YubiKey 5C security keys for the VPN migration. \$55 each from CorpTech, total \$550. But this is a January expense since the migration doesn't start until then. I'll submit it in the January cycle — just giving you a heads up so you can plan for it.",
+            "content": "Also, separate topic — I need to order 10 YubiKey 5C security keys for the VPN migration. $55 each from CorpTech, total $550. But this is a January expense since the migration doesn't start until then. I'll submit it in the January cycle — just giving you a heads up so you can plan for it.",
             "timestamp": "2025-12-18T11:10:00.000000Z",
             "threadId": null,
             "reactions": [],
@@ -1868,7 +1868,7 @@
           {
             "messageId": "msg_dm_vp_1",
             "senderId": "user_vp_ops",
-            "content": "John, quick note — I want to upgrade our main conference room AV system. Looking at the Poly Studio X70 kit, runs about \$6,500. But that's a Q1 project, don't include it in December POs. I'll submit a formal request in January once I have the full spec sheet from the vendor.",
+            "content": "John, quick note — I want to upgrade our main conference room AV system. Looking at the Poly Studio X70 kit, runs about $6,500. But that's a Q1 project, don't include it in December POs. I'll submit a formal request in January once I have the full spec sheet from the vendor.",
             "timestamp": "2025-12-20T10:00:00.000000Z",
             "threadId": null,
             "reactions": [],
@@ -1913,7 +1913,7 @@
         {
           "dmId": "dm_sarah_j",
           "participants": ["user_finance_1", "user_mkt_lead"],
-          "lastMessage": "Yes, just 1 unit! Total is \$3,899.00. Thanks John 🙏",
+          "lastMessage": "Yes, just 1 unit! Total is $3,899.00. Thanks John 🙏",
           "lastTime": "2025-12-19T09:22:00.000000Z",
           "unreadCount": 0
         },
@@ -1934,7 +1934,7 @@
         {
           "dmId": "dm_jessica",
           "participants": ["user_finance_1", "user_design"],
-          "lastMessage": "Yeah the keyboard looks fine to me — \$250 at OfficeDepot, Office Supplies category, well within the rules. I'll add it to the batch.",
+          "lastMessage": "Yeah the keyboard looks fine to me — $250 at OfficeDepot, Office Supplies category, well within the rules. I'll add it to the batch.",
           "lastTime": "2025-12-18T10:05:00.000000Z",
           "unreadCount": 0
         },
@@ -1996,6 +1996,5 @@
         "use24Hour": true
       }
     }
-  },
-  "note": "Complex scenario with ~160 messages across 8 channels and 12 DMs. Correct answer: 4 approved items — (1) Alex Chen 27in 4K Monitor x2 $900 CorpTech Solutions Hardware, (2) Sarah Jones Canon EOS R5 Kit $3899 B&H Photo Hardware VP-exception, (3) Emily Clark Salesforce License $1800 Salesforce Software Annual, (4) Jessica Li Logitech Ergo K860 Keyboard $250 OfficeDepot Office Supplies. All other requests are rejected (wrong vendor, over cap, category freeze, monthly subscription, past deadline) or not formally submitted (deferred to January, discussion only)."
+  }
 }

@@ -427,7 +427,7 @@
           {
             "messageId": "msg_eng_2",
             "senderId": "user_eng_2",
-            "content": "Alex, I found MacBook Pro M3s on Amazon for \$1,999 — that's \$200 cheaper than CorpTech. Should I send you the link?",
+            "content": "Alex, I found MacBook Pro M3s on Amazon for $1,999 — that's $200 cheaper than CorpTech. Should I send you the link?",
             "timestamp": "2025-12-16T10:15:00.000000Z",
             "threadId": null,
             "reactions": [],
@@ -463,7 +463,7 @@
           {
             "messageId": "msg_eng_6",
             "senderId": "user_eng_2",
-            "content": "BTW Alex, should I also request a mechanical keyboard? My current one is dying. Maybe a Keychron Q1 Pro — around \$200 from Amazon.",
+            "content": "BTW Alex, should I also request a mechanical keyboard? My current one is dying. Maybe a Keychron Q1 Pro — around $200 from Amazon.",
             "timestamp": "2025-12-18T09:00:00.000000Z",
             "threadId": null,
             "reactions": [],
@@ -490,7 +490,7 @@
           {
             "messageId": "msg_q1_1",
             "senderId": "user_mkt_lead",
-            "content": "Team, Q1 campaign planning is in full swing. We need to nail down our content production gear. I'm looking at the Canon EOS R5 Kit for product photography — it's \$3,899 but it's professional grade and we'll use it for at least 3 years.",
+            "content": "Team, Q1 campaign planning is in full swing. We need to nail down our content production gear. I'm looking at the Canon EOS R5 Kit for product photography — it's $3,899 but it's professional grade and we'll use it for at least 3 years.",
             "timestamp": "2025-12-10T14:00:00.000000Z",
             "threadId": null,
             "reactions": [],
@@ -508,7 +508,7 @@
           {
             "messageId": "msg_q1_3",
             "senderId": "user_mkt_2",
-            "content": "Also, should we get a proper lighting kit? I've been using my personal softbox and it's not cutting it anymore. There's a Godox 3-light kit for \$650 on B&H.",
+            "content": "Also, should we get a proper lighting kit? I've been using my personal softbox and it's not cutting it anymore. There's a Godox 3-light kit for $650 on B&H.",
             "timestamp": "2025-12-10T14:20:00.000000Z",
             "threadId": null,
             "reactions": [],
@@ -533,7 +533,7 @@
           {
             "messageId": "msg_q1_5",
             "senderId": "user_vp_ops",
-            "content": "Sarah J — I looked at the camera request. \$3,899 is over the hardware cap but this is strategic for Q1. I'm personally approving this as a VP exception. Go ahead and submit it through John.",
+            "content": "Sarah J — I looked at the camera request. $3,899 is over the hardware cap but this is strategic for Q1. I'm personally approving this as a VP exception. Go ahead and submit it through John.",
             "timestamp": "2025-12-18T16:00:00.000000Z",
             "threadId": null,
             "reactions": [
@@ -559,7 +559,7 @@
           {
             "messageId": "msg_q1_7",
             "senderId": "user_mkt_2",
-            "content": "While we're at it — should I also submit the Canva Pro Team subscription? We've been using individual accounts and it's a mess. Annual plan is \$500 for 5 seats.",
+            "content": "While we're at it — should I also submit the Canva Pro Team subscription? We've been using individual accounts and it's a mess. Annual plan is $500 for 5 seats.",
             "timestamp": "2025-12-19T09:00:00.000000Z",
             "threadId": null,
             "reactions": [],
@@ -586,7 +586,7 @@
           {
             "messageId": "msg_office_1",
             "senderId": "user_design",
-            "content": "Hi everyone, I've been having serious back pain from my current chair. I need to get an ergonomic chair. Looking at the Herman Miller Aeron — it's \$1,400 from OfficeDepot.",
+            "content": "Hi everyone, I've been having serious back pain from my current chair. I need to get an ergonomic chair. Looking at the Herman Miller Aeron — it's $1,400 from OfficeDepot.",
             "timestamp": "2025-12-14T10:00:00.000000Z",
             "threadId": null,
             "reactions": [],
@@ -595,7 +595,7 @@
           {
             "messageId": "msg_office_2",
             "senderId": "user_hr_mgr",
-            "content": "Jessica, I totally understand the need for ergonomic furniture. However \$1,400 is really steep for a single chair. Have you looked at the budget alternatives? The Autonomous ErgoChair is around \$400 and has great reviews.",
+            "content": "Jessica, I totally understand the need for ergonomic furniture. However $1,400 is really steep for a single chair. Have you looked at the budget alternatives? The Autonomous ErgoChair is around $400 and has great reviews.",
             "timestamp": "2025-12-14T10:15:00.000000Z",
             "threadId": null,
             "reactions": [],
@@ -613,7 +613,7 @@
           {
             "messageId": "msg_office_4",
             "senderId": "user_procurement",
-            "content": "FWIW, I can get OfficeDepot to do 10% off on the Aeron if we order through our corporate account. That brings it to \$1,260.",
+            "content": "FWIW, I can get OfficeDepot to do 10% off on the Aeron if we order through our corporate account. That brings it to $1,260.",
             "timestamp": "2025-12-14T10:30:00.000000Z",
             "threadId": null,
             "reactions": [],
@@ -631,7 +631,7 @@
           {
             "messageId": "msg_office_6",
             "senderId": "user_hr",
-            "content": "Speaking of office stuff — I want to order some standing desk converters for the team. About \$300 each from OfficeDepot, need 3 of them. Should I submit this for December or wait?",
+            "content": "Speaking of office stuff — I want to order some standing desk converters for the team. About $300 each from OfficeDepot, need 3 of them. Should I submit this for December or wait?",
             "timestamp": "2025-12-17T11:00:00.000000Z",
             "threadId": null,
             "reactions": [],
@@ -676,7 +676,7 @@
           {
             "messageId": "msg_sales_3",
             "senderId": "user_sales",
-            "content": "Good point on the flexibility. Monthly is \$79.99/seat and we need 5 seats. Annual would be \$65/seat but we're locked in for a year.",
+            "content": "Good point on the flexibility. Monthly is $79.99/seat and we need 5 seats. Annual would be $65/seat but we're locked in for a year.",
             "timestamp": "2025-12-16T14:15:00.000000Z",
             "threadId": null,
             "reactions": [],
@@ -701,7 +701,7 @@
           {
             "messageId": "msg_sales_5",
             "senderId": "user_sales",
-            "content": "Also, I've been eyeing a ZoomInfo subscription for prospecting. \$12,000/year. Think we should pitch it?",
+            "content": "Also, I've been eyeing a ZoomInfo subscription for prospecting. $12,000/year. Think we should pitch it?",
             "timestamp": "2025-12-18T09:00:00.000000Z",
             "threadId": null,
             "reactions": [],

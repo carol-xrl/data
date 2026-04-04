@@ -1,0 +1,202 @@
+{
+  "meta": {
+    "created_at": "2025-12-23T09:30:00Z",
+    "updated_at": "2025-12-23T09:30:00Z",
+    "version": 9,
+    "type": "unrestricted"
+  },
+  "data": {
+    "teamchat": {
+      "currentUser": {
+        "userId": "user_1",
+        "fullName": "John Smith",
+        "displayName": "John",
+        "email": "john@acmecorp.com",
+        "avatar": "https://picsum.photos/id/1005/200/200",
+        "title": "Staff Accountant",
+        "status": "online",
+        "timeZone": "Asia/Singapore"
+      },
+      "workspace": {
+        "workspaceId": "ws_1",
+        "workspaceName": "Acme Corp",
+        "icon": "https://picsum.photos/id/1062/64/64"
+      },
+      "users": [
+        {
+          "userId": "user_1",
+          "fullName": "John Smith",
+          "displayName": "John",
+          "email": "john@acmecorp.com",
+          "avatar": "https://picsum.photos/id/1005/200/200",
+          "title": "Staff Accountant",
+          "status": "online",
+          "timeZone": "Asia/Singapore"
+        },
+        {
+          "userId": "user_2",
+          "fullName": "Alice Wong",
+          "displayName": "Alice",
+          "email": "alice@acmecorp.com",
+          "avatar": "https://picsum.photos/id/1011/200/200",
+          "title": "Manager",
+          "status": "online",
+          "timeZone": "Asia/Singapore"
+        }
+      ],
+      "channels": [
+        {
+          "channelId": "time-test",
+          "name": "time-test",
+          "description": "Testing timestamp display",
+          "isPrivate": false,
+          "isStarred": true,
+          "members": ["user_1", "user_2"],
+          "createdBy": "user_1",
+          "createdAt": "2023-01-01T09:00:00Z",
+          "pinnedMessages": []
+        }
+      ],
+      "messages": {
+        "time-test": [
+          {
+            "messageId": "msg_2y",
+            "senderId": "user_2",
+            "content": "TWO YEARS AGO — This message is from December 2023. Can you see this timestamp?",
+            "timestamp": "2023-12-23T10:00:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_1y",
+            "senderId": "user_1",
+            "content": "ONE YEAR AGO — This message is from December 2024. Testing 12 month gap.",
+            "timestamp": "2024-12-23T10:00:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_6m",
+            "senderId": "user_2",
+            "content": "SIX MONTHS AGO — This message is from June 2025.",
+            "timestamp": "2025-06-23T10:00:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_3m",
+            "senderId": "user_1",
+            "content": "THREE MONTHS AGO — This message is from September 2025.",
+            "timestamp": "2025-09-23T10:00:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_2m",
+            "senderId": "user_2",
+            "content": "TWO MONTHS AGO — This message is from October 2025.",
+            "timestamp": "2025-10-23T10:00:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_1m",
+            "senderId": "user_1",
+            "content": "ONE MONTH AGO — This message is from November 2025.",
+            "timestamp": "2025-11-23T10:00:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_2w",
+            "senderId": "user_2",
+            "content": "TWO WEEKS AGO — This message is from early December 2025.",
+            "timestamp": "2025-12-09T10:00:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_1w",
+            "senderId": "user_1",
+            "content": "ONE WEEK AGO — This message is from December 16.",
+            "timestamp": "2025-12-16T10:00:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_5d",
+            "senderId": "user_2",
+            "content": "FIVE DAYS AGO — This message is from December 18.",
+            "timestamp": "2025-12-18T10:00:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_3d",
+            "senderId": "user_1",
+            "content": "THREE DAYS AGO — This message is from December 20.",
+            "timestamp": "2025-12-20T10:00:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_1d",
+            "senderId": "user_2",
+            "content": "YESTERDAY — This message is from December 22.",
+            "timestamp": "2025-12-22T10:00:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_12h",
+            "senderId": "user_1",
+            "content": "12 HOURS AGO — This message is from late last night.",
+            "timestamp": "2025-12-22T21:30:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_1h",
+            "senderId": "user_2",
+            "content": "ONE HOUR AGO — This message is from earlier this morning.",
+            "timestamp": "2025-12-23T08:30:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_now",
+            "senderId": "user_1",
+            "content": "JUST NOW — This is the most recent message. Current time reference.",
+            "timestamp": "2025-12-23T09:30:00.000000Z",
+            "threadId": null,
+            "reactions": [{"emoji": "👀", "users": ["user_2"]}],
+            "isEdited": false
+          }
+        ]
+      },
+      "threads": {},
+      "dms": [],
+      "settings": {
+        "theme": "light",
+        "notifications": "mentions",
+        "displayDensity": "compact",
+        "showAvatars": true,
+        "use24Hour": true
+      }
+    }
+  },
+  "note": "Timestamp display test. Messages span from 2 years ago to now. Check how the Slack UI renders each timestamp."
+}

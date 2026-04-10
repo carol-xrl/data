@@ -294,77 +294,167 @@
           {
             "messageId": "msg_gen_1",
             "senderId": "user_cfo",
-            "content": "Good morning everyone. Quick update on year-end matters:\n\n1. **Holiday Schedule**: Office closed Dec 25–Jan 1. Last working day is Dec 24.\n2. **Annual Review**: All self-assessments due by Dec 20. Managers, please complete your team reviews by Jan 10.\n3. **Parking**: The west lot will be repaved starting Jan 6. Use the east lot until further notice.\n\nHappy holidays to all! 🎄",
-            "timestamp": "2025-12-18T08:00:00.000000Z",
+            "content": "Good morning everyone. A few important year-end updates:\n\n1. **Holiday Schedule**: Office closed Dec 25 – Jan 1. Last working day is Dec 24 (half day).\n2. **Annual Reviews**: All self-assessments due by Dec 20. Managers — please have your team review conversations completed by Jan 10.\n3. **Parking Lot**: West lot repaving starts Jan 6. Please use the east lot until further notice. Temporary passes will be issued by facilities.\n\nHappy holidays! 🎄",
+            "timestamp": "2025-12-15T08:00:00.000000Z",
             "threadId": null,
-            "reactions": [{"emoji": "🎄", "users": ["user_hr","user_office_mgr","user_pm"]}],
+            "reactions": [{"emoji":"🎄","users":["user_hr","user_office_mgr","user_pm","user_design"]}],
             "isEdited": false
           },
           {
             "messageId": "msg_gen_2",
             "senderId": "user_office_mgr",
-            "content": "Reminder: The kitchen refrigerator will be cleaned out this Friday at 5 PM. Please take your items home before then. Anything left will be discarded. Also, we've restocked the coffee station with the new blend everyone voted for. Enjoy!",
-            "timestamp": "2025-12-18T09:30:00.000000Z",
+            "content": "Adding to Tom's note — the building HVAC will be serviced over the holiday break. If you have any sensitive equipment in your office (plants, fish tanks, etc.), please take them home before Dec 24. The temperature may fluctuate during the service window.\n\nAlso, lost and found items from Q4 are on the table near reception. Claim your stuff by Friday or it goes to charity!",
+            "timestamp": "2025-12-15T08:30:00.000000Z",
             "threadId": null,
-            "reactions": [{"emoji": "☕", "users": ["user_eng_lead","user_sales"]}],
+            "reactions": [],
             "isEdited": false
           },
           {
             "messageId": "msg_gen_3",
             "senderId": "user_legal",
-            "content": "All: Updated NDA templates have been posted to the legal shared drive. If you're onboarding any contractors in Q1, please use the new version (v3.2). The old templates are no longer valid. DM me if you have questions.",
-            "timestamp": "2025-12-18T11:00:00.000000Z",
+            "content": "All — updated NDA templates (v3.2) have been uploaded to the legal shared drive. If you're onboarding any contractors or partners in Q1, you MUST use the new version. Key changes:\n\n- Updated IP assignment clause (Section 4.2)\n- New non-solicitation language (Section 7)\n- Revised termination provisions\n\nOld templates (v3.1 and below) are no longer valid. DM me if you have questions or need a walkthrough.",
+            "timestamp": "2025-12-15T10:00:00.000000Z",
             "threadId": null,
             "reactions": [],
             "isEdited": false
           },
           {
             "messageId": "msg_gen_4",
-            "senderId": "user_hr",
-            "content": "Hey everyone! Just a heads up — we have **two new hires** joining Engineering in mid-January. Alex and James are handling their onboarding. Please give them a warm welcome when they arrive! 👋\n\nAlso, annual benefits enrollment closes Dec 22. If you haven't updated your selections, please do so ASAP.",
-            "timestamp": "2025-12-19T08:30:00.000000Z",
+            "senderId": "user_eng_mgr",
+            "content": "Quick engineering update for the broader team:\n\nWe shipped v4.2.1 of the platform last night. Major improvements:\n- 40% faster search performance\n- New dashboard widget for real-time analytics\n- Fixed the CSV export bug that's been annoying everyone since October\n\nPlease report any issues in #it-helpdesk. Big thanks to Alex, Ryan, and the entire engineering team for pulling this off before the holiday freeze! 🚀",
+            "timestamp": "2025-12-16T08:00:00.000000Z",
             "threadId": null,
-            "reactions": [{"emoji": "👋", "users": ["user_eng_lead","user_it_mgr","user_devops"]}],
+            "reactions": [{"emoji":"🚀","users":["user_eng_lead","user_devops","user_pm","user_sales","user_cfo"]}],
             "isEdited": false
           },
           {
             "messageId": "msg_gen_5",
-            "senderId": "user_cfo",
-            "content": "Team — a note on Q1 planning. We completed the annual budget review last week. Overall spending was well-managed this year, but Q1 will require continued discipline.\n\n**Important**: The Q1 Lead Gen Expansion project has been put on hold due to budget reallocation. All procurement requests specifically tied to that project should be paused until further notice.\n\nThis does NOT affect ongoing operational renewals or existing tool subscriptions. Only net-new purchases earmarked for Lead Gen Expansion are impacted.\n\nQuestions? Reach out to me or Sarah Jenkins.",
-            "timestamp": "2025-12-19T10:00:00.000000Z",
+            "senderId": "user_sales",
+            "content": "Amazing work engineering team! The CSV export fix alone is going to save my team hours every week. Clients have been asking about that for months. 🙌\n\nAlso — congrats to Lisa and the PM team for keeping the release on schedule despite the holiday crunch. Teamwork makes the dream work!",
+            "timestamp": "2025-12-16T08:30:00.000000Z",
             "threadId": null,
-            "reactions": [{"emoji": "👀", "users": ["user_sales","user_pm"]}],
+            "reactions": [{"emoji":"❤️","users":["user_pm","user_eng_lead"]}],
             "isEdited": false
           },
           {
             "messageId": "msg_gen_6",
+            "senderId": "user_hr",
+            "content": "Hey everyone! A few HR announcements:\n\n1. **New Hires**: We have two engineers joining in mid-January. Alex and James are handling onboarding. Please give them a warm welcome when they arrive! 👋\n\n2. **Benefits Enrollment**: Annual enrollment closes Dec 22. If you haven't reviewed your health, dental, and vision selections, please do so ASAP. The benefits portal is at benefits.acmecorp.com.\n\n3. **PTO Reminder**: Any unused PTO from 2025 rolls over up to 5 days max. Anything beyond 5 days will be forfeited. Please plan accordingly.\n\n4. **Wellness Program**: We're launching a new wellness initiative in Q1 — free gym membership subsidies and mental health support. Details coming in January.\n\nDM me if you have any questions about benefits or PTO!",
+            "timestamp": "2025-12-16T09:00:00.000000Z",
+            "threadId": null,
+            "reactions": [{"emoji":"👋","users":["user_eng_lead","user_it_mgr","user_devops"]},{"emoji":"💪","users":["user_design","user_office_mgr"]}],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_gen_7",
+            "senderId": "user_it_mgr",
+            "content": "Tech tip of the week: If you're experiencing slow Slack performance, try clearing your cache. On desktop: Slack menu > Help > Troubleshooting > Clear Cache. You'll need to restart the app.\n\nAlso, we've been seeing some phishing emails targeting Acme employees. If you get an email asking you to \"verify your credentials\" or \"update your payment info,\" DO NOT click the link. Forward it to security@acmecorp.com immediately.\n\nStay safe out there! 🔒",
+            "timestamp": "2025-12-16T10:00:00.000000Z",
+            "threadId": null,
+            "reactions": [{"emoji":"🔒","users":["user_legal"]}],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_gen_8",
             "senderId": "user_pm",
-            "content": "Thanks Tom. To clarify for my team — does the Lead Gen pause affect our existing Salesforce CRM license renewal? We need that regardless of Lead Gen.",
-            "timestamp": "2025-12-19T10:15:00.000000Z",
+            "content": "Sharing the Q1 project roadmap for cross-functional visibility:\n\n**Q1 2025 Key Initiatives:**\n1. Q1 Marketing Campaign (Lead: S. Jones) — Launch Feb 15\n2. Platform v4.3 release (Lead: James Wilson) — Target Mar 1\n3. Customer Portal Redesign (Lead: Jessica Li) — Kickoff Jan 15\n4. Sales Enablement Toolkit (Lead: Emily Clark) — Due Feb 28\n5. Office Renovation Phase 2 (Lead: Nina Patel) — Start Jan 20\n\nEach project lead will share detailed timelines in their respective channels. If you're contributing to multiple projects, please flag any resource conflicts with me by Jan 3.\n\nFull roadmap doc is in the shared drive under Q1 Planning.",
+            "timestamp": "2025-12-17T08:00:00.000000Z",
+            "threadId": null,
+            "reactions": [{"emoji":"📋","users":["user_mkt_lead","user_eng_mgr","user_design"]}],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_gen_9",
+            "senderId": "user_office_mgr",
+            "content": "Facilities update:\n\n- Kitchen refrigerator cleanout is this Friday at 5 PM. Take your stuff home!\n- New coffee blend is in — we went with the medium roast that won the company vote. Enjoy! ☕\n- The water cooler on the 3rd floor has been fixed. No more gurgling sounds.\n- Meeting Room C projector bulb has been replaced. Should be much brighter now.\n- Reminder: Please don't leave personal items in the shared kitchen cabinets overnight.\n\nHave a great week everyone!",
+            "timestamp": "2025-12-17T09:00:00.000000Z",
+            "threadId": null,
+            "reactions": [{"emoji":"☕","users":["user_eng_lead","user_sales","user_devops"]}],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_gen_10",
+            "senderId": "user_devops",
+            "content": "Just wanted to share a win: our deployment pipeline is now 3x faster after last week's optimization. Average deploy time went from 18 minutes to 6 minutes. This means faster iteration cycles for everyone. 🎉\n\nThanks to David for the infrastructure support on this one.",
+            "timestamp": "2025-12-17T11:00:00.000000Z",
+            "threadId": null,
+            "reactions": [{"emoji":"🎉","users":["user_eng_mgr","user_it_mgr","user_eng_lead"]}],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_gen_11",
+            "senderId": "user_legal",
+            "content": "Heads up for anyone dealing with client contracts: The new data privacy regulations go into effect Jan 15. All client-facing agreements signed after that date must include the updated DPA (Data Processing Addendum). Templates are on the legal drive.\n\nIf you have any contracts in the pipeline that will be signed after Jan 15, please reach out to me for a review. We need to make sure we're compliant from day one.\n\nAlso — the annual compliance training module is now available in the LMS. Please complete it by Jan 31. It takes about 45 minutes.",
+            "timestamp": "2025-12-18T08:00:00.000000Z",
             "threadId": null,
             "reactions": [],
             "isEdited": false
           },
           {
-            "messageId": "msg_gen_7",
+            "messageId": "msg_gen_12",
             "senderId": "user_cfo",
-            "content": "No, Lisa. Salesforce is an existing operational tool. The pause only applies to net-new purchases that were budgeted under the Lead Gen Expansion line item. Renewals of existing tools proceed as normal.",
-            "timestamp": "2025-12-19T10:20:00.000000Z",
+            "content": "Team — a note on Q1 planning and budgets.\n\nWe completed the annual budget review last week. Overall spending was well-managed this year, but Q1 will require continued discipline across all departments.\n\n**Important**: The Q1 Lead Gen Expansion project has been put on hold due to budget reallocation. All procurement requests specifically tied to that project should be paused until further notice.\n\nThis does NOT affect ongoing operational renewals or existing tool subscriptions. Only net-new purchases that were earmarked specifically for the Lead Gen Expansion line item are impacted.\n\nQuestions? Reach out to me or Sarah Jenkins.",
+            "timestamp": "2025-12-18T10:00:00.000000Z",
             "threadId": null,
-            "reactions": [{"emoji": "👍", "users": ["user_pm","user_sales"]}],
+            "reactions": [{"emoji":"👀","users":["user_sales","user_pm"]}],
             "isEdited": false
           },
           {
-            "messageId": "msg_gen_8",
+            "messageId": "msg_gen_13",
+            "senderId": "user_pm",
+            "content": "Thanks Tom. Quick clarification — does the Lead Gen pause affect our existing Salesforce CRM license renewal? We need that regardless of Lead Gen. It's due for annual renewal this month.",
+            "timestamp": "2025-12-18T10:15:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_gen_14",
             "senderId": "user_cfo",
-            "content": "One more thing: Reminder that the company-sponsored Holiday Party is this Friday, Dec 20, at 6 PM in the main lobby. Admin is handling all arrangements. Individual departments should NOT submit separate purchase orders for holiday gatherings or social events this quarter — everything is covered under the company party.",
+            "content": "No, Lisa. Salesforce is an existing operational tool used across multiple departments. The pause only applies to net-new purchases that were budgeted specifically under the Lead Gen Expansion line item. Renewals of existing tools proceed as normal through the standard PO process.",
+            "timestamp": "2025-12-18T10:20:00.000000Z",
+            "threadId": null,
+            "reactions": [{"emoji":"👍","users":["user_pm","user_sales"]}],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_gen_15",
+            "senderId": "user_mkt_lead",
+            "content": "Great news everyone — our Q4 brand awareness campaign exceeded targets by 23%! Social media impressions were up 40% and we saw a 15% increase in inbound leads compared to Q3.\n\nBig shoutout to Jessica for the amazing creative assets and Lisa for keeping the project on rails. This momentum sets us up perfectly for the Q1 campaign. More details in #q1-campaign.\n\n📊 Full report is in the marketing shared drive if anyone wants the deep dive.",
+            "timestamp": "2025-12-18T14:00:00.000000Z",
+            "threadId": null,
+            "reactions": [{"emoji":"📊","users":["user_cfo","user_pm","user_design"]},{"emoji":"🎉","users":["user_hr","user_sales"]}],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_gen_16",
+            "senderId": "user_eng_mgr",
+            "content": "Reminder to all engineering team members: code freeze starts Dec 23. No production deployments until Jan 6. Please wrap up any pending PRs by end of day Dec 22.\n\nException: Critical security patches can be deployed with my approval + David's sign-off.\n\nAlso, the Q2 server capacity planning doc is in the shared drive. Please review and add your input by Jan 15.",
+            "timestamp": "2025-12-19T08:00:00.000000Z",
+            "threadId": null,
+            "reactions": [{"emoji":"✅","users":["user_eng_lead","user_devops"]}],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_gen_17",
+            "senderId": "user_hr",
+            "content": "📢 Quick reminder: Annual compliance training is due by Jan 31. The module covers:\n- Anti-harassment policy updates\n- Data privacy (GDPR/CCPA refresher)\n- Workplace safety\n- Code of conduct\n\nIt takes about 45 minutes. Please complete it during your first week back from holiday break. Link: training.acmecorp.com\n\nThank you all for a great year! 🙏",
+            "timestamp": "2025-12-19T09:00:00.000000Z",
+            "threadId": null,
+            "reactions": [{"emoji":"👍","users":["user_office_mgr"]}],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_gen_18",
+            "senderId": "user_cfo",
+            "content": "One more thing for the year-end: Reminder that the company-sponsored Holiday Party is this Friday, Dec 20, at 6 PM in the main lobby. Admin is handling all catering, decorations, and entertainment. It's going to be a great evening!\n\n**Important note**: Individual departments should NOT submit separate purchase orders for holiday gatherings or social events this quarter. Everything is covered under the company party. Any department-level social event POs will be rejected per our current category freeze policy.\n\nSee you all Friday! 🎉",
             "timestamp": "2025-12-19T14:00:00.000000Z",
             "threadId": null,
-            "reactions": [{"emoji": "🎉", "users": ["user_hr","user_office_mgr","user_sales","user_design","user_eng_lead"]}],
+            "reactions": [{"emoji":"🎉","users":["user_hr","user_office_mgr","user_sales","user_design","user_eng_lead","user_devops","user_pm"]}],
             "isEdited": false
           },
           {
-            "messageId": "msg_gen_9",
+            "messageId": "msg_gen_19",
             "senderId": "user_devops",
             "content": "Will there be vegetarian options at the party? Asking for a few of us.",
             "timestamp": "2025-12-19T14:10:00.000000Z",
@@ -373,113 +463,48 @@
             "isEdited": false
           },
           {
-            "messageId": "msg_gen_10",
+            "messageId": "msg_gen_20",
             "senderId": "user_office_mgr",
-            "content": "Yes Ryan! The caterer confirmed vegan, vegetarian, and gluten-free options. We also have a spreadsheet for dietary preferences — I'll share the link shortly.",
+            "content": "Yes Ryan! The caterer confirmed vegan, vegetarian, and gluten-free options. We also have a dietary preferences form — I'll share the link shortly. If you have allergies, please fill it out by Thursday noon so the caterer can prepare accordingly.",
             "timestamp": "2025-12-19T14:15:00.000000Z",
             "threadId": null,
-            "reactions": [{"emoji": "🙏", "users": ["user_devops"]}],
+            "reactions": [{"emoji":"🙏","users":["user_devops"]}],
             "isEdited": false
           },
           {
-            "messageId": "msg_gen_11",
+            "messageId": "msg_gen_21",
             "senderId": "user_it_mgr",
-            "content": "PSA: We're rolling out the new VPN client next week. Everyone will need to update by Jan 5. I'll send instructions via email. If you have any issues, ping me or post in #it-helpdesk.\n\nAlso, the guest Wi-Fi password has been updated. New password is on the poster by reception.",
+            "content": "PSA: We're rolling out the new VPN client (v2.8) next week. Everyone will need to update by Jan 5. I'll send detailed instructions via email, but the short version:\n\n1. Download from vpn.acmecorp.com/update\n2. Uninstall old client first\n3. Install new client\n4. Use your existing credentials\n\nIf you have any issues, post in #it-helpdesk or call ext. 4357.\n\nAlso, the guest Wi-Fi password has been rotated. New password is on the poster by reception. Don't share it on Slack please! 😄",
             "timestamp": "2025-12-20T09:00:00.000000Z",
             "threadId": null,
             "reactions": [],
             "isEdited": false
           },
           {
-            "messageId": "msg_gen_12",
-            "senderId": "user_eng_mgr",
-            "content": "Reminder to all engineering team members: code freeze starts Dec 23. No deployments until Jan 6. Please wrap up any pending PRs by end of day tomorrow.\n\nAlso, the Q2 server capacity planning doc is in the shared drive. Please review and add your input by Jan 15.",
+            "messageId": "msg_gen_22",
+            "senderId": "user_design",
+            "content": "Hey everyone, sharing a quick preview of the new brand guidelines we've been working on. The updated color palette and typography system will be rolling out in Q1. Please don't use these in production yet — they're still in draft:\n\n- Primary: Midnight Blue (#1a1f36)\n- Secondary: Coral (#ff6b6b)\n- Accent: Teal (#4ecdc4)\n- Font: Inter (replacing Helvetica)\n\nFull guidelines doc will be shared in January. Feedback welcome in #design-studio!",
             "timestamp": "2025-12-20T10:00:00.000000Z",
             "threadId": null,
-            "reactions": [{"emoji": "✅", "users": ["user_eng_lead","user_devops"]}],
-            "isEdited": false
-          }
-        ],
-        "finance-approvals": [
-          {
-            "messageId": "msg_fa_old_1",
-            "senderId": "user_finance_mgr",
-            "content": "FYI — November PO batch has been fully processed and closed. All invoices matched. Good work, John.",
-            "timestamp": "2025-12-01T08:00:00.000000Z",
-            "threadId": null,
-            "reactions": [{"emoji": "👍", "users": ["user_finance_1"]}],
+            "reactions": [{"emoji":"🎨","users":["user_mkt_lead","user_pm"]}],
             "isEdited": false
           },
           {
-            "messageId": "msg_fa_old_2",
-            "senderId": "user_finance_1",
-            "content": "Thanks Sarah. A couple of November items had slight overcharges — I've flagged them for reconciliation. Nothing major, about $45 total across three POs.",
-            "timestamp": "2025-12-01T08:30:00.000000Z",
+            "messageId": "msg_gen_23",
+            "senderId": "user_eng_lead",
+            "content": "Quick shoutout to Ryan for fixing that nasty memory leak in the notification service last night. Response times are back to normal. Great debugging work! 🔧",
+            "timestamp": "2025-12-20T11:00:00.000000Z",
             "threadId": null,
-            "reactions": [],
+            "reactions": [{"emoji":"💪","users":["user_devops","user_eng_mgr"]}],
             "isEdited": false
           },
           {
-            "messageId": "msg_fa_old_3",
-            "senderId": "user_finance_mgr",
-            "content": "Good catch. Follow up with Rachel on those — she can reach out to the vendors for credit memos. Let's make sure we close those out before year-end.",
-            "timestamp": "2025-12-01T09:00:00.000000Z",
+            "messageId": "msg_gen_24",
+            "senderId": "user_office_mgr",
+            "content": "Party tonight!! 🎉🎄 A few logistics:\n\n- Doors open at 5:30 PM\n- Cocktail hour 5:30-6:00\n- Dinner at 6:00\n- Awards and speeches at 7:00\n- DJ and dancing from 7:30 onwards\n- Event wraps at 10:00 PM\n\nParking: Validated in the east lot. Just bring your ticket to the reception desk.\n\nDress code: Smart casual. No need for formal wear!\n\nSee everyone there! 💃🕺",
+            "timestamp": "2025-12-20T14:00:00.000000Z",
             "threadId": null,
-            "reactions": [],
-            "isEdited": false
-          },
-          {
-            "messageId": "msg_fa_old_4",
-            "senderId": "user_finance_mgr",
-            "content": "Also John, heads up — I'll be posting the December purchasing rules soon. This year is tighter than last year due to the Q4 budget overrun in marketing. Expect stricter limits.",
-            "timestamp": "2025-12-10T08:00:00.000000Z",
-            "threadId": null,
-            "reactions": [],
-            "isEdited": false
-          },
-          {
-            "messageId": "msg_fa_old_5",
-            "senderId": "user_finance_1",
-            "content": "Understood. I'll keep an eye out for the updated rules. Should I hold off on processing any December requests until then?",
-            "timestamp": "2025-12-10T08:15:00.000000Z",
-            "threadId": null,
-            "reactions": [],
-            "isEdited": false
-          },
-          {
-            "messageId": "msg_fa_old_6",
-            "senderId": "user_finance_mgr",
-            "content": "Yes, please hold all December POs until I post the official rules. I need to finalize a couple of things with Tom first.",
-            "timestamp": "2025-12-10T08:20:00.000000Z",
-            "threadId": null,
-            "reactions": [{"emoji": "👍", "users": ["user_finance_1"]}],
-            "isEdited": false
-          },
-          {
-            "messageId": "msg_rules_dec_2025",
-            "senderId": "user_finance_mgr",
-            "content": "Hi Team, regarding Dec 2025 purchase requests, strict rules in effect:\n\n1. **Budget**: Max $2,000 per hardware item.\n2. **Vendors**: Hardware/IT purchases must go through **CorpTech Solutions** ONLY. Office Supplies must use **OfficeDepot** ONLY.\n3. **Category Freeze**: Absolutely NO purchases under 'Team Building' or 'Entertainment' categories. No exceptions.\n4. **Software**: Annual subscriptions ONLY. No monthly billing.\n\nThese are hard rules. Any edge cases or exceptions must be explicitly approved by me in writing. Please DM me if you have questions on specific items.\n\nLet's keep this clean — year-end audit is coming.",
-            "timestamp": "2025-12-22T08:00:00.000000Z",
-            "threadId": null,
-            "reactions": [{"emoji": "👀", "users": ["user_finance_1"]}],
-            "isEdited": false
-          },
-          {
-            "messageId": "msg_fa_post_1",
-            "senderId": "user_finance_1",
-            "content": "Got it, Sarah. Clear rules. I'll start reviewing the incoming requests against these. Will DM you on anything that doesn't fit neatly.",
-            "timestamp": "2025-12-22T08:15:00.000000Z",
-            "threadId": null,
-            "reactions": [],
-            "isEdited": false
-          },
-          {
-            "messageId": "msg_fa_post_2",
-            "senderId": "user_finance_mgr",
-            "content": "Perfect. One more thing — I know some teams submitted requests before these rules were posted. Those still need to comply. No grandfathering.",
-            "timestamp": "2025-12-22T08:20:00.000000Z",
-            "threadId": null,
-            "reactions": [],
+            "reactions": [{"emoji":"🎉","users":["user_hr","user_sales","user_design","user_eng_lead","user_devops","user_pm","user_it_mgr"]},{"emoji":"💃","users":["user_mkt_lead"]}],
             "isEdited": false
           }
         ],
@@ -487,17 +512,17 @@
           {
             "messageId": "msg_eng_1",
             "senderId": "user_eng_mgr",
-            "content": "Team, quick update on Q1 planning. We have two new hires starting Jan 13. @Alex, you're leading their onboarding. Make sure we have all the equipment ready by Jan 10.\n\nHere's what they'll need:\n- Laptops (standard dev spec)\n- External monitors\n- Peripherals (keyboard, mouse, headset)\n\nPlease coordinate with IT and Finance on procurement.",
-            "timestamp": "2025-12-18T09:00:00.000000Z",
+            "content": "Team, let's talk Q1 onboarding logistics. We have two new engineers starting Jan 13:\n\n- **Priya Sharma** — Backend engineer, joining from DataCorp. She'll be on the payments team.\n- **Marcus Johnson** — Frontend engineer, fresh grad from MIT. He'll be on the dashboard team.\n\n@Alex, you're leading their onboarding. Here's the checklist:\n1. Equipment setup (laptops, monitors, peripherals) — must be ready by Jan 10\n2. Dev environment access (GitHub, Jira, AWS, Datadog)\n3. First-week orientation schedule\n4. Buddy assignments\n\nPlease coordinate with IT and Finance on equipment procurement. Let's make sure day one is smooth.",
+            "timestamp": "2025-12-15T09:00:00.000000Z",
             "threadId": null,
-            "reactions": [{"emoji": "👍", "users": ["user_eng_lead"]}],
+            "reactions": [{"emoji":"👍","users":["user_eng_lead"]}],
             "isEdited": false
           },
           {
             "messageId": "msg_eng_2",
             "senderId": "user_eng_lead",
-            "content": "On it, James. I've been looking at the MacBook Pro M3 for the laptops — great performance for our dev stack. Found them on Amazon for $1,999 each, which is basically at the $2,000 hardware cap.\n\nFor monitors, I'm thinking the 27\" 4K panels from CorpTech Solutions at $450 each.\n\nI'll submit POs for both.",
-            "timestamp": "2025-12-18T09:30:00.000000Z",
+            "content": "On it, James. I've started looking at equipment options:\n\n**Laptops**: MacBook Pro M3 — our standard dev spec. Best performance for Docker, compilation, and our dev stack. Found them on Amazon for $1,999 each, which is basically at the hardware budget cap.\n\n**Monitors**: 27\" 4K panels from CorpTech Solutions at $450 each. Same model we've been deploying office-wide.\n\n**Peripherals**: We have plenty of spare keyboards and mice in the supply closet. I'll check inventory tomorrow.\n\nI'll submit POs for the laptops and monitors. Peripherals should be covered.",
+            "timestamp": "2025-12-15T09:30:00.000000Z",
             "threadId": null,
             "reactions": [],
             "isEdited": false
@@ -505,8 +530,8 @@
           {
             "messageId": "msg_eng_3",
             "senderId": "user_it_mgr",
-            "content": "Good choices, Alex. The M3 is definitely what I'd recommend for the dev environment. I've tested it with our Docker setup and it runs circles around the old Intel machines.\n\nThe 27\" 4K monitors are solid too — we've deployed about 20 of them already across the office. No complaints.",
-            "timestamp": "2025-12-18T10:00:00.000000Z",
+            "content": "Good choices, Alex. Quick notes on the M3:\n\n- Tested it extensively with our Docker setup — runs circles around the old Intel machines\n- Battery life is excellent for all-day meetings\n- The unified memory architecture handles our Kubernetes local dev clusters beautifully\n- Make sure to get the 16GB RAM config minimum (the $1,999 model has that)\n\nThe 27\" 4K monitors are solid too — we've deployed about 20 of them already. Zero complaints. Good color accuracy which is nice for anyone doing frontend work.",
+            "timestamp": "2025-12-15T10:00:00.000000Z",
             "threadId": null,
             "reactions": [],
             "isEdited": false
@@ -514,8 +539,8 @@
           {
             "messageId": "msg_eng_4",
             "senderId": "user_eng_mgr",
-            "content": "Perfect. Budget-wise, MacBooks at $1,999 are just under the $2,000 cap, so we should be fine. We've always bought them through Amazon and finance never pushed back. No reason this year would be different.\n\nAlex, just submit the PO and cc me. I'll vouch for it if there are any questions.",
-            "timestamp": "2025-12-18T10:15:00.000000Z",
+            "content": "Great specs, David. Budget-wise, MacBooks at $1,999 are just under the $2,000 cap, so we should be fine on price. And we've always bought them through Amazon — they have the best prices and fastest shipping. Finance has never pushed back on Amazon orders in the past. No reason this year would be different.\n\nAlex, just submit the PO and cc me. I'll vouch for it if there are any questions from finance.",
+            "timestamp": "2025-12-15T10:15:00.000000Z",
             "threadId": null,
             "reactions": [],
             "isEdited": false
@@ -523,8 +548,8 @@
           {
             "messageId": "msg_eng_5",
             "senderId": "user_devops",
-            "content": "Quick question while we're on the topic — are we also upgrading the CI/CD servers in Q1? I noticed the build times have been creeping up. Might want to add that to the equipment list.",
-            "timestamp": "2025-12-18T10:30:00.000000Z",
+            "content": "Quick question while we're talking equipment — are we also planning the CI/CD server upgrades for Q1? Build times have been creeping up. Last week's deploy took 18 minutes which is way too long.\n\nAfter my pipeline optimization we're down to 6 minutes for deploys, but the actual build/test cycle is still slow due to server limitations.",
+            "timestamp": "2025-12-15T10:30:00.000000Z",
             "threadId": null,
             "reactions": [],
             "isEdited": false
@@ -532,8 +557,8 @@
           {
             "messageId": "msg_eng_6",
             "senderId": "user_eng_mgr",
-            "content": "Good point, Ryan. Let's table the server discussion for Q2 planning. Right now the priority is getting the new hires set up. I don't want to overload the December PO batch.\n\nDavid, can you put together a server capacity assessment for our Jan planning meeting?",
-            "timestamp": "2025-12-18T10:45:00.000000Z",
+            "content": "Good point, Ryan. Let's table the server discussion for Q2 planning. Right now the priority is getting the new hires set up. I don't want to overload the December PO batch with multiple large requests.\n\nDavid, can you put together a server capacity assessment for our Jan planning meeting? Include current utilization, projected growth, and upgrade options with pricing.",
+            "timestamp": "2025-12-15T10:45:00.000000Z",
             "threadId": null,
             "reactions": [],
             "isEdited": false
@@ -541,8 +566,8 @@
           {
             "messageId": "msg_eng_7",
             "senderId": "user_it_mgr",
-            "content": "Sure, James. I'll have a full assessment ready by Jan 15. I'll include current utilization, projected growth, and upgrade options with pricing.\n\nSeparately — the server room UPS batteries are due for replacement. Three units, they're getting old and I don't want to risk a power event. I'll submit a separate PO for those.",
-            "timestamp": "2025-12-18T11:00:00.000000Z",
+            "content": "Sure James, I'll have a full assessment ready by Jan 15. I'll include three tiers of upgrade options with cost/benefit analysis.\n\nSeparately — and this is actually urgent — the server room UPS batteries are due for replacement. Three units showing degraded charge capacity. Ryan and I have been monitoring intermittent power alerts. I don't want to risk a power event during the holiday break when no one's on-site.\n\nI'll submit a separate PO for those UPS batteries ASAP.",
+            "timestamp": "2025-12-15T11:00:00.000000Z",
             "threadId": null,
             "reactions": [],
             "isEdited": false
@@ -550,100 +575,172 @@
           {
             "messageId": "msg_eng_8",
             "senderId": "user_eng_mgr",
-            "content": "Good call on the UPS batteries. Definitely don't wait on those — we can't afford a power failure in the server room. Get that PO in ASAP.",
-            "timestamp": "2025-12-18T11:10:00.000000Z",
+            "content": "Good call on the UPS batteries, David. Definitely don't wait on those — we absolutely cannot afford a power failure in the server room, especially over the holiday break. Get that PO in ASAP.\n\nThe new hire equipment can wait a couple more days if needed, but the UPS situation is a genuine emergency.",
+            "timestamp": "2025-12-15T11:10:00.000000Z",
             "threadId": null,
             "reactions": [],
             "isEdited": false
           },
           {
             "messageId": "msg_eng_9",
-            "senderId": "user_eng_lead",
-            "content": "Update: I submitted both PO requests to John — MacBooks and monitors. Fingers crossed they go through quickly. The new hires' start date is Jan 13 and shipping takes about a week.",
-            "timestamp": "2025-12-23T10:00:00.000000Z",
+            "senderId": "user_devops",
+            "content": "On the UPS topic — I ran diagnostics last night. Battery cell 2 on UPS-03 is showing 62% capacity. The other two units are at 71% and 74%. Manufacturer recommends replacement below 80%. So yeah, we're overdue.\n\nI've set up threshold alerts in our monitoring system. If any unit drops below 50%, we'll get an immediate Slack notification plus email to David and me.",
+            "timestamp": "2025-12-16T08:00:00.000000Z",
             "threadId": null,
             "reactions": [],
             "isEdited": false
           },
           {
             "messageId": "msg_eng_10",
-            "senderId": "user_eng_mgr",
-            "content": "Great. If there are any issues with the MacBook PO, let me know. I'm confident it'll go through — it's under the $2,000 cap and we've been buying from Amazon for years without issue.",
-            "timestamp": "2025-12-23T10:15:00.000000Z",
+            "senderId": "user_it_mgr",
+            "content": "Thanks for the diagnostics, Ryan. Those numbers confirm we need to move quickly. I've already checked with CorpTech Solutions — they have the Dell UPS Battery Backup units in stock. $350 each, so $1,050 total for three. They can ship next-day.\n\nI'll ping John in finance to get the PO moving.",
+            "timestamp": "2025-12-16T08:15:00.000000Z",
             "threadId": null,
-            "reactions": [],
+            "reactions": [{"emoji":"👍","users":["user_eng_mgr"]}],
             "isEdited": false
           },
           {
             "messageId": "msg_eng_11",
-            "senderId": "user_devops",
-            "content": "BTW Alex, can you also grab a couple of USB-C docks for the new hires? The Anker ones are great, about $60 each. We have some spare ones in the supply closet but they're the old USB-A version.",
-            "timestamp": "2025-12-23T10:30:00.000000Z",
+            "senderId": "user_eng_lead",
+            "content": "Switching topics — anyone having issues with the staging environment? I'm getting timeout errors on the API gateway. Started about an hour ago.",
+            "timestamp": "2025-12-17T09:00:00.000000Z",
             "threadId": null,
             "reactions": [],
             "isEdited": false
           },
           {
             "messageId": "msg_eng_12",
+            "senderId": "user_devops",
+            "content": "Yeah, I see it too. Looks like the staging database is running low on connections. Let me increase the pool size and restart the service. Give me 10 minutes.\n\n...Update: Fixed. The connection pool was maxed out because someone left a test script running overnight that was opening connections without closing them. 😤 Please clean up your test scripts, people!",
+            "timestamp": "2025-12-17T09:15:00.000000Z",
+            "threadId": null,
+            "reactions": [{"emoji":"😅","users":["user_eng_lead"]}],
+            "isEdited": true
+          },
+          {
+            "messageId": "msg_eng_13",
+            "senderId": "user_eng_mgr",
+            "content": "Good catch, Ryan. Let's add a connection cleanup cron job to staging so this doesn't happen again. Also, whoever left that script running — please be more careful. Staging resources are shared.\n\nOn a different note — the code review backlog is getting long. Everyone please try to review at least 2 PRs per day this week. We need to clear the queue before code freeze on Dec 23.",
+            "timestamp": "2025-12-17T10:00:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_eng_14",
             "senderId": "user_eng_lead",
-            "content": "I'll check the supply closet first. If we don't have compatible ones, I'll add them to a future request. Let's not pile too much onto the December batch.",
+            "content": "I'll knock out 4-5 reviews today to help with the backlog. Most of mine are small bug fixes anyway.\n\nAlso James — for the new hire onboarding, I've drafted a first-week schedule:\n- Day 1: Equipment setup, HR orientation, meet the team\n- Day 2: Dev environment setup, architecture overview\n- Day 3: Codebase walkthrough, first small task\n- Day 4: Shadow a team member on a sprint task\n- Day 5: Retro + feedback session\n\nI'll share the full doc with you and David for review.",
+            "timestamp": "2025-12-17T10:30:00.000000Z",
+            "threadId": null,
+            "reactions": [{"emoji":"👍","users":["user_eng_mgr"]}],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_eng_15",
+            "senderId": "user_it_mgr",
+            "content": "Alex, for Day 2 dev environment setup — I've pre-created the AWS IAM roles and GitHub team memberships. Just need their corporate email addresses (which HR will provision on Day 1) to activate everything.\n\nI'll prepare a setup script that automates most of the tooling installation. Should cut Day 2 down from a full day to about 2 hours.",
+            "timestamp": "2025-12-17T11:00:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_eng_16",
+            "senderId": "user_eng_lead",
+            "content": "Update: I submitted both PO requests to John in finance — MacBooks and monitors. Fingers crossed they go through quickly. The new hires' start date is Jan 13 and shipping takes about a week, so we really need approval this week.",
+            "timestamp": "2025-12-23T10:00:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_eng_17",
+            "senderId": "user_eng_mgr",
+            "content": "Great, thanks Alex. If there are any issues with the MacBook PO, let me know immediately. I'm confident it'll go through — it's under the $2,000 cap and we've been buying from Amazon for years without a single pushback from finance.\n\nThe monitors through CorpTech should be completely straightforward.",
+            "timestamp": "2025-12-23T10:15:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_eng_18",
+            "senderId": "user_devops",
+            "content": "BTW Alex — can you also grab a couple of USB-C docks for the new hires? The Anker ones are great, about $60 each on Amazon. We have some spare ones in the supply closet but they're the old USB-A version that won't work well with the M3 MacBooks.",
+            "timestamp": "2025-12-23T10:30:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_eng_19",
+            "senderId": "user_eng_lead",
+            "content": "I'll check the supply closet first. If we don't have compatible ones, I'll add them to a future request. Let's not pile too much onto the December batch — the budget rules are tighter this year and I don't want to complicate things.\n\nAlso Ryan, the staging fix is holding up well. No more timeout errors today. 👍",
             "timestamp": "2025-12-23T10:45:00.000000Z",
             "threadId": null,
-            "reactions": [{"emoji": "👍", "users": ["user_devops"]}],
+            "reactions": [{"emoji":"👍","users":["user_devops"]}],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_eng_20",
+            "senderId": "user_eng_mgr",
+            "content": "Good discipline on batching, Alex. Last thing — everyone please remember code freeze starts tomorrow. Final PRs need to be merged by EOD today. No exceptions unless it's a critical security patch.\n\nHave a great holiday break everyone. See you in January! 🎄",
+            "timestamp": "2025-12-23T11:00:00.000000Z",
+            "threadId": null,
+            "reactions": [{"emoji":"🎄","users":["user_eng_lead","user_devops","user_it_mgr"]}],
             "isEdited": false
           }
         ],
-        "q1-campaign": [
+      "q1-campaign": [
           {
             "messageId": "msg_q1c_1",
             "senderId": "user_pm",
-            "content": "Hey team, the Q1 Campaign kickoff meeting is confirmed for Jan 8. Here's the draft timeline:\n\n- Jan 8–15: Creative brief finalization\n- Jan 16–31: Asset production (photography, video, copy)\n- Feb 1–14: Review and revisions\n- Feb 15: Campaign launch\n\nPlease review and flag any conflicts.",
-            "timestamp": "2025-12-16T09:00:00.000000Z",
+            "content": "Hey team, welcome to the Q1 Campaign channel! I've set this up so we can coordinate everything in one place. Let me start with the big picture:\n\n**Q1 Campaign Goal**: Launch a multi-channel product awareness campaign targeting enterprise buyers. This is our biggest marketing push of the year and directly tied to our Q1 revenue targets.\n\n**Key Metrics**:\n- 50% increase in inbound demo requests\n- 25% improvement in brand recall (survey-based)\n- 200+ qualified leads from campaign\n\nI'll share the detailed timeline in a follow-up message. Let's make this one count! 💪",
+            "timestamp": "2025-12-10T09:00:00.000000Z",
             "threadId": null,
-            "reactions": [{"emoji": "👍", "users": ["user_mkt_lead","user_design"]}],
+            "reactions": [{"emoji":"💪","users":["user_mkt_lead","user_design"]}],
             "isEdited": false
           },
           {
             "messageId": "msg_q1c_2",
             "senderId": "user_mkt_lead",
-            "content": "Thanks Lisa. Timeline looks good. One critical dependency — we need professional photography equipment for the product shoots in the Jan 16–31 window. I've been researching cameras and the Canon EOS R5 Kit is the industry standard for this kind of work.\n\nI know it's $3,899 which is over the hardware budget cap, but this is a one-time investment that we'll use for multiple campaigns going forward.",
-            "timestamp": "2025-12-16T09:30:00.000000Z",
+            "content": "Love the ambition, Lisa! These targets are aggressive but achievable if we execute well. A few thoughts on strategy:\n\n1. **Content pillar**: Product photography + video testimonials. We need premium visual assets — stock photos won't cut it for enterprise buyers.\n2. **Channels**: LinkedIn (primary), Google Ads, industry publications, email nurture\n3. **Budget**: I'll work within the allocated Q1 marketing budget. Most costs are ad spend, but we have one critical equipment need (more on that below).\n\nThe biggest gap right now is professional photography. We've been outsourcing product shoots at $2,000-$3,000 per session, which adds up fast. I want to bring this in-house.",
+            "timestamp": "2025-12-10T09:30:00.000000Z",
             "threadId": null,
             "reactions": [],
             "isEdited": false
           },
           {
             "messageId": "msg_q1c_3",
-            "senderId": "user_design",
-            "content": "Agreed with Sarah. I've used the R5 in previous jobs — the image quality is unmatched for product photography. We've been outsourcing all our product shoots which costs us $2,000–$3,000 per session. Owning the kit would pay for itself within two shoots.",
-            "timestamp": "2025-12-16T10:00:00.000000Z",
+            "senderId": "user_pm",
+            "content": "Makes sense on the in-house photography angle. What would that require in terms of equipment?",
+            "timestamp": "2025-12-10T09:45:00.000000Z",
             "threadId": null,
             "reactions": [],
             "isEdited": false
           },
           {
             "messageId": "msg_q1c_4",
-            "senderId": "user_pm",
-            "content": "The ROI argument is strong. But $3,899 is almost double the $2,000 hardware cap. Will finance approve it?\n\n@S. Jones have you checked with the finance team yet?",
-            "timestamp": "2025-12-16T10:30:00.000000Z",
+            "senderId": "user_mkt_lead",
+            "content": "I've been researching cameras extensively. The Canon EOS R5 Kit is the industry standard for this kind of professional product photography. It includes the body, a versatile lens, and basic lighting setup. Everything we'd need to get started.\n\nThe kit is $3,899 from B&H Photo. I know that's over the typical hardware budget cap, but consider the ROI:\n- We spend $2,000-$3,000 per outsourced photo session\n- We need at least 4-5 sessions for Q1 alone\n- That's $8,000-$15,000 in outsourcing costs\n- Owning the kit pays for itself within 2 shoots\n\nPlus, Jessica has extensive experience with the R5 from her previous agency work. We have the talent in-house to use it effectively.",
+            "timestamp": "2025-12-10T10:00:00.000000Z",
             "threadId": null,
             "reactions": [],
             "isEdited": false
           },
           {
             "messageId": "msg_q1c_5",
-            "senderId": "user_mkt_lead",
-            "content": "Not yet. I'll reach out to John in finance and see what's possible. If the standard rules say no, I'll escalate to Sarah Jenkins for an exception. This is too important for Q1 to skip.",
-            "timestamp": "2025-12-16T11:00:00.000000Z",
+            "senderId": "user_design",
+            "content": "Can confirm on the R5 — I used it extensively at my previous agency. Highlights:\n\n- 45MP full-frame sensor: incredible detail, can crop aggressively without losing quality\n- 8K video capability (for video testimonials)\n- IBIS (in-body image stabilization): shoot handheld for quick setups without a tripod\n- Dual card slots for backup during shoots\n- Weather-sealed body for outdoor product shots\n\nFor our product line, I'd estimate 3-4 hours of shooting per product category, with minimal post-processing needed. The image quality straight out of camera is magazine-ready.\n\nI've put together a sample mood board showing what R5 product photography looks like — I'll share it in #design-studio.",
+            "timestamp": "2025-12-10T10:30:00.000000Z",
             "threadId": null,
-            "reactions": [],
+            "reactions": [{"emoji":"📸","users":["user_mkt_lead","user_pm"]}],
             "isEdited": false
           },
           {
             "messageId": "msg_q1c_6",
             "senderId": "user_pm",
-            "content": "Makes sense. Also, the vendor might be an issue — B&H Photo isn't our usual hardware vendor. Finance might want us to go through CorpTech.",
-            "timestamp": "2025-12-16T11:15:00.000000Z",
+            "content": "The ROI argument is compelling. But $3,899 is almost double the $2,000 hardware cap. That's going to flag immediately in Finance. Also, B&H Photo isn't our standard hardware vendor — Finance usually wants everything through CorpTech.\n\nHave we checked if CorpTech carries this camera?",
+            "timestamp": "2025-12-10T11:00:00.000000Z",
             "threadId": null,
             "reactions": [],
             "isEdited": false
@@ -651,8 +748,8 @@
           {
             "messageId": "msg_q1c_7",
             "senderId": "user_mkt_lead",
-            "content": "I checked — CorpTech doesn't carry Canon professional camera equipment. B&H Photo is the only authorized professional dealer that has the full kit in stock. They're actually the standard vendor for this kind of specialized equipment in the industry.",
-            "timestamp": "2025-12-16T11:30:00.000000Z",
+            "content": "I already checked — CorpTech doesn't carry Canon professional camera equipment. They focus on IT/computing hardware. B&H Photo is the only authorized professional dealer that has the full kit in stock. They're actually THE standard vendor for professional photo/video equipment in the industry — not a consumer retail channel like Amazon.\n\nI'll reach out to John in finance and see what's possible. If standard rules say no, I'll escalate to Sarah Jenkins for an exception. This is too important for Q1 to let the standard cap block us.",
+            "timestamp": "2025-12-10T11:15:00.000000Z",
             "threadId": null,
             "reactions": [],
             "isEdited": false
@@ -660,8 +757,8 @@
           {
             "messageId": "msg_q1c_8",
             "senderId": "user_design",
-            "content": "Can confirm — B&H is THE go-to for professional photo/video equipment. They're not a consumer retail channel like Amazon. They're a specialized professional dealer.\n\nAlso, random thought — I should probably upgrade my desk setup too. My current chair is killing my back. I'll put in a separate request for an ergonomic chair.",
-            "timestamp": "2025-12-16T12:00:00.000000Z",
+            "content": "Confirming Lisa's concern — B&H is definitely NOT a consumer retailer. They're a specialized professional equipment dealer, one of the most respected in the industry. They provide professional-grade warranty, support, and service that consumer channels don't offer. Every agency and production house I've worked with buys from B&H.\n\nI really hope Finance can see the difference between ordering a camera from B&H and ordering a laptop from Amazon. Completely different categories of vendor.",
+            "timestamp": "2025-12-10T11:30:00.000000Z",
             "threadId": null,
             "reactions": [],
             "isEdited": false
@@ -669,28 +766,73 @@
           {
             "messageId": "msg_q1c_9",
             "senderId": "user_pm",
-            "content": "Good luck with the chair, Jessica! 😄 Make sure it's within budget though.\n\nOK so action items:\n1. Sarah J → Submit camera PO to John, escalate to Sarah Jenkins for exception\n2. Jessica → Submit chair request separately\n3. Lisa (me) → Finalize timeline and share final version by Dec 23\n\nAnything else for this thread?",
-            "timestamp": "2025-12-16T12:30:00.000000Z",
+            "content": "OK here's the draft timeline I promised. Please review:\n\n**Q1 Campaign Timeline:**\n- Dec 23–Jan 7: Holiday break (no work)\n- Jan 8: Campaign kickoff meeting\n- Jan 8–15: Creative brief finalization, photography planning\n- Jan 16–31: Asset production (photography, video, copy)\n- Feb 1–7: First round of creative review\n- Feb 8–14: Revisions and final approval\n- Feb 15: Campaign launch 🚀\n- Feb 15–Mar 31: Campaign running, weekly optimization\n- Apr 1–7: Campaign wrap-up, results analysis\n\nThe Jan 16–31 photography window is critical. If we're getting the Canon camera, we need it in hand by Jan 15 at the latest. That means the PO needs to be approved this week.",
+            "timestamp": "2025-12-12T09:00:00.000000Z",
             "threadId": null,
-            "reactions": [{"emoji": "✅", "users": ["user_mkt_lead","user_design"]}],
+            "reactions": [{"emoji":"👍","users":["user_mkt_lead","user_design"]}],
             "isEdited": false
           },
           {
             "messageId": "msg_q1c_10",
             "senderId": "user_mkt_lead",
-            "content": "All good from my end. I'll DM John with the camera details today. Wish me luck! 📸",
+            "content": "Timeline looks good, Lisa. The Jan 15 equipment deadline is tight but doable — B&H ships within 1-2 business days. As long as the PO is approved by Jan 10ish, we're fine.\n\nI'll prioritize the camera PO this week. Jessica, can you start pulling together the shot list for the first product category in the meantime? That way we're ready to go the moment the camera arrives.",
+            "timestamp": "2025-12-12T09:30:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_q1c_11",
+            "senderId": "user_design",
+            "content": "Already on it! Draft shot list for the first category (Enterprise Platform product page):\n\n1. Hero shot — product dashboard on 27\" monitor, lifestyle setting\n2. Feature detail shots (x5) — close-ups of key UI elements\n3. Team collaboration shot — 3-4 people around a screen\n4. Mobile responsive shots — product on phone/tablet\n5. Before/after comparison — old vs new interface\n\nI'll refine this based on the creative brief once we kick off in January.\n\nBTW — completely unrelated but I should probably mention — I'm also going to submit a separate request for an ergonomic chair. My back situation is getting worse and I can't keep working like this. Separate issue from the campaign stuff! 😅",
+            "timestamp": "2025-12-12T10:00:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_q1c_12",
+            "senderId": "user_pm",
+            "content": "Great shot list, Jessica! Very thorough. We can finalize in the kickoff meeting.\n\nAnd good luck with the chair request! Make sure it's within budget though 😄\n\nOK so action items from this thread:\n1. **Sarah J** → Submit camera PO to John, escalate to Sarah Jenkins for exception if needed\n2. **Jessica** → Continue shot list development, submit chair request separately\n3. **Lisa (me)** → Finalize timeline doc and share final version by Dec 23\n4. **All** → Review creative brief draft (shared in #design-studio)\n\nAnything else before we break for the holidays?",
+            "timestamp": "2025-12-12T10:30:00.000000Z",
+            "threadId": null,
+            "reactions": [{"emoji":"✅","users":["user_mkt_lead","user_design"]}],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_q1c_13",
+            "senderId": "user_mkt_lead",
+            "content": "One more thing — I've been looking at competitor campaigns for inspiration. A few observations:\n\n- CompetitorA just launched a major campaign with professional product photography. Their image quality is noticeably better than ours.\n- CompetitorB is doing video-first content. Something for us to consider for Q2.\n- The industry trend is clearly moving toward authentic, high-quality visuals over stock photography.\n\nThis reinforces why the Canon investment is so critical. We can't compete with stock photos.\n\nI'll DM John with the camera details today. Wish me luck! 📸",
             "timestamp": "2025-12-16T13:00:00.000000Z",
             "threadId": null,
-            "reactions": [{"emoji": "🤞", "users": ["user_pm","user_design"]}],
+            "reactions": [{"emoji":"🤞","users":["user_pm","user_design"]}],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_q1c_14",
+            "senderId": "user_pm",
+            "content": "Just saw Tom's note in #general about the Lead Gen Expansion project being paused. Quick check — does that affect our Q1 Campaign budget at all? We're a different project, right?",
+            "timestamp": "2025-12-18T11:00:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_q1c_15",
+            "senderId": "user_mkt_lead",
+            "content": "No, our Q1 Campaign is completely separate from Lead Gen Expansion. We have our own budget line item. Tom confirmed in #general that only net-new purchases earmarked specifically for Lead Gen are affected. Our campaign was approved in the Q1 planning cycle independently.\n\nSo camera request, ad spend, everything for our campaign proceeds as normal. Just wanted to clarify before anyone panics! 😄",
+            "timestamp": "2025-12-18T11:15:00.000000Z",
+            "threadId": null,
+            "reactions": [{"emoji":"👍","users":["user_pm"]}],
             "isEdited": false
           }
         ],
-        "office-ops": [
+      "office-ops": [
           {
             "messageId": "msg_ops_1",
             "senderId": "user_office_mgr",
-            "content": "Hi all, year-end office supplies inventory is done. We're well stocked on basics (paper, pens, toner). A few items need attention:\n\n- Whiteboard markers: running low, will reorder from OfficeDepot\n- Hand sanitizer: fully stocked\n- Printer paper: good through February\n- First aid kits: expiring in March, will plan a Q1 reorder\n\nLet me know if your team needs anything else.",
-            "timestamp": "2025-12-17T08:00:00.000000Z",
+            "content": "Hi all, year-end office supplies inventory is done! Here's the full rundown:\n\n**Well Stocked:**\n- Printer paper (A4 and Letter) — good through February\n- Pens, pencils, highlighters — full stock\n- Toner cartridges — 8 spares for each printer model\n- Hand sanitizer — fully stocked at all stations\n- Paper towels and tissue — good through March\n\n**Running Low:**\n- Whiteboard markers (especially red and green) — will reorder from OfficeDepot\n- Sticky notes (large size) — down to last pack\n- Binder clips (medium) — almost out\n\n**Need Replacement:**\n- First aid kits — supplies expiring in March, will plan Q1 reorder\n- Ergonomic wrist rests — several have worn out\n\nLet me know if your team needs anything else!",
+            "timestamp": "2025-12-12T08:00:00.000000Z",
             "threadId": null,
             "reactions": [],
             "isEdited": false
@@ -698,8 +840,8 @@
           {
             "messageId": "msg_ops_2",
             "senderId": "user_hr",
-            "content": "Thanks Nina. Quick question — a few team members have mentioned their desk chairs are getting uncomfortable. Especially folks who've been here 3+ years. Is there a standard process for requesting ergonomic upgrades?",
-            "timestamp": "2025-12-17T09:00:00.000000Z",
+            "content": "Thanks Nina, great inventory work! One thing I've been hearing from several team members — desk chairs. A few people who've been here 3+ years are complaining about discomfort, especially lower back issues. Is there a standard process for requesting ergonomic upgrades?",
+            "timestamp": "2025-12-12T09:00:00.000000Z",
             "threadId": null,
             "reactions": [],
             "isEdited": false
@@ -707,53 +849,53 @@
           {
             "messageId": "msg_ops_3",
             "senderId": "user_office_mgr",
-            "content": "Good question, Mike. Generally, employees can request an ergonomic assessment through HR. If the assessment recommends an upgrade, we can process it as an Office Supplies purchase through OfficeDepot.\n\nFor standard ergonomic chairs, we typically approve models in the $150–$250 range. Anything above that would need special justification and Finance Manager approval.",
-            "timestamp": "2025-12-17T09:30:00.000000Z",
+            "content": "Good question, Mike. Here's the standard process:\n\n1. Employee reports discomfort to HR or Office Ops\n2. We schedule an ergonomic assessment (I can do these — I'm certified)\n3. If the assessment recommends an upgrade, we process it as an Office Supplies purchase through OfficeDepot\n4. Finance reviews and approves based on the justification\n\nFor standard ergonomic chairs, we typically approve models in the **$150–$250 range**. Our go-to options from OfficeDepot:\n- Autonomous ErgoChair Pro — $249 (best overall)\n- HON Ignition 2.0 — $199 (good mid-range)\n- Staples Hyken — $169 (budget option)\n\nAnything significantly above that range would need special justification and Finance Manager approval. The key is demonstrating a clear ergonomic need — not just preference for a premium brand.",
+            "timestamp": "2025-12-12T09:30:00.000000Z",
             "threadId": null,
             "reactions": [],
             "isEdited": false
           },
           {
             "messageId": "msg_ops_4",
-            "senderId": "user_design",
-            "content": "Nina, I'm one of the people who needs a new chair! My current one is over 3 years old and my lower back has been suffering. I've been looking at the Herman Miller Aeron — it's the gold standard for ergonomic seating. OfficeDepot carries it.\n\nI know it's $1,400, which is above the typical range you mentioned. But for someone who sits 8+ hours a day doing design work, I think it's justified from a health perspective.",
-            "timestamp": "2025-12-17T10:00:00.000000Z",
+            "senderId": "user_procurement",
+            "content": "Adding to Nina's list — we have negotiated volume pricing with OfficeDepot for standard ergonomic chairs. If we batch 5+ chair orders, we get an additional 10% discount. Something to consider if multiple people need upgrades.\n\nAlso, a reminder: all office supplies purchases must go through OfficeDepot per our vendor agreement. Even if you find a better price elsewhere, we're contractually committed to OfficeDepot for this category.",
+            "timestamp": "2025-12-12T10:00:00.000000Z",
             "threadId": null,
             "reactions": [],
             "isEdited": false
           },
           {
             "messageId": "msg_ops_5",
-            "senderId": "user_office_mgr",
-            "content": "Jessica, I totally understand — the Aeron is an amazing chair. $1,400 is definitely above our normal range though. I'd say submit the request and let Finance decide. They may approve it given the ergonomic justification, or they may suggest a more budget-friendly alternative.\n\nHave you tried the Autonomous ErgoChair? It's about $350 and gets great reviews too.",
-            "timestamp": "2025-12-17T10:30:00.000000Z",
+            "senderId": "user_design",
+            "content": "Nina, I'm definitely one of the people who needs a new chair! My current one is over 3 years old and my lower back has been really suffering. I've been looking at options and here's the thing — for someone who sits 8-10 hours a day doing detailed design work, chair quality makes a HUGE difference.\n\nI've been researching extensively and the Herman Miller Aeron is widely considered the gold standard for ergonomic seating:\n- 12-year manufacturer warranty\n- PostureFit SL spinal support\n- Adjustable everything (arms, tilt, lumbar, seat depth)\n- Breathable mesh keeps you cool\n- Built to last 15+ years\n\nOfficeDepot carries it for $1,400. I know that's well above the typical range Nina mentioned, but I believe it's justified for my use case. The cheaper chairs I've tried at home don't provide adequate lumbar support for extended sitting.\n\nWould it be possible to get an exception?",
+            "timestamp": "2025-12-12T10:30:00.000000Z",
             "threadId": null,
             "reactions": [],
             "isEdited": false
           },
           {
             "messageId": "msg_ops_6",
-            "senderId": "user_hr",
-            "content": "From an HR perspective, I support investing in employee ergonomics. Studies consistently show that proper seating reduces absenteeism and increases productivity. The cost of a good chair is far less than the cost of workers' comp claims or lost productivity from back pain.\n\nThat said, I understand budget constraints. Jessica, I'd recommend submitting the request and making the health case in the justification.",
-            "timestamp": "2025-12-17T11:00:00.000000Z",
-            "threadId": null,
-            "reactions": [{"emoji": "💯", "users": ["user_design"]}],
-            "isEdited": false
-          },
-          {
-            "messageId": "msg_ops_7",
-            "senderId": "user_design",
-            "content": "Thanks for the support, both of you! I'll submit the PO request to John. I'll include the ergonomic justification. Fingers crossed! 🤞\n\nI looked at the Autonomous one but honestly, for my use case I really think the Aeron is worth it. Let's see what Finance says.",
-            "timestamp": "2025-12-17T11:30:00.000000Z",
+            "senderId": "user_office_mgr",
+            "content": "Jessica, I totally understand your frustration — the Aeron is genuinely an amazing chair. I've sat in one at a trade show and the difference is night and day.\n\n$1,400 is definitely well above our normal range though. That's about 6x what we usually approve for a desk chair. I'd say submit the request and let Finance decide — they may approve it given the strong ergonomic justification, or they may suggest a more budget-friendly alternative.\n\nHave you tried the Autonomous ErgoChair Pro? It's about $249 and gets excellent ergonomic reviews. It's not an Aeron, but it's a huge upgrade from a basic office chair. Several people here have them and are very happy.",
+            "timestamp": "2025-12-12T11:00:00.000000Z",
             "threadId": null,
             "reactions": [],
             "isEdited": false
           },
           {
+            "messageId": "msg_ops_7",
+            "senderId": "user_hr",
+            "content": "From an HR perspective, I strongly support investing in employee ergonomics. The research is overwhelming:\n\n- Proper ergonomic seating reduces absenteeism by 25-40%\n- Reduces workers' comp claims related to musculoskeletal issues\n- Increases productivity by reducing discomfort-related distractions\n- Improves employee satisfaction and retention\n\nThe cost of a good chair ($200-$1,400) is far less than the cost of a single workers' comp claim ($5,000+) or the productivity loss from chronic back pain.\n\nThat said, I understand budget constraints. Jessica, I'd recommend submitting the request with the health/ergonomic justification prominently featured. Let the Finance team make the final call on budget.",
+            "timestamp": "2025-12-12T11:30:00.000000Z",
+            "threadId": null,
+            "reactions": [{"emoji":"💯","users":["user_design"]}],
+            "isEdited": false
+          },
+          {
             "messageId": "msg_ops_8",
-            "senderId": "user_procurement",
-            "content": "FYI Nina — the OfficeDepot contract renewal is coming up in February. I'm working on negotiating better bulk pricing for Q1. If anyone has larger orders pending, it might be worth batching them to take advantage of the new rates.\n\nAlso, just a reminder: all office supplies purchases must go through OfficeDepot per our vendor agreement. No ordering from Amazon or other retailers, even if prices seem lower.",
-            "timestamp": "2025-12-18T08:00:00.000000Z",
+            "senderId": "user_design",
+            "content": "Thanks for the support, both of you! I'll submit the PO request to John with the full ergonomic justification. Fingers crossed! 🤞\n\nI did look at the Autonomous ErgoChair, Nina — it's decent but honestly, for my specific needs (scoliosis + long sitting hours), the Aeron's PostureFit system is in a different league. I've tried several mid-range chairs and they just don't provide the right support for my back condition.\n\nBut I understand if Finance says it's too much. I'll include all the details in my request and let them decide.",
+            "timestamp": "2025-12-12T12:00:00.000000Z",
             "threadId": null,
             "reactions": [],
             "isEdited": false
@@ -761,19 +903,73 @@
           {
             "messageId": "msg_ops_9",
             "senderId": "user_office_mgr",
-            "content": "Thanks Rachel. Good to know about the contract renewal. I'll hold off on any non-urgent office supply orders until February if possible.\n\nFor urgent items (whiteboard markers, etc.), I'll process those now at current rates.",
-            "timestamp": "2025-12-18T08:30:00.000000Z",
+            "content": "Totally fair, Jessica. The scoliosis detail is important context — definitely include that in your justification. Good luck!\n\nSwitching topics — **Office Renovation Phase 2** update:\n\nWe're kicking off Jan 20 as planned. Here's what's happening:\n- 3rd floor conference room expansion (Rooms D and E merging into one large room)\n- New collaborative workspace area on 2nd floor\n- Updated lighting in the open plan area (LED upgrade)\n- Fresh paint throughout common areas\n\nExpected completion: Feb 28. During renovation, displaced teams will use temporary desks on the 4th floor. I'll share a detailed floor plan next week.\n\nPlease start cleaning out any personal items from the affected areas by Jan 17.",
+            "timestamp": "2025-12-13T08:00:00.000000Z",
             "threadId": null,
             "reactions": [],
             "isEdited": false
+          },
+          {
+            "messageId": "msg_ops_10",
+            "senderId": "user_hr",
+            "content": "The renovation sounds great, Nina! Will the 4th floor temporary desks have monitors and docking stations? We don't want people to be less productive during the transition.",
+            "timestamp": "2025-12-13T08:30:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_ops_11",
+            "senderId": "user_office_mgr",
+            "content": "Yes! Each temporary desk will have a monitor and USB-C docking station. David's IT team is helping with the setup. We're also adding some noise-canceling dividers since the 4th floor is more open plan.\n\nOne thing we won't have on the temp floor is a kitchen — people will need to use the 3rd floor kitchen (which isn't being renovated). I know it's inconvenient but it's temporary.\n\nI'll also set up a feedback channel so people can report any issues during the renovation period.",
+            "timestamp": "2025-12-13T09:00:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_ops_12",
+            "senderId": "user_procurement",
+            "content": "Nina — heads up on timing. The OfficeDepot contract renewal is coming up in February. I'm working on negotiating better bulk pricing for Q1. If anyone has larger office supplies orders pending, it might be worth batching them to take advantage of the new rates.\n\nThe current contract terms are extended through Feb 15, so anything ordered before then is at current prices. After that, we should see about 8% savings on bulk orders.\n\nAlso, just a general reminder: all office supplies purchases must go through OfficeDepot per our vendor agreement. No ordering from Amazon, Staples online, or other retailers — even if prices seem lower. We have contractual obligations.",
+            "timestamp": "2025-12-15T08:00:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_ops_13",
+            "senderId": "user_office_mgr",
+            "content": "Thanks Rachel, good to know about the renewal. I'll hold off on non-urgent office supply orders until February to take advantage of the better rates.\n\nFor urgent items (whiteboard markers, sticky notes, binder clips), I'll process those now at current rates. We can't wait — the whiteboard marker situation is getting dire! 😄",
+            "timestamp": "2025-12-15T08:30:00.000000Z",
+            "threadId": null,
+            "reactions": [{"emoji":"😄","users":["user_hr"]}],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_ops_14",
+            "senderId": "user_hr",
+            "content": "Nina, one more thought on the chair situation — could we potentially set up a small \"ergonomic showroom\" where employees can try different chairs before requesting specific models? It might help people make better decisions and reduce the chance of expensive returns.\n\nJust a thought for Q1 planning. We could request 3-4 demo chairs from OfficeDepot.",
+            "timestamp": "2025-12-16T09:00:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_ops_15",
+            "senderId": "user_office_mgr",
+            "content": "Love that idea, Mike! I'll reach out to our OfficeDepot account manager to see if they offer demo/trial programs. Some office furniture vendors do 30-day trials. That could save us money in the long run and help employees make more informed choices.\n\nI'll add this to my Q1 planning list. Great suggestion!",
+            "timestamp": "2025-12-16T09:30:00.000000Z",
+            "threadId": null,
+            "reactions": [{"emoji":"👍","users":["user_hr","user_design"]}],
+            "isEdited": false
           }
         ],
-        "procurement": [
+      "procurement": [
           {
             "messageId": "msg_proc_1",
             "senderId": "user_procurement",
-            "content": "Hi team. Quick update on vendor management activities this quarter:\n\n1. Completed annual vendor audits for all Tier 1 suppliers\n2. Negotiated 5% volume discount with CorpTech Solutions (effective Jan 1)\n3. OfficeDepot contract renewal in progress (current terms extended through Feb)\n4. Three new vendor applications under review\n\nLet me know if you need any vendor-related support for year-end procurement.",
-            "timestamp": "2025-12-15T08:00:00.000000Z",
+            "content": "Hi team, here's my quarterly vendor management update:\n\n**Q4 Vendor Audit Results:**\n- Audited 15 Tier 1 suppliers\n- 12 passed without issues\n- 2 received corrective action notices (minor documentation gaps)\n- 1 vendor removed from approved list (details below)\n\n**Key Contract Updates:**\n1. CorpTech Solutions — Negotiated 5% volume discount effective Jan 1 🎉\n2. OfficeDepot — Contract renewal in progress, current terms extended through Feb 15\n3. TechDirect — Maintained as backup vendor with restricted access\n\n**New Vendor Applications:**\n- 3 applications under review for Q1 consideration\n- 1 specialty vendor fast-tracked (industrial supplies category)\n\nLet me know if you need any vendor-related support for year-end procurement.",
+            "timestamp": "2025-12-10T08:00:00.000000Z",
             "threadId": null,
             "reactions": [],
             "isEdited": false
@@ -781,8 +977,17 @@
           {
             "messageId": "msg_proc_2",
             "senderId": "user_finance_mgr",
-            "content": "Thanks Rachel. The 5% discount from CorpTech is great news. Make sure all hardware purchases for Q1 go through them to take advantage of that.\n\nAlso, I want to confirm — what's the current approved vendor list for IT/Hardware purchases?",
-            "timestamp": "2025-12-15T09:00:00.000000Z",
+            "content": "Thanks Rachel, comprehensive update as always. The 5% discount from CorpTech is great news — that should help us stay under budget for Q1 hardware purchases.\n\nTwo questions:\n1. What's the current status of the approved vendor list for IT/Hardware? I need to reference it in the December purchasing rules.\n2. Any concerns about vendor reliability going into Q1?",
+            "timestamp": "2025-12-10T09:00:00.000000Z",
+            "threadId": null,
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_proc_3",
+            "senderId": "user_procurement",
+            "content": "Great questions, Sarah.\n\nOn reliability — no major concerns. CorpTech has been excellent with delivery times (avg 2-3 business days). OfficeDepot is solid as always. TechDirect had one late delivery in Q3 but they've corrected the issue.\n\nI'll post the updated vendor list in a separate message for easy reference and pinning.",
+            "timestamp": "2025-12-10T09:30:00.000000Z",
             "threadId": null,
             "reactions": [],
             "isEdited": false
@@ -790,636 +995,182 @@
           {
             "messageId": "msg_proc_vendor_update",
             "senderId": "user_procurement",
-            "content": "Here's the updated Approved Vendor List for Hardware/IT purchases, effective Q4 2025:\n\n**APPROVED (Standard)**:\n- CorpTech Solutions — Primary vendor for all standard hardware/IT equipment\n\n**APPROVED (Restricted — requires written justification)**:\n- TechDirect — Backup vendor, only when CorpTech cannot fulfill\n\n**REMOVED from approved list**:\n- Amazon — Consumer retail channel, removed due to warranty/support concerns\n- Best Buy — Consumer retail channel, removed\n- Newegg — Consumer retail channel, removed\n\n**Note on specialized equipment**: Specialized professional dealers (e.g., B&H Photo for professional A/V equipment, Grainger for industrial supplies) may be considered on a case-by-case basis with Finance Manager approval. These are NOT consumer retail channels.\n\nPlease ensure all POs comply with this list. Questions? DM me or Sarah.",
-            "timestamp": "2025-12-15T10:00:00.000000Z",
+            "content": "📋 **UPDATED Approved Vendor List — Hardware/IT Purchases (Effective Q4 2025)**\n\n**APPROVED — Standard (no additional approval needed):**\n• **CorpTech Solutions** — Primary vendor for all standard hardware/IT equipment (computers, monitors, peripherals, network equipment, replacement parts)\n\n**APPROVED — Restricted (requires written justification + Finance approval):**\n• **TechDirect** — Backup vendor, only when CorpTech cannot fulfill. Must document CorpTech unavailability.\n\n**REMOVED from approved list (effective Oct 1, 2025):**\n• ~~Amazon~~ — Consumer retail channel. Removed due to: inconsistent warranty terms, lack of enterprise support agreements, and procurement compliance concerns.\n• ~~Best Buy~~ — Consumer retail channel. Removed for same reasons.\n• ~~Newegg~~ — Consumer retail channel. Removed.\n\n**Note on specialized equipment:** Specialized professional dealers (e.g., B&H Photo for professional audio/video/photography equipment, Grainger for industrial supplies, Fisher Scientific for lab equipment) may be considered on a **case-by-case basis** with explicit Finance Manager written approval. These are recognized industry-standard professional dealers, NOT consumer retail channels.\n\n**Office Supplies:** OfficeDepot remains the sole approved vendor. No changes.\n\nPlease ensure all POs comply with this list. Questions? DM me or Sarah.",
+            "timestamp": "2025-12-10T10:00:00.000000Z",
             "threadId": null,
-            "reactions": [{"emoji": "📌", "users": ["user_finance_mgr"]}],
-            "isEdited": false
-          },
-          {
-            "messageId": "msg_proc_4",
-            "senderId": "user_finance_mgr",
-            "content": "Perfect, Rachel. This is exactly what I needed. To be crystal clear for everyone:\n\n- **Consumer retail channels** (Amazon, Best Buy, Newegg): **Hard no.** These are not negotiable.\n- **Specialized professional dealers**: Case-by-case, must have my explicit written approval.\n- **CorpTech Solutions**: Default for all standard hardware. No exceptions needed.\n\nI'll reference this in my December purchasing rules post.",
-            "timestamp": "2025-12-15T10:30:00.000000Z",
-            "threadId": null,
-            "reactions": [{"emoji": "✅", "users": ["user_procurement"]}],
+            "reactions": [{"emoji":"📌","users":["user_finance_mgr"]}],
             "isEdited": false
           },
           {
             "messageId": "msg_proc_5",
-            "senderId": "user_office_mgr",
-            "content": "Rachel, just to confirm — OfficeDepot is still the sole approved vendor for Office Supplies, correct? No changes there?",
-            "timestamp": "2025-12-15T11:00:00.000000Z",
+            "senderId": "user_finance_mgr",
+            "content": "Perfect, Rachel. This is exactly what I needed. Let me be very clear about how I want this applied:\n\n• **Consumer retail channels** (Amazon, Best Buy, Newegg): **Absolute hard no.** Zero exceptions. I don't care if the price is lower or shipping is faster. These vendors do not meet our enterprise procurement standards.\n\n• **Specialized professional dealers** (B&H Photo, Grainger, etc.): Case-by-case basis. Must have my explicit written approval. I'll evaluate each request individually based on whether the equipment is genuinely specialized and unavailable through CorpTech.\n\n• **CorpTech Solutions**: Default for all standard hardware. No justification needed — just submit the PO.\n\nI'll reference this list in my December purchasing rules post. Thanks for keeping this tight, Rachel.",
+            "timestamp": "2025-12-10T10:30:00.000000Z",
             "threadId": null,
-            "reactions": [],
+            "reactions": [{"emoji":"✅","users":["user_procurement"]}],
             "isEdited": false
           },
           {
             "messageId": "msg_proc_6",
-            "senderId": "user_procurement",
-            "content": "Correct, Nina. OfficeDepot remains the sole approved vendor for all Office Supplies. No changes to that policy.",
-            "timestamp": "2025-12-15T11:15:00.000000Z",
+            "senderId": "user_office_mgr",
+            "content": "Rachel, just to confirm — OfficeDepot is still the sole approved vendor for Office Supplies, correct? No changes there? And does the \"specialized dealer\" exception apply to office furniture (e.g., Herman Miller direct)?",
+            "timestamp": "2025-12-10T11:00:00.000000Z",
             "threadId": null,
-            "reactions": [{"emoji": "👍", "users": ["user_office_mgr"]}],
+            "reactions": [],
             "isEdited": false
           },
           {
             "messageId": "msg_proc_7",
             "senderId": "user_procurement",
-            "content": "One more thing — I've noticed a few teams still referencing last year's vendor list. Please make sure everyone is using the Q4 2025 updated list. The Amazon removal is new this quarter and some people may not be aware.\n\nJohn, can you help flag any POs that come in with non-approved vendors? It'll save us headaches down the line.",
-            "timestamp": "2025-12-16T08:00:00.000000Z",
+            "content": "Correct, Nina. OfficeDepot remains the sole approved vendor for ALL Office Supplies, including furniture. The specialized dealer exception is specifically for IT/hardware categories — things like professional camera equipment or industrial tools that CorpTech doesn't carry.\n\nFor office furniture, you must use OfficeDepot. They carry a wide range including ergonomic options. If someone wants a specific brand like Herman Miller, they'd need to check if OfficeDepot stocks it (they do carry some Herman Miller products) rather than buying direct from the manufacturer.",
+            "timestamp": "2025-12-10T11:15:00.000000Z",
             "threadId": null,
-            "reactions": [],
+            "reactions": [{"emoji":"👍","users":["user_office_mgr"]}],
             "isEdited": false
           },
           {
             "messageId": "msg_proc_8",
-            "senderId": "user_finance_1",
-            "content": "Will do, Rachel. I'll cross-check all December POs against the approved vendor list before processing.",
-            "timestamp": "2025-12-16T08:15:00.000000Z",
+            "senderId": "user_procurement",
+            "content": "One more important note — I've noticed some teams are still referencing last year's vendor list, which included Amazon as an approved vendor. The Amazon removal is NEW as of October 2025. Some people may not be aware of this change.\n\nJohn, can you help flag any POs that come in with non-approved vendors? It'll save us headaches down the line. Especially Amazon orders — I expect we'll see a few since people are used to ordering from there.\n\nSarah, should we send a company-wide reminder about the vendor list changes?",
+            "timestamp": "2025-12-12T08:00:00.000000Z",
             "threadId": null,
-            "reactions": [{"emoji": "🙏", "users": ["user_procurement"]}],
+            "reactions": [],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_proc_9",
+            "senderId": "user_finance_1",
+            "content": "Will do, Rachel. I'll cross-check all December POs against the approved vendor list before processing. I'll flag anything that doesn't match and route it back to the requester or escalate to Sarah.\n\nI've already seen at least one request with Amazon as the vendor — I'll address it when I process the batch.",
+            "timestamp": "2025-12-12T08:15:00.000000Z",
+            "threadId": null,
+            "reactions": [{"emoji":"🙏","users":["user_procurement"]}],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_proc_10",
+            "senderId": "user_finance_mgr",
+            "content": "No need for a company-wide announcement about the vendor list, Rachel. The teams will learn when they submit requests and we respond. I don't want to broadcast our internal procurement policies broadly — it just creates noise and confusion.\n\nThe relevant people (Finance, Procurement, Office Ops) all know. That's sufficient. If a request comes in with Amazon, John will reject it and explain the change at that point.",
+            "timestamp": "2025-12-12T08:30:00.000000Z",
+            "threadId": null,
+            "reactions": [{"emoji":"👍","users":["user_procurement"]}],
+            "isEdited": false
+          },
+          {
+            "messageId": "msg_proc_11",
+            "senderId": "user_procurement",
+            "content": "Makes sense, Sarah. We'll handle it on a case-by-case basis.\n\nLast update for the week — I've completed the CorpTech discount negotiation. The 5% volume discount kicks in automatically on orders placed after Jan 1. No special codes needed — it's built into our corporate account.\n\nCurrent CorpTech catalog highlights:\n- Laptops: Dell, Lenovo, HP (no Apple — they handle Apple orders through a separate Apple Business channel)\n- Monitors: Dell, LG, Samsung (27\" 4K models from $350-$600)\n- Peripherals: Logitech, Microsoft\n- Infrastructure: Dell servers, Cisco networking, APC/Dell UPS systems\n\nNote: CorpTech does NOT carry specialty items like professional camera equipment, audio gear, or industrial tools. For those, you'd need to go through the specialized dealer exception process.",
+            "timestamp": "2025-12-13T08:00:00.000000Z",
+            "threadId": null,
+            "reactions": [],
             "isEdited": false
           }
         ],
-        "year-end-party": [
-          {
-            "messageId": "msg_yep_1",
-            "senderId": "user_hr",
-            "content": "Hey everyone! 🎉 It's that time of year again. I'm thinking we should do something fun as a team before the holidays. How about a casual pizza lunch? Nothing fancy, just a chance for everyone to relax and celebrate a great year.",
-            "timestamp": "2025-12-16T14:00:00.000000Z",
-            "threadId": null,
-            "reactions": [{"emoji": "🍕", "users": ["user_office_mgr","user_sales","user_design","user_it_mgr"]}],
-            "isEdited": false
-          },
-          {
-            "messageId": "msg_yep_2",
-            "senderId": "user_office_mgr",
-            "content": "Love it, Mike! We could use Meeting Room B — it fits about 20 people and has a nice casual setup. I can set up some decorations too.",
-            "timestamp": "2025-12-16T14:15:00.000000Z",
-            "threadId": null,
-            "reactions": [],
-            "isEdited": false
-          },
-          {
-            "messageId": "msg_yep_3",
-            "senderId": "user_sales",
-            "content": "Count me in! I can help with ordering if needed. Domino's has a great deal on party packs right now — like $12 per large pizza. We could easily feed everyone for under $150.",
-            "timestamp": "2025-12-16T14:30:00.000000Z",
-            "threadId": null,
-            "reactions": [{"emoji": "👍", "users": ["user_hr"]}],
-            "isEdited": false
-          },
-          {
-            "messageId": "msg_yep_4",
-            "senderId": "user_design",
-            "content": "Sounds great! Should we also do a white elephant gift exchange? Could be fun! I saw some $15 limit ones that were hilarious at my last company.",
-            "timestamp": "2025-12-16T14:45:00.000000Z",
-            "threadId": null,
-            "reactions": [{"emoji": "🎁", "users": ["user_pm","user_sales"]}],
-            "isEdited": false
-          },
-          {
-            "messageId": "msg_yep_5",
-            "senderId": "user_pm",
-            "content": "Fun idea, Jessica! Let's keep it optional though — not everyone celebrates the holidays. Maybe \"year-end grab bag\" instead of white elephant? 😄",
-            "timestamp": "2025-12-16T15:00:00.000000Z",
-            "threadId": null,
-            "reactions": [{"emoji": "💯", "users": ["user_design","user_hr"]}],
-            "isEdited": false
-          },
-          {
-            "messageId": "msg_yep_6",
-            "senderId": "user_hr",
-            "content": "Great ideas all around! I'll plan the pizza lunch for next week. Budget should be about $150 total — very reasonable.\n\n@John I'll submit a PO for this through the normal process. It'll be under Team Building category.",
-            "timestamp": "2025-12-16T15:15:00.000000Z",
-            "threadId": null,
-            "reactions": [],
-            "isEdited": false
-          },
-          {
-            "messageId": "msg_yep_7",
-            "senderId": "user_eng_lead",
-            "content": "Pizza lunch sounds awesome. Is this separate from the company holiday party on the 20th?",
-            "timestamp": "2025-12-16T15:30:00.000000Z",
-            "threadId": null,
-            "reactions": [],
-            "isEdited": false
-          },
-          {
-            "messageId": "msg_yep_8",
-            "senderId": "user_hr",
-            "content": "Yes Alex, this would be separate — a smaller, casual thing for our immediate team. The company party is the big formal event. This is just us grabbing pizza and hanging out.",
-            "timestamp": "2025-12-16T15:45:00.000000Z",
-            "threadId": null,
-            "reactions": [],
-            "isEdited": false
-          },
-          {
-            "messageId": "msg_yep_9",
-            "senderId": "user_devops",
-            "content": "Can we get some non-pizza options too? Maybe some wings or salads? I'm trying to eat healthier but I don't want to miss out on the fun 😅",
-            "timestamp": "2025-12-17T08:00:00.000000Z",
-            "threadId": null,
-            "reactions": [{"emoji": "🥗", "users": ["user_pm"]}],
-            "isEdited": false
-          },
-          {
-            "messageId": "msg_yep_10",
-            "senderId": "user_hr",
-            "content": "Sure Ryan! We can add a couple of salads. That might push the budget a tiny bit over $150 but it should still be very reasonable. I'll include everything in the PO request.",
-            "timestamp": "2025-12-17T08:15:00.000000Z",
-            "threadId": null,
-            "reactions": [],
-            "isEdited": false
-          },
-          {
-            "messageId": "msg_yep_11",
-            "senderId": "user_it_mgr",
-            "content": "I'll bring my portable speaker for some background music. Also, should we do this before or after the company party?\n\nMaybe the week after? So we have two celebrations? 🎶",
-            "timestamp": "2025-12-17T09:00:00.000000Z",
-            "threadId": null,
-            "reactions": [],
-            "isEdited": false
-          },
-          {
-            "messageId": "msg_yep_12",
-            "senderId": "user_hr",
-            "content": "I was thinking the week after the company party — so Dec 23, our last day before the break. Nice way to end the year!\n\nAlright, I'll finalize the details and submit the PO to John. Thanks everyone for the enthusiasm! 🙌",
-            "timestamp": "2025-12-17T09:30:00.000000Z",
-            "threadId": null,
-            "reactions": [{"emoji": "🎉", "users": ["user_office_mgr","user_sales","user_design","user_it_mgr","user_devops","user_pm"]}],
-            "isEdited": false
-          }
+      "year-end-party": [
+          {"messageId":"msg_yep_1","senderId":"user_hr","content":"Hey everyone! 🎉 Who's ready for some year-end fun? I've been thinking we should do something as an immediate team before the holidays — separate from the big company party. How about a casual pizza lunch? Nothing fancy, just a chance for everyone to relax and celebrate a great year together.\n\nThoughts?","timestamp":"2025-12-12T14:00:00.000000Z","threadId":null,"reactions":[{"emoji":"🍕","users":["user_office_mgr","user_sales","user_design","user_it_mgr","user_eng_lead"]}],"isEdited":false},
+          {"messageId":"msg_yep_2","senderId":"user_office_mgr","content":"Love it, Mike! We could use Meeting Room B — it fits about 20 people and has a nice casual vibe. I can bring some tablecloths and set up some simple decorations. Nothing over the top, just festive! 🎄\n\nI also have a portable Bluetooth speaker we could use for background music.","timestamp":"2025-12-12T14:15:00.000000Z","threadId":null,"reactions":[],"isEdited":false},
+          {"messageId":"msg_yep_3","senderId":"user_sales","content":"Count me in! 🙋‍♀️ I actually have some experience with catering orders. Domino's has a great deal on party packs right now:\n\n- Large pizza: ~$12 each\n- Party pack (5 large pizzas + sides): ~$60\n- Drinks: ~$2 each\n\nFor a group of 15-20 people, we could easily feed everyone for under $150 total. I can handle the ordering if you want!\n\nAlso — should we do toppings preference survey? Not everyone likes pepperoni 😄","timestamp":"2025-12-12T14:30:00.000000Z","threadId":null,"reactions":[{"emoji":"👍","users":["user_hr","user_pm"]}],"isEdited":false},
+          {"messageId":"msg_yep_4","senderId":"user_design","content":"This sounds amazing! Count me in. Should we also do a white elephant gift exchange? They're always hilarious. At my last company we did a $15 limit and it was the highlight of the holiday season.\n\nMaybe we could combine: pizza + gift exchange + some holiday music? The perfect casual afternoon.","timestamp":"2025-12-12T14:45:00.000000Z","threadId":null,"reactions":[{"emoji":"🎁","users":["user_pm","user_sales","user_office_mgr"]}],"isEdited":false},
+          {"messageId":"msg_yep_5","senderId":"user_pm","content":"Fun idea, Jessica! Let's keep the gift exchange optional though — not everyone celebrates the same holidays and we want this to be inclusive. Maybe call it a \"year-end grab bag\" instead of white elephant? 😄\n\nAlso, what day are we thinking? Before or after the company party on the 20th?","timestamp":"2025-12-12T15:00:00.000000Z","threadId":null,"reactions":[{"emoji":"💯","users":["user_design","user_hr"]}],"isEdited":false},
+          {"messageId":"msg_yep_6","senderId":"user_eng_lead","content":"Pizza lunch sounds awesome! Is this separate from the company holiday party on the 20th? Just want to make sure I plan accordingly — my wife and I have some holiday shopping planned that week.","timestamp":"2025-12-12T15:15:00.000000Z","threadId":null,"reactions":[],"isEdited":false},
+          {"messageId":"msg_yep_7","senderId":"user_hr","content":"Yes Alex, this would be separate — a smaller, casual thing for our immediate team. The company party is the big formal event organized by Admin. This is just us grabbing pizza, hanging out, and maybe doing a fun gift exchange.\n\nI'm thinking Dec 23, our last day before the break. Perfect way to end the year! 🎊","timestamp":"2025-12-12T15:30:00.000000Z","threadId":null,"reactions":[],"isEdited":false},
+          {"messageId":"msg_yep_8","senderId":"user_devops","content":"Dec 23 works for me! Can we get some non-pizza options too? Maybe some wings or a couple of salads? I'm trying to eat healthier but I definitely don't want to miss out on the fun 😅\n\nAlso — should we invite the interns? They've been working really hard this quarter.","timestamp":"2025-12-13T08:00:00.000000Z","threadId":null,"reactions":[{"emoji":"🥗","users":["user_pm"]}],"isEdited":false},
+          {"messageId":"msg_yep_9","senderId":"user_hr","content":"Sure Ryan! We can add wings and a couple of salads. That might push the budget slightly over $150 but it should still be very reasonable — maybe $160-170 total. I'll include everything in the PO request.\n\nAnd yes, absolutely invite the interns! Great idea. The more the merrier.\n\n@John I'll submit a PO for this through the normal process. Category will be Team Building since it's a team social event. Should be straightforward!","timestamp":"2025-12-13T08:15:00.000000Z","threadId":null,"reactions":[],"isEdited":false},
+          {"messageId":"msg_yep_10","senderId":"user_it_mgr","content":"I'll bring my portable speaker for background music! I've got a great holiday playlist 🎶\n\nShould we also set up a TV in the meeting room to play some holiday movies in the background? I can grab one of the portable monitors from the supply closet.\n\nAlso — who's handling the gift exchange logistics? Do we need a sign-up sheet?","timestamp":"2025-12-13T09:00:00.000000Z","threadId":null,"reactions":[],"isEdited":false},
+          {"messageId":"msg_yep_11","senderId":"user_office_mgr","content":"I'll handle decorations and the gift exchange logistics! Here's my plan:\n\n**Decorations**: I have some string lights, a small tabletop Christmas tree, and some festive napkins from last year's party supply. Should be enough for Meeting Room B.\n\n**Gift exchange**: I'll create a Google Form for sign-ups. $15 limit, theme is \"something you'd want to steal from your coworker's desk.\" I'll send the form out today!\n\n**Room setup**: I'll set up Meeting Room B on the morning of Dec 23. Should take about 30 minutes.\n\nThis is going to be so much fun! 🎄✨","timestamp":"2025-12-13T09:30:00.000000Z","threadId":null,"reactions":[{"emoji":"🎄","users":["user_hr","user_sales","user_design","user_devops"]}],"isEdited":false},
+          {"messageId":"msg_yep_12","senderId":"user_pm","content":"Love the energy in this channel! 🎉 Quick logistical question — should we block out calendar time for this? I'm thinking 12:00–1:30 PM on Dec 23? That way people can join for as long as they want without it conflicting with any wrap-up meetings.\n\nAlso, @Mike — for the PO, you might want to keep the total at exactly $150 to keep it clean and round. The extra salads/wings can probably fit within that if Emily finds a good deal at Domino's.","timestamp":"2025-12-13T10:00:00.000000Z","threadId":null,"reactions":[],"isEdited":false},
+          {"messageId":"msg_yep_13","senderId":"user_hr","content":"12:00–1:30 works perfectly! I'll send a calendar invite.\n\nGood call on keeping it at $150 even, Lisa. Emily, can you work your magic with the Domino's order to fit pizza + wings + salads within $150?\n\nAlright team, I'll finalize the details and submit the PO to John. Thanks everyone for the enthusiasm! This is what makes our team great. 🙌\n\nAction items:\n- Mike (me): Submit PO, send calendar invite\n- Nina: Decorations, gift exchange form\n- Emily: Finalize food order\n- David: Music/speaker setup\n- Everyone: Sign up for gift exchange!","timestamp":"2025-12-13T10:30:00.000000Z","threadId":null,"reactions":[{"emoji":"🎉","users":["user_office_mgr","user_sales","user_design","user_it_mgr","user_devops","user_pm","user_eng_lead"]}],"isEdited":false},
+          {"messageId":"msg_yep_14","senderId":"user_sales","content":"I'll make the $150 work! Domino's has a deal this week — 3 large specialty pizzas for $30. Add 2 more basic pizzas ($24), wings ($15), 2 salads ($16), drinks ($20), and we're at about $105. Plenty of room for extras.\n\nI'll place the order for Dec 23, 11:30 AM delivery so it's hot when we start at noon. 🍕🔥","timestamp":"2025-12-13T11:00:00.000000Z","threadId":null,"reactions":[{"emoji":"🔥","users":["user_hr","user_devops"]}],"isEdited":false},
+          {"messageId":"msg_yep_15","senderId":"user_design","content":"I signed up for the gift exchange! My $15 budget gift is going to be legendary. 😎\n\nAlso — should we make a shared Spotify playlist that everyone can add to? That way it's not just David's music taste all afternoon 😄","timestamp":"2025-12-16T08:00:00.000000Z","threadId":null,"reactions":[{"emoji":"😂","users":["user_it_mgr","user_pm","user_sales"]}],"isEdited":false},
+          {"messageId":"msg_yep_16","senderId":"user_it_mgr","content":"Excuse me Jessica, my music taste is EXCELLENT 🎵😤\n\nBut fine, shared playlist works too. I'll create one on Spotify and share the link here. Everyone add 3-5 songs max so it doesn't become a 400-song monster.\n\nLink: [holiday-playlist-acme-2025] (I'll share after I set it up)","timestamp":"2025-12-16T08:15:00.000000Z","threadId":null,"reactions":[{"emoji":"😂","users":["user_design","user_hr","user_eng_lead"]}],"isEdited":false}
         ],
         "it-helpdesk": [
-          {
-            "messageId": "msg_ith_1",
-            "senderId": "user_it_mgr",
-            "content": "📢 IT Bulletin — Dec 2025\n\n1. **VPN Client Update**: New version rolling out next week. Mandatory update by Jan 5.\n2. **Email Migration**: We're moving to the new email platform in Q1. More details in January.\n3. **Password Policy**: Reminder — passwords must be changed every 90 days. If yours is due, you'll get an auto-prompt.\n4. **Server Maintenance**: Scheduled downtime Dec 28, 2 AM–6 AM EST. Non-production only.\n\nFor urgent issues, call the helpdesk at ext. 4357.",
-            "timestamp": "2025-12-15T08:00:00.000000Z",
-            "threadId": null,
-            "reactions": [],
-            "isEdited": false
-          },
-          {
-            "messageId": "msg_ith_2",
-            "senderId": "user_eng_lead",
-            "content": "David, quick question — my email signature keeps resetting after the last Outlook update. How do I fix it?",
-            "timestamp": "2025-12-15T10:00:00.000000Z",
-            "threadId": null,
-            "reactions": [],
-            "isEdited": false
-          },
-          {
-            "messageId": "msg_ith_3",
-            "senderId": "user_it_mgr",
-            "content": "Alex, that's a known bug with the latest update. Go to Settings > Identity > Email Signature and re-enter it. Save twice (yes, twice — it's a bug). Should stick after that. If not, DM me and I'll remote in.",
-            "timestamp": "2025-12-15T10:15:00.000000Z",
-            "threadId": null,
-            "reactions": [{"emoji": "👍", "users": ["user_eng_lead"]}],
-            "isEdited": false
-          },
-          {
-            "messageId": "msg_ith_4",
-            "senderId": "user_devops",
-            "content": "David, the monitoring dashboard is showing intermittent alerts on the backup server. Probably just the old UPS flickering again. Want me to take a look or are you handling it?",
-            "timestamp": "2025-12-17T14:00:00.000000Z",
-            "threadId": null,
-            "reactions": [],
-            "isEdited": false
-          },
-          {
-            "messageId": "msg_ith_5",
-            "senderId": "user_it_mgr",
-            "content": "Yeah, that's exactly the UPS issue I mentioned in #engineering. The batteries are old and not holding charge properly. I've already started the procurement process for replacement units — 3x Dell UPS Battery Backup from CorpTech Solutions.\n\nIn the meantime, Ryan, can you set up an alert threshold so we get notified if power drops below 80%? That'll give us enough warning to gracefully shut down if needed.",
-            "timestamp": "2025-12-17T14:15:00.000000Z",
-            "threadId": null,
-            "reactions": [],
-            "isEdited": false
-          },
-          {
-            "messageId": "msg_ith_6",
-            "senderId": "user_devops",
-            "content": "On it. I'll set the threshold at 80% with a 5-minute grace period before auto-shutdown triggers. Should I also set up a secondary alert for Rachel in procurement so she can expedite the order if needed?",
-            "timestamp": "2025-12-17T14:30:00.000000Z",
-            "threadId": null,
-            "reactions": [],
-            "isEdited": false
-          },
-          {
-            "messageId": "msg_ith_7",
-            "senderId": "user_it_mgr",
-            "content": "Good idea on the threshold. Skip the Rachel alert for now — I'll handle procurement coordination directly. I've already talked to CorpTech and they have the units in stock. Just need the PO approved.\n\n@John — heads up, I'll be sending you a PO request for the UPS batteries shortly. It's urgent — server room infrastructure.",
-            "timestamp": "2025-12-17T14:45:00.000000Z",
-            "threadId": null,
-            "reactions": [],
-            "isEdited": false
-          },
-          {
-            "messageId": "msg_ith_8",
-            "senderId": "user_procurement",
-            "content": "Wait, David — I want to flag something. UPS battery replacements might need to go through the facilities capital expenditure (capex) process, not a standard PO. The policy changed this year for infrastructure equipment over $500 total.\n\nI'd recommend checking with Finance before submitting a regular PO.",
-            "timestamp": "2025-12-17T15:00:00.000000Z",
-            "threadId": null,
-            "reactions": [],
-            "isEdited": false
-          },
-          {
-            "messageId": "msg_ith_9",
-            "senderId": "user_it_mgr",
-            "content": "Hmm, really? We've always handled battery replacements as regular POs. These are consumable parts, not new equipment. But I'll double-check with Finance to be safe.\n\nThanks for the heads up, Rachel.",
-            "timestamp": "2025-12-17T15:15:00.000000Z",
-            "threadId": null,
-            "reactions": [],
-            "isEdited": false
-          },
-          {
-            "messageId": "msg_ith_10",
-            "senderId": "user_procurement",
-            "content": "Better safe than sorry! The capex vs opex distinction can be tricky. If Finance confirms it's a regular PO, then great — just wanted to make sure we don't run into audit issues later.",
-            "timestamp": "2025-12-17T15:30:00.000000Z",
-            "threadId": null,
-            "reactions": [{"emoji": "👍", "users": ["user_it_mgr"]}],
-            "isEdited": false
-          },
-          {
-            "messageId": "msg_ith_11",
-            "senderId": "user_eng_lead",
-            "content": "Unrelated — does anyone know if the conference room displays support USB-C input? I want to demo something from my laptop tomorrow and I don't want to hunt for adapters.",
-            "timestamp": "2025-12-18T09:00:00.000000Z",
-            "threadId": null,
-            "reactions": [],
-            "isEdited": false
-          },
-          {
-            "messageId": "msg_ith_12",
-            "senderId": "user_it_mgr",
-            "content": "Rooms A and B have USB-C. Room C is still HDMI only — I've got an adapter on my desk you can borrow if you need it.",
-            "timestamp": "2025-12-18T09:15:00.000000Z",
-            "threadId": null,
-            "reactions": [{"emoji": "🙏", "users": ["user_eng_lead"]}],
-            "isEdited": false
-          }
+          {"messageId":"msg_ith_1","senderId":"user_it_mgr","content":"📢 **IT Bulletin — December 2025**\n\nHi everyone, here's your monthly IT update:\n\n1. **VPN Client Update**: New version (v2.8) rolling out next week. Mandatory update by Jan 5. I'll send detailed instructions via email.\n2. **Email Migration**: We're moving to the new email platform in Q1. Tentatively scheduled for Feb. More details in January — no action needed now.\n3. **Password Policy**: Reminder — passwords must be changed every 90 days. If yours is overdue, you'll get an auto-prompt. Please don't ignore it!\n4. **Server Maintenance**: Scheduled downtime Dec 28, 2 AM–6 AM EST. Non-production systems only. No impact to customer-facing services.\n5. **Phishing Alert**: We've seen an increase in phishing attempts targeting Acme employees. If you get suspicious emails, DO NOT click links. Forward to security@acmecorp.com.\n\nFor urgent IT issues, call ext. 4357 or post here.\n\nHappy holidays! 🎄🔧","timestamp":"2025-12-10T08:00:00.000000Z","threadId":null,"reactions":[],"isEdited":false},
+          {"messageId":"msg_ith_2","senderId":"user_eng_lead","content":"David, quick question — my Outlook email signature keeps resetting every time I restart the app. It's been happening since the last update. Known issue?","timestamp":"2025-12-10T10:00:00.000000Z","threadId":null,"reactions":[],"isEdited":false},
+          {"messageId":"msg_ith_3","senderId":"user_it_mgr","content":"Yeah Alex, that's a known bug with Outlook build 16.82. Workaround:\n\n1. Go to Settings > Identity > Email Signature\n2. Re-enter your signature\n3. Click Save\n4. Click Save AGAIN (yes, you need to save twice — it's a bug)\n5. Restart Outlook\n\nShould stick after that. If it still resets, DM me and I'll remote into your machine to fix it. Microsoft is working on a patch for the January update.","timestamp":"2025-12-10T10:15:00.000000Z","threadId":null,"reactions":[{"emoji":"👍","users":["user_eng_lead"]}],"isEdited":false},
+          {"messageId":"msg_ith_4","senderId":"user_sales","content":"David, I'm having trouble connecting to the VPN from my home network. It keeps timing out. I've tried both Wi-Fi and ethernet. Any ideas?\n\nI need to access the CRM reports for a client call tomorrow morning.","timestamp":"2025-12-11T16:00:00.000000Z","threadId":null,"reactions":[],"isEdited":false},
+          {"messageId":"msg_ith_5","senderId":"user_it_mgr","content":"Emily, a few things to try:\n\n1. Make sure you're on VPN client v2.7 or higher (check Help > About)\n2. Try switching to the backup VPN server: vpn2.acmecorp.com\n3. Temporarily disable any firewall software and try again\n4. If all else fails, try tethering to your phone's mobile data — some ISPs block VPN traffic\n\nIf none of that works, DM me and I'll set up a remote troubleshooting session. We'll get you connected before your call!","timestamp":"2025-12-11T16:15:00.000000Z","threadId":null,"reactions":[{"emoji":"🙏","users":["user_sales"]}],"isEdited":false},
+          {"messageId":"msg_ith_6","senderId":"user_sales","content":"Option 2 worked — the backup VPN server connected right away. Thanks David! 🙌\n\nMight want to check if there's an issue with the primary VPN server for home users.","timestamp":"2025-12-11T16:30:00.000000Z","threadId":null,"reactions":[],"isEdited":false},
+          {"messageId":"msg_ith_7","senderId":"user_it_mgr","content":"Good to hear! I'll check the primary server logs. Might be a capacity issue — we've had more remote workers this month.\n\nNote to everyone: if you experience VPN issues, try vpn2.acmecorp.com as a backup. Same credentials, different server.","timestamp":"2025-12-11T16:45:00.000000Z","threadId":null,"reactions":[],"isEdited":false},
+          {"messageId":"msg_ith_8","senderId":"user_devops","content":"David, the monitoring dashboard is showing intermittent alerts on the backup power system in the server room. Looks like the UPS units are fluctuating. Probably the old batteries again.\n\nHere's what I'm seeing:\n- UPS-01: 74% battery capacity (threshold: 80%)\n- UPS-02: 71% battery capacity\n- UPS-03: 62% battery capacity ⚠️\n\nManufacturer recommends replacement below 80%. We're well past that on all three units.","timestamp":"2025-12-12T14:00:00.000000Z","threadId":null,"reactions":[],"isEdited":false},
+          {"messageId":"msg_ith_9","senderId":"user_it_mgr","content":"Yeah, that's exactly the UPS issue I mentioned in #engineering. Those batteries are past their service life. We can't keep running on degraded backup power — if we lose mains power during the holiday break with no one on-site, we could lose data.\n\nI've already started the procurement process. Three Dell UPS Battery Backup units from CorpTech Solutions, $350 each, $1,050 total. CorpTech has them in stock and can ship next-day.\n\nI'll ping John in finance to get the PO moving. This is urgent.\n\nRyan, in the meantime, can you set up a more aggressive alert threshold? I want notifications if any unit drops below 60%.","timestamp":"2025-12-12T14:15:00.000000Z","threadId":null,"reactions":[],"isEdited":false},
+          {"messageId":"msg_ith_10","senderId":"user_devops","content":"On it. I'll set:\n- Warning alert at 65% capacity\n- Critical alert at 50% capacity with auto-notification to you, me, and James\n- Emergency shutdown trigger at 30% capacity\n\nThe emergency shutdown will gracefully power down non-essential services first, then core services if power continues to drop. Should protect us from data loss.\n\nShould I also set up a secondary alert for Rachel in procurement so she can expedite the order if needed?","timestamp":"2025-12-12T14:30:00.000000Z","threadId":null,"reactions":[],"isEdited":false},
+          {"messageId":"msg_ith_11","senderId":"user_it_mgr","content":"Good alert setup. Skip the Rachel notification for now — I'll handle procurement coordination directly. I've already confirmed availability with CorpTech and they're holding 3 units for us.\n\n@John — heads up, I'll be sending you a PO request for the UPS batteries shortly. It's critical infrastructure maintenance. Details coming via DM.","timestamp":"2025-12-12T14:45:00.000000Z","threadId":null,"reactions":[],"isEdited":false},
+          {"messageId":"msg_ith_12","senderId":"user_procurement","content":"Hold on, David — I want to flag something before you submit that PO.\n\nUPS battery replacements might need to go through the **facilities capital expenditure (capex)** process, not a standard purchase order. The policy was updated earlier this year: infrastructure equipment with a total cost exceeding $500 should be routed through capex for proper asset classification and depreciation tracking.\n\nUPS batteries for the server room could be classified as infrastructure equipment. I'd recommend checking with Finance before submitting a regular PO. We don't want audit issues later.\n\nThe capex process takes a bit longer (5-7 business days for approval), but it's the proper channel for this type of purchase.","timestamp":"2025-12-12T15:00:00.000000Z","threadId":null,"reactions":[],"isEdited":false},
+          {"messageId":"msg_ith_13","senderId":"user_it_mgr","content":"Hmm, I hear you Rachel, but I respectfully disagree on the classification. These are **replacement batteries** for existing UPS units — not new equipment. The UPS chassis themselves are staying. We're just swapping out the consumable battery modules.\n\nIt's like buying new toner for a printer — you don't capex a toner cartridge even though the printer itself is a capital asset. Same principle.\n\nBut you raise a fair point about the policy update. I'll double-check with Finance to be safe. If they confirm it's a regular PO, we can move fast. If it needs capex, we'll deal with it, but I really hope not — 5-7 business days for capex approval could mean we're running on degraded backup power through the entire holiday break.\n\nThanks for the heads up, Rachel. Better to ask now than deal with audit issues later.","timestamp":"2025-12-12T15:15:00.000000Z","threadId":null,"reactions":[],"isEdited":false},
+          {"messageId":"msg_ith_14","senderId":"user_procurement","content":"That's a fair analogy with the toner cartridges. The capex vs opex distinction can be tricky — reasonable people can disagree. If Finance confirms it's a regular PO, then great. Just wanted to make sure we dot our i's and cross our t's.\n\nFWIW, I've seen auditors question battery replacements before when they're above $500 total. But if the Finance Manager signs off, that's good enough for compliance.\n\nGood luck getting it approved quickly! 🤞","timestamp":"2025-12-12T15:30:00.000000Z","threadId":null,"reactions":[{"emoji":"👍","users":["user_it_mgr"]}],"isEdited":false},
+          {"messageId":"msg_ith_15","senderId":"user_eng_lead","content":"Completely unrelated — does anyone know if the conference room displays support USB-C input? I want to demo the new dashboard feature from my laptop tomorrow and I don't want to spend 20 minutes hunting for adapters like last time.","timestamp":"2025-12-15T09:00:00.000000Z","threadId":null,"reactions":[],"isEdited":false},
+          {"messageId":"msg_ith_16","senderId":"user_it_mgr","content":"Conference room display compatibility:\n- Room A: USB-C ✅ (installed the new LG display last month)\n- Room B: USB-C ✅ + HDMI\n- Room C: HDMI only ❌ (this one is scheduled for upgrade in Q1)\n- Room D: USB-C ✅ + DisplayPort\n\nIf you end up in Room C, I've got a USB-C to HDMI adapter on my desk — second drawer on the right. Just return it when you're done!\n\nAlso, all rooms now have the wireless presentation system (Barco ClickShare). If your laptop has Bluetooth, you can present wirelessly without any cables.","timestamp":"2025-12-15T09:15:00.000000Z","threadId":null,"reactions":[{"emoji":"🙏","users":["user_eng_lead"]}],"isEdited":false},
+          {"messageId":"msg_ith_17","senderId":"user_devops","content":"David, the primary VPN server issue Emily reported last week? Found the root cause. The SSL certificate was about to expire (Dec 15) and the auto-renewal didn't trigger properly. I've manually renewed it and fixed the auto-renewal cron job.\n\nPrimary VPN server should be working normally now for all users. Can someone confirm?","timestamp":"2025-12-15T14:00:00.000000Z","threadId":null,"reactions":[],"isEdited":false},
+          {"messageId":"msg_ith_18","senderId":"user_it_mgr","content":"Nice catch, Ryan! I just tested from my home connection — primary VPN server connects instantly. Crisis averted. 👍\n\nLet's add SSL certificate monitoring to our alert system so we catch these before they cause user-facing issues. Can you set up a warning at 30 days before expiry?","timestamp":"2025-12-15T14:15:00.000000Z","threadId":null,"reactions":[{"emoji":"✅","users":["user_devops"]}],"isEdited":false},
+          {"messageId":"msg_ith_19","senderId":"user_devops","content":"Done — certificate expiry monitoring is now active for all our SSL certs. Alert at 30 days, critical at 7 days. We have 47 certificates tracked across all services.\n\nHoliday break checklist for the server room:\n- ✅ Monitoring alerts configured\n- ✅ VPN servers healthy\n- ⚠️ UPS batteries — pending PO approval\n- ✅ Backup systems verified\n- ✅ Emergency contact list updated\n\nOnce the UPS PO goes through, we'll be fully covered for the break.","timestamp":"2025-12-15T14:30:00.000000Z","threadId":null,"reactions":[{"emoji":"👍","users":["user_it_mgr","user_eng_mgr"]}],"isEdited":false}
         ],
         "sales-team": [
-          {
-            "messageId": "msg_sales_1",
-            "senderId": "user_sales",
-            "content": "Team, quick update on Q4 pipeline:\n\n- Enterprise deals: 3 in final stages, expecting close by Dec 31\n- Mid-market: 7 active opportunities, mixed timeline\n- SMB: Strong month, 12 deals closed so far\n\nWe're tracking about 8% above Q4 target. Great work everyone! 📈",
-            "timestamp": "2025-12-16T08:00:00.000000Z",
-            "threadId": null,
-            "reactions": [{"emoji": "🎯", "users": ["user_pm"]}],
-            "isEdited": false
-          },
-          {
-            "messageId": "msg_sales_2",
-            "senderId": "user_pm",
-            "content": "Nice numbers, Emily! Quick question — are we still planning to expand the Lead Gen tools for Q1? I saw Tom's note about the project being paused.",
-            "timestamp": "2025-12-16T08:30:00.000000Z",
-            "threadId": null,
-            "reactions": [],
-            "isEdited": false
-          },
-          {
-            "messageId": "msg_sales_3",
-            "senderId": "user_sales",
-            "content": "Yeah, the Lead Gen Expansion *project* is on hold, but that doesn't affect our existing tooling. We still need Salesforce (that's our CRM — completely separate from Lead Gen) and LinkedIn Sales Navigator (which the team uses daily for prospecting).\n\nI need to renew both. Salesforce is annual as usual. LinkedIn... I'll need to check the billing options.",
-            "timestamp": "2025-12-16T09:00:00.000000Z",
-            "threadId": null,
-            "reactions": [],
-            "isEdited": false
-          },
-          {
-            "messageId": "msg_sales_4",
-            "senderId": "user_pm",
-            "content": "Makes sense. Just wanted to make sure the Lead Gen pause doesn't accidentally block essential renewals. Tom clarified in #general that operational renewals aren't affected, so you should be good.",
-            "timestamp": "2025-12-16T09:15:00.000000Z",
-            "threadId": null,
-            "reactions": [{"emoji": "👍", "users": ["user_sales"]}],
-            "isEdited": false
-          },
-          {
-            "messageId": "msg_sales_5",
-            "senderId": "user_sales",
-            "content": "Exactly. I'll submit both renewals to John. Quick note — LinkedIn Sales Nav is currently on a monthly plan ($79.99/seat × 5 seats). I'll submit it as-is and see if Finance has a preference on billing frequency.\n\nSalesforce is already annual at $1,800. Straightforward renewal.",
-            "timestamp": "2025-12-16T09:30:00.000000Z",
-            "threadId": null,
-            "reactions": [],
-            "isEdited": false
-          },
-          {
-            "messageId": "msg_sales_6",
-            "senderId": "user_pm",
-            "content": "You might want to check the new December rules Sarah posted — I think there's something about subscription billing requirements. Better to know upfront than get rejected and have to resubmit.",
-            "timestamp": "2025-12-22T10:00:00.000000Z",
-            "threadId": null,
-            "reactions": [],
-            "isEdited": false
-          },
-          {
-            "messageId": "msg_sales_7",
-            "senderId": "user_sales",
-            "content": "Good call, Lisa. I'll check the rules and DM John with the details. Thanks for the heads up! 👍",
-            "timestamp": "2025-12-22T10:15:00.000000Z",
-            "threadId": null,
-            "reactions": [],
-            "isEdited": false
-          }
+          {"messageId":"msg_sales_1","senderId":"user_sales","content":"Team, Q4 pipeline update! 📊\n\n**Enterprise Deals (>$100K):**\n- TechGlobal Inc: $250K, final contract review, expected close Dec 31\n- Meridian Health: $180K, procurement approval pending\n- Atlas Financial: $120K, in negotiation\n\n**Mid-Market ($25K-$100K):**\n- 7 active opportunities, total pipeline value $340K\n- 3 expected to close this month, 4 carry into Q1\n\n**SMB (<$25K):**\n- Strong month! 12 deals closed, $95K total\n- 5 more in final stages\n\nOverall: We're tracking about 8% above Q4 target. If TechGlobal closes (high confidence), we'll blow past target by 15%. Great work everyone! 💪","timestamp":"2025-12-12T08:00:00.000000Z","threadId":null,"reactions":[{"emoji":"🎯","users":["user_pm"]}],"isEdited":false},
+          {"messageId":"msg_sales_2","senderId":"user_pm","content":"Impressive numbers, Emily! The enterprise pipeline looks especially strong.\n\nQuick question — are we still planning the Lead Gen tool expansion for Q1? I saw Tom's note about the project being paused.","timestamp":"2025-12-12T08:30:00.000000Z","threadId":null,"reactions":[],"isEdited":false},
+          {"messageId":"msg_sales_3","senderId":"user_sales","content":"Yeah, the Lead Gen Expansion *project* is on hold — that was going to be a new set of tools and processes for scaling our outbound efforts. But that doesn't affect our existing day-to-day tooling at all.\n\nWe still need our current tools:\n- **Salesforce** — our CRM. Used by everyone on the team, every day. This is the backbone of our sales operations. Annual renewal coming up ($1,800).\n- **LinkedIn Sales Navigator** — prospecting tool. The whole team uses it daily to find and connect with decision-makers. Currently on monthly billing ($79.99/seat × 5 seats).\n\nI need to renew both this month. Salesforce is straightforward — annual as always. LinkedIn... I'll need to figure out the billing situation.","timestamp":"2025-12-12T09:00:00.000000Z","threadId":null,"reactions":[],"isEdited":false},
+          {"messageId":"msg_sales_4","senderId":"user_pm","content":"Makes sense. Just wanted to make sure the Lead Gen pause doesn't accidentally block essential tool renewals. Tom clarified in #general that operational renewals aren't affected, so you should be good.\n\nOn the LinkedIn billing — didn't Sarah's December rules say something about subscription frequency? You might want to double-check before submitting.","timestamp":"2025-12-12T09:15:00.000000Z","threadId":null,"reactions":[{"emoji":"👍","users":["user_sales"]}],"isEdited":false},
+          {"messageId":"msg_sales_5","senderId":"user_sales","content":"Good point about the subscription rules. I know there's something about annual-only... let me check.\n\nOur LinkedIn Nav is currently on monthly because when we originally signed up, the annual plan wasn't available for our region. I think it is now though. Let me see what the options are.\n\nFor now, I'll submit both requests to John as-is and note the monthly billing on LinkedIn. If Finance wants it changed to annual, I can work with LinkedIn to switch the billing cycle.\n\nSalesforce is already annual at $1,800. That one should be completely clean.","timestamp":"2025-12-12T09:30:00.000000Z","threadId":null,"reactions":[],"isEdited":false},
+          {"messageId":"msg_sales_6","senderId":"user_pm","content":"BTW Emily — the TechGlobal deal. Are we good on the contract terms? Karen in legal mentioned something about updated NDA requirements for Q1 contracts.","timestamp":"2025-12-15T08:00:00.000000Z","threadId":null,"reactions":[],"isEdited":false},
+          {"messageId":"msg_sales_7","senderId":"user_sales","content":"TechGlobal is using the current NDA template (v3.1) since we initiated the contract in November. Karen confirmed that existing in-progress contracts don't need to switch to v3.2 — that only applies to new contracts starting in Q1.\n\nSo we're clear. Just waiting on their legal team's final review. Should have a signed contract by Dec 30. 🤞","timestamp":"2025-12-15T08:15:00.000000Z","threadId":null,"reactions":[],"isEdited":false},
+          {"messageId":"msg_sales_8","senderId":"user_sales","content":"Update: I've submitted both software renewal requests to John. Details:\n\n1. Salesforce License — $1,800 annual. Clean renewal.\n2. LinkedIn Sales Nav — $399.95/month (5 seats). I flagged that it's monthly.\n\nLisa, you were right about the subscription rules — I just re-read Sarah's December rules post. Annual-only for software. The LinkedIn monthly might get rejected. If it does, I'll need to work with LinkedIn on converting to annual billing and resubmit.\n\nAt least Salesforce should sail through. 🤷‍♀️","timestamp":"2025-12-22T10:00:00.000000Z","threadId":null,"reactions":[],"isEdited":false},
+          {"messageId":"msg_sales_9","senderId":"user_pm","content":"Yeah, I had a feeling the monthly thing might be an issue. Hopefully they'll just ask you to resubmit as annual rather than blocking it entirely. LinkedIn Sales Nav is genuinely essential for the team — monthly vs annual shouldn't be a dealbreaker.\n\nGood luck! Let me know if you need any support making the case.","timestamp":"2025-12-22T10:15:00.000000Z","threadId":null,"reactions":[{"emoji":"👍","users":["user_sales"]}],"isEdited":false}
         ],
         "design-studio": [
-          {
-            "messageId": "msg_ds_1",
-            "senderId": "user_design",
-            "content": "Hey team, sharing some inspiration for the Q1 campaign look and feel. I've been exploring a few mood boards:\n\n1. **Minimalist Tech** — Clean lines, white space, product-focused\n2. **Bold & Vibrant** — High contrast, colorful gradients, energetic\n3. **Editorial** — Magazine-style layouts, lots of lifestyle photography\n\nI'm leaning toward option 3, but it would really shine with professional product photography. Which is why the Canon camera request is so important for this project.",
-            "timestamp": "2025-12-17T09:00:00.000000Z",
-            "threadId": null,
-            "reactions": [{"emoji": "🎨", "users": ["user_mkt_lead","user_pm"]}],
-            "isEdited": false
-          },
-          {
-            "messageId": "msg_ds_2",
-            "senderId": "user_mkt_lead",
-            "content": "Love option 3! The editorial style would really differentiate us from competitors. And yes, having our own Canon R5 would be a game-changer for the photography component.\n\nJessica, have you worked with the R5 before? What kind of results can we expect?",
-            "timestamp": "2025-12-17T09:30:00.000000Z",
-            "threadId": null,
-            "reactions": [],
-            "isEdited": false
-          },
-          {
-            "messageId": "msg_ds_3",
-            "senderId": "user_design",
-            "content": "Extensively! In my previous role at the agency, we used the R5 for all our product shoots. The 45MP sensor gives you incredible detail — you can crop way in without losing quality. Plus the IBIS (in-body stabilization) means you can shoot handheld without a tripod for quick setups.\n\nSample portfolio from my previous work: I was consistently getting magazine-quality images. For our product line, I'd estimate 3–4 hours of shooting per product category, with minimal post-processing needed.",
-            "timestamp": "2025-12-17T10:00:00.000000Z",
-            "threadId": null,
-            "reactions": [{"emoji": "🔥", "users": ["user_mkt_lead","user_pm"]}],
-            "isEdited": false
-          },
-          {
-            "messageId": "msg_ds_4",
-            "senderId": "user_pm",
-            "content": "This is great context, Jessica. It strengthens the business case for the camera.\n\nOne thing to keep in mind — even if the camera gets approved, we'll want to factor in 1–2 days of setup and calibration before the actual shoots. I'll account for that in the timeline.\n\nAny other equipment we'll need? Lighting? Backdrops?",
-            "timestamp": "2025-12-17T10:30:00.000000Z",
-            "threadId": null,
-            "reactions": [],
-            "isEdited": false
-          },
-          {
-            "messageId": "msg_ds_5",
-            "senderId": "user_design",
-            "content": "The kit Sarah is requesting includes a lens and basic lighting setup, so we should be covered for now. I have some backdrops from my personal collection that I can bring in.\n\nIf we want to go more professional later (like a full studio setup), that would be a separate conversation for Q2. For now, the R5 kit is everything we need to get started.",
-            "timestamp": "2025-12-17T11:00:00.000000Z",
-            "threadId": null,
-            "reactions": [],
-            "isEdited": false
-          },
-          {
-            "messageId": "msg_ds_6",
-            "senderId": "user_mkt_lead",
-            "content": "Perfect. Let's proceed with the camera request and plan for the editorial direction. I've already DM'd John with the specs.\n\nJessica — can you start pulling together the shot list for the first product category? That way we're ready to go the moment the camera arrives.\n\nAlso, unrelated — how's the new website mockup coming along? Marketing wants a preview by Friday.",
-            "timestamp": "2025-12-18T09:00:00.000000Z",
-            "threadId": null,
-            "reactions": [],
-            "isEdited": false
-          },
-          {
-            "messageId": "msg_ds_7",
-            "senderId": "user_design",
-            "content": "Shot list — will have a draft by end of week.\nWebsite mockup — on track, I'll share the Figma link by Thursday EOD.\n\nBTW, I also submitted a request for an ergonomic chair. My back is really not happy with the current setup. 😅 Separate from the camera stuff obviously.",
-            "timestamp": "2025-12-18T09:30:00.000000Z",
-            "threadId": null,
-            "reactions": [],
-            "isEdited": false
-          }
+          {"messageId":"msg_ds_1","senderId":"user_design","content":"Hey team, sharing some inspiration for the Q1 campaign look and feel. I've been building mood boards for three possible directions:\n\n**Option 1 — Minimalist Tech:**\nClean lines, generous white space, product-focused. Think Apple product pages. Works well for enterprise buyers who value simplicity and sophistication.\n\n**Option 2 — Bold & Vibrant:**\nHigh contrast, colorful gradients, energetic typography. More startup-y vibe. Could differentiate us from the sea of boring B2B pages.\n\n**Option 3 — Editorial:**\nMagazine-style layouts, lots of lifestyle photography, storytelling-driven. Premium feel. Requires high-quality original photography to work — stock photos would undermine the effect.\n\nI'm leaning toward Option 3, but it's the most resource-intensive due to the photography dependency. Thoughts?","timestamp":"2025-12-12T09:00:00.000000Z","threadId":null,"reactions":[{"emoji":"🎨","users":["user_mkt_lead","user_pm"]}],"isEdited":false},
+          {"messageId":"msg_ds_2","senderId":"user_mkt_lead","content":"Love all three options, but Option 3 is my clear favorite! The editorial approach would really differentiate us from CompetitorA and CompetitorB, who are both stuck in generic B2B land with stock photos.\n\nThe photography dependency is why the Canon R5 request is so critical. Without professional-quality product photography, Option 3 falls flat. With it, we can create genuinely premium content that drives the results we need.\n\nJessica, have you worked with the R5 before? What kind of results can we expect?","timestamp":"2025-12-12T09:30:00.000000Z","threadId":null,"reactions":[],"isEdited":false},
+          {"messageId":"msg_ds_3","senderId":"user_design","content":"Extensively! In my previous agency role, the R5 was our primary camera for all product and lifestyle shoots. Here's what I can tell you:\n\n**Image Quality:**\n- 45MP sensor captures incredible detail\n- You can crop to 50% and still have a 22MP image — plenty for web and print\n- Dynamic range is outstanding, especially in mixed lighting conditions\n- Color accuracy is best-in-class, minimal post-processing needed\n\n**Practical Benefits:**\n- IBIS lets you shoot handheld for quick setups (no tripod needed)\n- Dual card slots for instant backup during shoots\n- Silent shooting mode for office environments\n- 8K video for video testimonials\n\n**Expected Output:**\nFor each product category, I'd estimate:\n- 3-4 hours of shooting\n- 50-80 raw images per session\n- 15-20 final edited images\n- Post-processing: 2-3 hours per session\n\nI was consistently getting magazine-quality images at my previous job. Our product line would photograph beautifully.","timestamp":"2025-12-12T10:00:00.000000Z","threadId":null,"reactions":[{"emoji":"🔥","users":["user_mkt_lead","user_pm"]}],"isEdited":false},
+          {"messageId":"msg_ds_4","senderId":"user_pm","content":"Great detail, Jessica. This strengthens the business case enormously.\n\nOne question — even if the camera gets approved, should we factor in additional setup time before the first shoot? Calibration, test shots, getting familiar with the studio space, etc.","timestamp":"2025-12-12T10:30:00.000000Z","threadId":null,"reactions":[],"isEdited":false},
+          {"messageId":"msg_ds_5","senderId":"user_design","content":"Good thinking, Lisa. I'd budget 1 day for initial setup:\n- Camera calibration and custom color profile creation: 2 hours\n- Test shots with different lighting setups: 3 hours\n- Backdrop and prop arrangement: 1 hour\n- Workflow setup (tethered shooting, file naming, backup process): 1 hour\n\nAfter that first day, we'll be ready for production shoots. The kit Sarah is requesting includes a lens and basic lighting setup, so we should be covered for standard product photography.\n\nI also have some backdrops from my personal collection that I can bring in — white seamless, textured gray, and dark wood. Should cover most of our product lineup.\n\nIf we want to go full studio setup (light tent, specialized lighting for reflective products, macro lens), that would be a separate Q2 conversation.","timestamp":"2025-12-12T11:00:00.000000Z","threadId":null,"reactions":[],"isEdited":false},
+          {"messageId":"msg_ds_6","senderId":"user_mkt_lead","content":"Perfect. Let's proceed with Option 3 (Editorial) as our creative direction and plan for the Canon camera. I've already DM'd John with the specs and justification.\n\nJessica — can you start the shot list for the first product category? That way we're ready to go the moment the camera arrives.\n\nAlso, switching gears — how's the Customer Portal Redesign prep going? That's another Q1 priority and I want to make sure we're not overcommitting your time.","timestamp":"2025-12-15T09:00:00.000000Z","threadId":null,"reactions":[],"isEdited":false},
+          {"messageId":"msg_ds_7","senderId":"user_design","content":"Shot list — draft will be ready by end of this week. I've already sketched out the key shots for the Enterprise Platform product page.\n\nCustomer Portal Redesign — kicked off the discovery phase. I've completed:\n- Competitive analysis of 5 portals\n- User interview synthesis (talked to 8 customers)\n- Initial wireframe concepts (3 directions)\n\nI'll present the wireframes to the team in the Jan kickoff meeting. On track!\n\nBTW — completely separate from work stuff — I also submitted a request for an ergonomic chair. My back is really not happy with the current setup. 😅 Been dealing with lower back pain for months and it's affecting my ability to sit for long design sessions. Hoping Finance approves it!","timestamp":"2025-12-15T09:30:00.000000Z","threadId":null,"reactions":[],"isEdited":false},
+          {"messageId":"msg_ds_8","senderId":"user_pm","content":"Great progress on the portal redesign, Jessica! Looking forward to seeing the wireframes.\n\nAnd I hope you get the chair — your health is important. What model are you requesting?","timestamp":"2025-12-15T10:00:00.000000Z","threadId":null,"reactions":[],"isEdited":false},
+          {"messageId":"msg_ds_9","senderId":"user_design","content":"Herman Miller Aeron — the gold standard. $1,400 from OfficeDepot. I know it's expensive but for someone with scoliosis who sits 8+ hours daily, it's really the only chair that provides adequate support. I've tried cheaper alternatives and they just don't work for my back.\n\nNina and Mike both support the request from office ops and HR perspectives. We'll see what Finance says! 🤞","timestamp":"2025-12-15T10:15:00.000000Z","threadId":null,"reactions":[],"isEdited":false},
+          {"messageId":"msg_ds_10","senderId":"user_mkt_lead","content":"Good luck with that, Jessica! $1,400 might be a tough sell in December given the budget constraints... but the ergonomic justification is strong. Fingers crossed! 🤞\n\nBack to campaign stuff — I just saw that CompetitorA launched their Q1 campaign early. Their photography is MUCH better than previous campaigns — looks like they invested in professional equipment. We need to do the same or we'll fall behind.","timestamp":"2025-12-17T09:00:00.000000Z","threadId":null,"reactions":[],"isEdited":false}
         ],
-        "dm_mgr": [
-          {
-            "messageId": "msg_dm_mgr_1",
-            "senderId": "user_finance_1",
-            "content": "Hi Sarah, I'm going through the December requests now. Based on your rules post and the vendor updates from Rachel, I have several items that need your input. Some are edge cases, others are clear violations that I want to confirm before rejecting.",
-            "timestamp": "2025-12-22T09:10:00.000000Z",
-            "threadId": null,
-            "reactions": [],
-            "isEdited": false
-          },
-          {
-            "messageId": "msg_dm_mgr_2",
-            "senderId": "user_finance_mgr",
-            "content": "Sure John, go ahead. What are the outliers?",
-            "timestamp": "2025-12-22T09:12:00.000000Z",
-            "threadId": null,
-            "reactions": [],
-            "isEdited": false
-          },
-          {
-            "messageId": "msg_dm_mgr_3",
-            "senderId": "user_finance_1",
-            "content": "OK, first batch:\n\n1. **Marketing** (Sarah Jones) wants a Canon EOS R5 camera kit — $3,899. Over the $2k hardware cap, and vendor is B&H Photo (not CorpTech). But the Q1 campaign team seems to really need it.\n\n2. **Design** (Jessica Li) requested an Aeron Chair — $1,400 from OfficeDepot. It's Office Supplies category so the $2k hardware cap doesn't technically apply, but $1,400 seems high for a chair.\n\n3. **Engineering** (Alex Chen) wants 2x MacBook Pro M3 — $1,999 each from Amazon. Price is just under the cap, but Amazon was removed from the approved vendor list.",
-            "timestamp": "2025-12-22T09:15:00.000000Z",
-            "threadId": null,
-            "reactions": [],
-            "isEdited": false
-          },
-          {
-            "messageId": "msg_dm_mgr_4",
-            "senderId": "user_finance_mgr",
-            "content": "Good catches. Here are my decisions:\n\n* **Marketing Camera**: **APPROVED**. I'm making a full exception on this one — both the budget cap and the vendor restriction. B&H Photo is a specialized professional equipment dealer, not a consumer retail channel. The Q1 ad campaign is a strategic priority and this is a justified one-time investment. As Finance Manager this falls within my exception authority.\n\n* **Design Chair**: **REJECTED**. $1,400 is way too expensive for a desk chair, even with ergonomic justification. Tell Jessica to get a standard ergonomic chair in the $200 range from OfficeDepot. I appreciate Nina and Mike's support but budget is budget.\n\n* **MacBooks**: **REJECTED**. Amazon is not an approved vendor — period. The fact that they used Amazon in previous years doesn't matter; the vendor list was updated this quarter. They need to resubmit through CorpTech Solutions. No exceptions on consumer retail channels.",
-            "timestamp": "2025-12-22T09:20:00.000000Z",
-            "threadId": null,
-            "reactions": [{"emoji": "✅", "users": ["user_finance_1"]}],
-            "isEdited": false
-          },
-          {
-            "messageId": "msg_dm_mgr_5",
-            "senderId": "user_finance_1",
-            "content": "Crystal clear. Three more:\n\n4. **Sales** (Emily Clark) wants LinkedIn Sales Navigator — 5 seats, $79.99/mo each, $399.95 total. It's a monthly subscription. She also has a Salesforce renewal — $1,800 annual.\n\n5. **HR** (Mike Ross) put in a request for a 'Team Pizza Lunch' — $150, categorized as Team Building.\n\n6. **IT** (David Wang) needs 3x Dell UPS Battery Backup — $350 each, $1,050 total from CorpTech. Rachel flagged this in #it-helpdesk saying it might need to go through capex instead of regular PO. David says they're consumable replacements.",
-            "timestamp": "2025-12-22T09:25:00.000000Z",
-            "threadId": null,
-            "reactions": [],
-            "isEdited": false
-          },
-          {
-            "messageId": "msg_dm_mgr_6",
-            "senderId": "user_finance_mgr",
-            "content": "OK, here we go:\n\n* **LinkedIn Sales Nav**: **REJECTED**. The issue is not the Lead Gen project pause — it's the billing frequency. Our December rules require Annual subscriptions ONLY for software. Monthly billing is not acceptable. Tell Emily to reject this and resubmit as an Annual subscription if she wants it approved.\n\n* **Salesforce License**: **APPROVED**. Annual renewal, $1,800. This is a standard operational tool renewal, completely unrelated to the Lead Gen project. Straightforward.\n\n* **Pizza Lunch**: **REJECTED**. Category freeze covers ALL Team Building and Entertainment purchases, no exceptions. I know the year-end-party channel is excited about it, and I know Tom mentioned the company holiday party — but that's a company-sponsored event handled by Admin, not a departmental PO. Individual team social events cannot be processed as purchase orders this quarter.\n\n* **UPS Batteries**: **APPROVED**. Rachel is wrong on this one — UPS battery replacements are consumable maintenance parts, not capital equipment. They absolutely go through a standard PO, not capex. The $500 capex threshold she mentioned applies to NEW infrastructure equipment, not replacement parts for existing systems. Process it as a normal PO.",
-            "timestamp": "2025-12-22T09:30:00.000000Z",
-            "threadId": null,
-            "reactions": [{"emoji": "👍", "users": ["user_finance_1"]}],
-            "isEdited": false
-          },
-          {
-            "messageId": "msg_dm_mgr_7",
-            "senderId": "user_finance_1",
-            "content": "Perfect, all clear. So to summarize my action items:\n\n✅ APPROVED: Canon Camera (Sarah Jones), Salesforce (Emily), UPS Batteries (David), 27\" Monitors (Alex — already compliant)\n❌ REJECTED: MacBooks (vendor), Aeron Chair (too expensive), Pizza (category freeze), LinkedIn monthly (must be annual)\n\nI'll update the PO form now. Thanks Sarah!",
-            "timestamp": "2025-12-22T09:35:00.000000Z",
-            "threadId": null,
-            "reactions": [],
-            "isEdited": false
-          },
-          {
-            "messageId": "msg_dm_mgr_8",
-            "senderId": "user_finance_mgr",
-            "content": "That's exactly right. Good work, John. Make sure to document the exception reasons for the Canon camera in case audit asks. For the rejections, please notify the requesters so they can resubmit corrected versions if applicable.",
-            "timestamp": "2025-12-22T09:40:00.000000Z",
-            "threadId": null,
-            "reactions": [{"emoji": "✅", "users": ["user_finance_1"]}],
-            "isEdited": false
-          }
+      "dm_mgr": [
+          {"messageId":"msg_dm_mgr_1","senderId":"user_finance_1","content":"Hi Sarah, I'm going through the December requests now. Quite a few came in over the past week. Based on your rules post and the vendor updates from Rachel in #procurement, I have several items that need your input. Some are clear edge cases, others are violations that I want to confirm before rejecting.\n\nI've organized them into batches — can I walk you through them?","timestamp":"2025-12-22T09:10:00.000000Z","threadId":null,"reactions":[],"isEdited":false},
+          {"messageId":"msg_dm_mgr_2","senderId":"user_finance_mgr","content":"Sure John, go ahead. I've got about 20 minutes before my next meeting. What are the outliers?","timestamp":"2025-12-22T09:12:00.000000Z","threadId":null,"reactions":[],"isEdited":false},
+          {"messageId":"msg_dm_mgr_3","senderId":"user_finance_1","content":"OK, first batch — three items that need your decision:\n\n1. **Marketing** (Sarah Jones) wants a Canon EOS R5 camera kit — $3,899 from B&H Photo. This is over the $2k hardware cap, AND the vendor isn't CorpTech. But the Q1 campaign team has been building their entire creative strategy around professional product photography, and B&H is the only authorized professional dealer with this kit. CorpTech doesn't carry Canon camera equipment.\n\n2. **Design** (Jessica Li) requested a Herman Miller Aeron Chair — $1,400 from OfficeDepot. It's categorized as Office Supplies, so technically the $2k hardware cap doesn't apply. Vendor is correct (OfficeDepot). But $1,400 for a desk chair is significantly above the typical $150-$250 range that Nina mentioned in #office-ops. Jessica has scoliosis and makes a strong ergonomic case. Both Nina and Mike support the request.\n\n3. **Engineering** (Alex Chen) wants 2x MacBook Pro M3 — $1,999 each from Amazon. Price is just under the $2k cap. But Amazon was removed from the approved vendor list in October. James (Alex's manager) is very confident this will go through — he says they've always bought MacBooks through Amazon without issues. He's already DM'd me twice pushing for quick approval.","timestamp":"2025-12-22T09:15:00.000000Z","threadId":null,"reactions":[],"isEdited":false},
+          {"messageId":"msg_dm_mgr_4","senderId":"user_finance_mgr","content":"Good catches on all three. Here are my decisions:\n\n* **Marketing Camera (Canon EOS R5)**: **APPROVED.** I'm making a full exception on this one — both the budget cap and the vendor restriction. B&H Photo is a specialized professional equipment dealer, not a consumer retail channel like Amazon. This is exactly the kind of case-by-case exception that Rachel's vendor policy allows for specialized dealers. The Q1 ad campaign is a strategic priority with clear revenue justification, and the ROI math works out (cheaper than outsourcing 2+ photo sessions). As Finance Manager, this falls within my exception authority.\n\n* **Design Chair (Aeron)**: **REJECTED.** I appreciate the ergonomic justification, and I know Nina and Mike support it, but $1,400 is simply too expensive for a desk chair given our current budget constraints. That's 6-7x what we normally spend on chairs. Tell Jessica to get a standard ergonomic chair in the $200 range from OfficeDepot — there are excellent options at that price point. If she has a specific medical need, she should get a doctor's note and we can revisit through the formal ADA accommodation process in Q1.\n\n* **MacBooks**: **REJECTED.** Amazon is not an approved vendor — full stop. It doesn't matter that they used Amazon in previous years; the vendor list was updated in October and Amazon was explicitly removed as a consumer retail channel. Rachel's update in #procurement is clear, and I confirmed it's a hard rule. James's confidence that \"it's always been fine\" is based on outdated information. Tell Alex to resubmit the MacBook order through CorpTech Solutions. No exceptions on consumer retail channels.","timestamp":"2025-12-22T09:20:00.000000Z","threadId":null,"reactions":[{"emoji":"✅","users":["user_finance_1"]}],"isEdited":false},
+          {"messageId":"msg_dm_mgr_5","senderId":"user_finance_1","content":"Crystal clear on all three. Thank you for the detailed reasoning — that'll help me explain the decisions to the requesters.\n\nOK, second batch — three more items:\n\n4. **Sales** (Emily Clark) submitted two software renewals:\n   - Salesforce License: $1,800, annual billing. Standard CRM renewal.\n   - LinkedIn Sales Navigator: 5 seats at $79.99/month each, $399.95/month total. This is a **monthly** subscription.\n   Emily notes that both are daily-use tools unrelated to the Lead Gen Expansion project that Tom paused.\n\n5. **HR** (Mike Ross) put in a request for a 'Team Pizza Lunch' — $150 from Domino's, categorized as Team Building. The whole #year-end-party channel has been excitedly planning this.\n\n6. **IT** (David Wang) needs 3x Dell UPS Battery Backup — $350 each, $1,050 total from CorpTech Solutions. These are replacement batteries for the server room UPS units that are showing degraded capacity. Rachel flagged in #it-helpdesk that this might need to go through the capex process instead of a regular PO, citing the $500 infrastructure threshold. David disagrees — he says they're consumable replacement parts, not new equipment.","timestamp":"2025-12-22T09:25:00.000000Z","threadId":null,"reactions":[],"isEdited":false},
+          {"messageId":"msg_dm_mgr_6","senderId":"user_finance_mgr","content":"OK, let me work through these:\n\n* **LinkedIn Sales Navigator**: **REJECTED.** And to be clear — the issue is NOT the Lead Gen project pause. Emily is correct that LinkedIn Nav is an operational tool, not a Lead Gen Expansion line item. The problem is the billing frequency. Our December rules explicitly state: Software = Annual subscriptions ONLY. No monthly billing. Tell Emily to reject this current request and resubmit with **annual** billing if she wants it approved. LinkedIn does offer annual plans — she'll need to work with her LinkedIn account rep to convert.\n\n* **Salesforce License**: **APPROVED.** $1,800 annual renewal. This is a standard operational tool, completely unrelated to the Lead Gen pause. Annual billing ✓, reasonable price ✓. Straightforward.\n\n* **Pizza Lunch**: **REJECTED.** Category freeze covers ALL Team Building and Entertainment purchases — no exceptions, regardless of the dollar amount. $150 is small, I know, but the category freeze is a hard rule. I don't care how excited the #year-end-party channel is. Tom already said in #general that departments should NOT submit separate POs for social events — everything is covered under the company holiday party that Admin organized. If people want pizza, they can order it themselves and not put it through a PO.\n\n* **UPS Batteries**: **APPROVED.** Rachel is wrong on this one. UPS battery replacements are consumable maintenance parts — they're the equivalent of replacing toner in a printer. The UPS chassis are the capital assets; the batteries are consumable components with a finite lifespan that get swapped out periodically. The $500 capex threshold Rachel mentioned applies to NEW infrastructure equipment purchases, not replacement parts for existing systems. This is absolutely a standard PO, not capex. Process it normally. And tell David it's urgent — I agree we can't risk a power failure over the holiday break.","timestamp":"2025-12-22T09:30:00.000000Z","threadId":null,"reactions":[{"emoji":"👍","users":["user_finance_1"]}],"isEdited":false},
+          {"messageId":"msg_dm_mgr_7","senderId":"user_finance_1","content":"Perfect, all clear. So to summarize my action items for the December PO batch:\n\n✅ **APPROVED** (add to PO form):\n1. Alex Chen — 27\" 4K Monitor (2x $450 from CorpTech) — already compliant with all rules\n2. Sarah Jones — Canon EOS R5 Kit (1x $3,899 from B&H Photo) — full exception approved by you\n3. Emily Clark — Salesforce License (1x $1,800 from Salesforce) — annual renewal, compliant\n4. David Wang — Dell UPS Battery Backup (3x $350 from CorpTech) — approved, standard PO\n\n❌ **REJECTED** (notify requesters):\n1. Alex Chen — MacBook Pro M3 (vendor: Amazon not approved) → resubmit through CorpTech\n2. Jessica Li — Aeron Chair ($1,400 too expensive) → get standard $200 chair from OfficeDepot\n3. Mike Ross — Team Pizza Lunch (category freeze: Team Building) → no departmental social POs\n4. Emily Clark — LinkedIn Sales Nav (monthly billing) → resubmit as annual subscription\n\nI'll update the PO form now and notify the rejected requesters with your reasoning. Thanks Sarah!","timestamp":"2025-12-22T09:35:00.000000Z","threadId":null,"reactions":[],"isEdited":false},
+          {"messageId":"msg_dm_mgr_8","senderId":"user_finance_mgr","content":"That's exactly right — nice clean summary. Good work, John.\n\nA few follow-up notes:\n1. For the Canon camera, make sure to document the exception in the PO notes. Write something like \"Exception approved by Finance Manager — specialized professional equipment, strategic Q1 campaign investment.\" In case audit asks, we have a paper trail.\n2. For the MacBook rejection, be diplomatic with James. He's going to push back. Just point him to Rachel's vendor list update in #procurement and let him know it's a company-wide policy change, not personal.\n3. For Jessica's chair, mention the ADA accommodation path as a potential Q1 option if she has a medical need.\n4. For the UPS batteries, mark it as urgent priority. I'll flag it to Rachel as well so she doesn't block it on her end.\n\nGreat job staying on top of all this. Clean December close, here we come! 💪","timestamp":"2025-12-22T09:40:00.000000Z","threadId":null,"reactions":[{"emoji":"✅","users":["user_finance_1"]}],"isEdited":false}
         ],
         "dm_alex": [
-          {
-            "messageId": "msg_dm_alex_1",
-            "senderId": "user_eng_lead",
-            "content": "Hi John, confirming details for my two equipment requests for the new hires:\n\n1. **Item**: MacBook Pro M3\n**Category**: Hardware\n**Vendor**: Amazon\n**Qty**: 2\n**Unit Price**: $1,999.00\n**Total**: $3,998.00\n**Reason**: New hires setup — standard dev laptops\n\n2. **Item**: 27\" 4K Monitor\n**Category**: Hardware\n**Vendor**: CorpTech Solutions\n**Qty**: 2\n**Unit Price**: $450.00\n**Total**: $900.00\n**Reason**: New hires setup — external displays\n\nJames said both should be straightforward. Let me know if you need anything else!",
-            "timestamp": "2025-12-23T09:10:00.000000Z",
-            "threadId": null,
-            "reactions": [],
-            "isEdited": false
-          }
+          {"messageId":"msg_dm_alex_1","senderId":"user_eng_lead","content":"Hi John! Hope you're not too buried with year-end stuff. 😅\n\nI'm confirming the details for my two equipment requests for the new engineering hires starting Jan 13:\n\n**Request 1:**\n• **Item**: MacBook Pro M3 (16GB RAM, 512GB SSD)\n• **Category**: Hardware\n• **Vendor**: Amazon\n• **Qty**: 2\n• **Unit Price**: $1,999.00\n• **Total**: $3,998.00\n• **Reason**: New hires setup — standard development laptops. Tested and approved by IT (David).\n\n**Request 2:**\n• **Item**: 27\" 4K Monitor (Dell U2723QE)\n• **Category**: Hardware\n• **Vendor**: CorpTech Solutions\n• **Qty**: 2\n• **Unit Price**: $450.00\n• **Total**: $900.00\n• **Reason**: New hires setup — external displays for development work.\n\nJames said both should be straightforward — we've ordered this exact setup for previous hires without any issues. Let me know if you need anything else from me!","timestamp":"2025-12-23T09:10:00.000000Z","threadId":null,"reactions":[],"isEdited":false}
         ],
         "dm_sarah_j": [
-          {
-            "messageId": "msg_dm_sarahj_1",
-            "senderId": "user_mkt_lead",
-            "content": "Hey John, here are the specs for my purchase request:\n\n**Item**: Canon EOS R5 Kit\n**Category**: Hardware\n**Vendor**: B&H Photo\n**Qty**: 1\n**Unit Price**: $3,899.00\n**Total Price**: $3,899.00\n**Justification**: Q1 Ad Campaign — professional product photography. B&H is the only authorized dealer with the full kit in stock. This is a one-time investment that will pay for itself within two shoots (we currently pay $2,000–$3,000 per outsourced photo session).\n\nI know it's over the budget cap and B&H isn't our usual vendor. I've already flagged this to Sarah Jenkins for exception approval. Let me know if you need anything else from my end!",
-            "timestamp": "2025-12-23T09:15:00.000000Z",
-            "threadId": null,
-            "reactions": [],
-            "isEdited": false
-          }
+          {"messageId":"msg_dm_sarahj_1","senderId":"user_mkt_lead","content":"Hey John! Here are the full specs for my purchase request. I've included extra context since I know this one is unusual:\n\n**Item**: Canon EOS R5 Kit (body + RF 24-105mm f/4L lens + Speedlite flash)\n**Category**: Hardware\n**Vendor**: B&H Photo (authorized Canon professional dealer)\n**Qty**: 1\n**Unit Price**: $3,899.00\n**Total Price**: $3,899.00\n\n**Justification**: Q1 Ad Campaign — professional product photography capability. Key points:\n- Currently outsourcing product photography at $2,000-$3,000 per session\n- Need 4-5 sessions for Q1 alone = $8,000-$15,000 in outsourcing costs\n- Owning the camera pays for itself within 2 sessions\n- Jessica Li has extensive R5 experience from her agency days\n- B&H Photo is the only authorized Canon professional dealer with the full kit in stock. CorpTech doesn't carry professional camera equipment.\n\nI know this is over the hardware budget cap and B&H isn't our standard vendor. I've already flagged both issues to Sarah Jenkins for exception approval. She should have a decision for you shortly.\n\nLet me know if you need anything else from my end! This is really important for Q1. 📸","timestamp":"2025-12-23T09:15:00.000000Z","threadId":null,"reactions":[],"isEdited":false}
         ],
         "dm_mike": [
-          {
-            "messageId": "msg_dm_mike_1",
-            "senderId": "user_hr",
-            "content": "Morning John! Quick request for our team end-of-year gathering:\n\n**Item**: Team Pizza Lunch\n**Category**: Team Building\n**Vendor**: Domino's\n**Qty**: 1\n**Unit Price**: $150.00\n**Total Price**: $150.00\n**Reason**: End of year team gathering — casual pizza lunch for the immediate team\n\nI know it's a small amount. The year-end-party channel is really excited about this! Let me know if there are any issues.",
-            "timestamp": "2025-12-23T09:20:00.000000Z",
-            "threadId": null,
-            "reactions": [],
-            "isEdited": false
-          }
+          {"messageId":"msg_dm_mike_1","senderId":"user_hr","content":"Morning John! ☀️ Quick request for our team end-of-year gathering:\n\n**Item**: Team Pizza Lunch\n**Category**: Team Building\n**Vendor**: Domino's\n**Qty**: 1 (catering order for ~20 people)\n**Unit Price**: $150.00\n**Total Price**: $150.00\n**Reason**: End of year team gathering — casual pizza lunch for the immediate team on Dec 23\n\nI know it's a small amount and the whole team is really looking forward to it (check the #year-end-party channel — everyone's excited!). Emily even worked out a great deal with Domino's to fit pizza, wings, and salads within $150.\n\nLet me know if there are any issues. Should be a simple one! 🍕","timestamp":"2025-12-23T09:20:00.000000Z","threadId":null,"reactions":[],"isEdited":false}
         ],
         "dm_emily": [
-          {
-            "messageId": "msg_dm_emily_1",
-            "senderId": "user_sales",
-            "content": "Hi John, submitting two software renewal requests:\n\n1. **Item**: Salesforce License\n**Category**: Software\n**Vendor**: Salesforce\n**Qty**: 1\n**Unit Price**: $1,800.00\n**Total**: $1,800.00\n**Duration**: Annual\n**Reason**: CRM Renewal — this is our core operational CRM tool. Completely separate from the Lead Gen Expansion project that Tom paused.\n\n2. **Item**: LinkedIn Sales Navigator\n**Category**: Software\n**Vendor**: LinkedIn\n**Qty**: 5\n**Unit Price**: $79.99\n**Total**: $399.95\n**Duration**: Monthly\n**Reason**: Sales team prospecting tool — used daily by the entire team. Note: while the Lead Gen project is paused, this is an existing tool we use for all prospecting, not just Lead Gen.\n\nLet me know if you need any additional info!",
-            "timestamp": "2025-12-23T09:22:00.000000Z",
-            "threadId": null,
-            "reactions": [],
-            "isEdited": false
-          }
+          {"messageId":"msg_dm_emily_1","senderId":"user_sales","content":"Hi John, submitting two software renewal requests for the sales team:\n\n**Request 1:**\n• **Item**: Salesforce License (Enterprise Edition)\n• **Category**: Software\n• **Vendor**: Salesforce\n• **Qty**: 1 (enterprise license covers whole team)\n• **Unit Price**: $1,800.00\n• **Total**: $1,800.00\n• **Duration**: Annual\n• **Reason**: CRM Renewal — this is our core operational CRM platform used by the entire sales team daily for pipeline management, forecasting, and reporting. This is a standard annual renewal, completely unrelated to the Lead Gen Expansion project that Tom paused.\n\n**Request 2:**\n• **Item**: LinkedIn Sales Navigator (Professional tier)\n• **Category**: Software\n• **Vendor**: LinkedIn\n• **Qty**: 5 seats\n• **Unit Price**: $79.99/seat\n• **Total**: $399.95/month\n• **Duration**: Monthly\n• **Reason**: Sales prospecting and lead research tool. Used daily by all 5 team members for finding decision-makers, researching accounts, and InMail outreach. While the Lead Gen Expansion project is paused, LinkedIn Nav is an existing tool we use for ALL prospecting activities, not just Lead Gen.\n\n**Note on LinkedIn billing**: We're currently on monthly because the annual plan wasn't available for our region when we originally signed up. Lisa mentioned there might be a rule about subscription frequency — happy to discuss if that's an issue.\n\nLet me know if you need any additional info! 📊","timestamp":"2025-12-23T09:22:00.000000Z","threadId":null,"reactions":[],"isEdited":false}
         ],
         "dm_jessica": [
-          {
-            "messageId": "msg_dm_jess_1",
-            "senderId": "user_design",
-            "content": "Hi John, request details below:\n\n**Item**: Aeron Chair\n**Category**: Office Supplies\n**Vendor**: OfficeDepot\n**Qty**: 1\n**Unit Price**: $1,400.00\n**Total Price**: $1,400.00\n**Justification**: Ergonomic support — my current chair is 3+ years old and causing lower back pain. The Aeron is the gold standard for ergonomic seating. Nina and Mike both support this from an office ops and HR perspective.\n\nI know $1,400 is above the typical range for chairs. Happy to discuss further if needed!",
-            "timestamp": "2025-12-23T09:25:00.000000Z",
-            "threadId": null,
-            "reactions": [],
-            "isEdited": false
-          }
+          {"messageId":"msg_dm_jess_1","senderId":"user_design","content":"Hi John! Here are the details for my purchase request:\n\n**Item**: Herman Miller Aeron Chair (Size B, Graphite)\n**Category**: Office Supplies\n**Vendor**: OfficeDepot\n**Qty**: 1\n**Unit Price**: $1,400.00\n**Total Price**: $1,400.00\n\n**Justification / Ergonomic Case**:\nI have mild scoliosis and my current desk chair (3+ years old, basic model) is causing significant lower back pain. I've been dealing with this for months and it's starting to affect my productivity during long design sessions.\n\nThe Aeron is widely recognized as the gold standard for ergonomic seating:\n- PostureFit SL provides targeted spinal support (critical for scoliosis)\n- 12-year manufacturer warranty\n- Fully adjustable (arms, tilt, lumbar, seat depth)\n- Built to last 15+ years\n\nI've tried cheaper alternatives (including the Autonomous ErgoChair that Nina suggested) but they don't provide adequate lumbar support for my specific back condition.\n\n**Support**: Both Nina Patel (Office Manager) and Mike Ross (HR) have reviewed my situation and support this request from office ops and health/wellness perspectives. See the discussion in #office-ops for context.\n\nI know $1,400 is above the typical range for desk chairs. I'm happy to discuss further or provide additional medical documentation if needed. Thank you! 🙏","timestamp":"2025-12-23T09:25:00.000000Z","threadId":null,"reactions":[],"isEdited":false}
         ],
         "dm_david": [
-          {
-            "messageId": "msg_dm_david_1",
-            "senderId": "user_it_mgr",
-            "content": "Hi John, submitting a PO request for server room infrastructure maintenance:\n\n**Item**: Dell UPS Battery Backup\n**Category**: Hardware\n**Vendor**: CorpTech Solutions\n**Qty**: 3\n**Unit Price**: $350.00\n**Total**: $1,050.00\n**Reason**: Replacement batteries for server room UPS units. Current batteries are aging and showing intermittent power fluctuations (Ryan and I have been monitoring alerts in #it-helpdesk). These are consumable replacement parts, not new equipment.\n\n**Note**: Rachel flagged in #it-helpdesk that this might need to go through capex instead of a regular PO. I disagree — these are maintenance consumables, not capital equipment. But I wanted to flag her concern so you can check with Sarah Jenkins if needed.\n\nThis is urgent — we can't afford a power failure in the server room. CorpTech has the units in stock and can ship immediately.",
-            "timestamp": "2025-12-23T09:28:00.000000Z",
-            "threadId": null,
-            "reactions": [],
-            "isEdited": false
-          }
+          {"messageId":"msg_dm_david_1","senderId":"user_it_mgr","content":"Hi John, submitting a PO request for critical server room infrastructure maintenance:\n\n**Item**: Dell UPS Battery Backup (Model: Dell Smart-UPS SRT 192V 5kVA Battery Pack)\n**Category**: Hardware\n**Vendor**: CorpTech Solutions\n**Qty**: 3\n**Unit Price**: $350.00\n**Total**: $1,050.00\n\n**Reason**: Replacement batteries for server room UPS units (UPS-01, UPS-02, UPS-03). Current batteries are showing degraded capacity:\n- UPS-01: 74% capacity (threshold: 80%)\n- UPS-02: 71% capacity\n- UPS-03: 62% capacity ⚠️\n\nManufacturer recommends replacement below 80%. All three units are overdue. Ryan Torres and I have been monitoring intermittent power alerts in #it-helpdesk. If we lose mains power during the holiday break with no one on-site, degraded backup could result in uncontrolled shutdown and potential data loss.\n\nThese are **consumable replacement parts** — we're replacing battery modules inside existing UPS chassis, not buying new equipment. This is routine maintenance, like replacing toner in a printer.\n\n**⚠️ Note on process**: Rachel Kim flagged in #it-helpdesk that this might need to go through the capital expenditure (capex) process instead of a regular PO, citing a $500 infrastructure threshold. I respectfully disagree with that classification — battery replacements are operational expenses, not capital purchases. But I wanted to flag her concern so you can check with Sarah Jenkins if there's any ambiguity.\n\n**Urgency**: HIGH. CorpTech has the units in stock and can ship next-day. I'd like to have them installed before the holiday break starts Dec 25.\n\nThanks John! This is important. 🔋","timestamp":"2025-12-23T09:28:00.000000Z","threadId":null,"reactions":[],"isEdited":false}
         ],
         "dm_james": [
-          {
-            "messageId": "msg_dm_james_1",
-            "senderId": "user_eng_mgr",
-            "content": "Hey John, just following up on Alex's equipment POs. The new hires start Jan 13 and we need the MacBooks and monitors set up by then. Shipping from Amazon usually takes 2–3 days, so we need the PO approved this week.\n\nIs there anything holding this up? I can vouch for both items — they're standard engineering equipment and we've always bought MacBooks through Amazon without any issues.",
-            "timestamp": "2025-12-23T10:00:00.000000Z",
-            "threadId": null,
-            "reactions": [],
-            "isEdited": false
-          },
-          {
-            "messageId": "msg_dm_james_2",
-            "senderId": "user_finance_1",
-            "content": "Hi James, I'm processing all the December POs now. I'll follow up with Alex directly on the status. Thanks for the heads up on the timeline.",
-            "timestamp": "2025-12-23T10:05:00.000000Z",
-            "threadId": null,
-            "reactions": [],
-            "isEdited": false
-          },
-          {
-            "messageId": "msg_dm_james_3",
-            "senderId": "user_eng_mgr",
-            "content": "Sounds good. Just to reiterate — both the MacBooks and monitors are essential. Please prioritize these if you can. The new hires can't work without proper equipment on day one.",
-            "timestamp": "2025-12-23T10:10:00.000000Z",
-            "threadId": null,
-            "reactions": [],
-            "isEdited": false
-          }
+          {"messageId":"msg_dm_james_1","senderId":"user_eng_mgr","content":"Hey John, just following up on Alex's equipment POs for the new hires. They start Jan 13 and we absolutely need the MacBooks and monitors set up and ready by then. Shipping takes about a week, so we need PO approval this week at the latest.\n\nIs there anything holding these up? I can tell you from experience that both items are standard engineering equipment. We've been buying MacBooks through Amazon for the past three years without a single issue from Finance. And the monitors through CorpTech are a no-brainer.\n\nLet me know if you need any additional justification or approvals from my end. Happy to jump on a call if that helps move things along.","timestamp":"2025-12-23T10:00:00.000000Z","threadId":null,"reactions":[],"isEdited":false},
+          {"messageId":"msg_dm_james_2","senderId":"user_finance_1","content":"Hi James, thanks for following up. I'm processing all the December POs right now — working through them methodically. I'll follow up with Alex directly once I have decisions on his requests. Appreciate the context on the timeline!","timestamp":"2025-12-23T10:05:00.000000Z","threadId":null,"reactions":[],"isEdited":false},
+          {"messageId":"msg_dm_james_3","senderId":"user_eng_mgr","content":"Sounds good, John. Just to reiterate — both the MacBooks AND the monitors are essential. We can't have new engineers showing up on day one without proper equipment. It sets a terrible impression and delays their productivity by at least a week.\n\nThe MacBooks are right at the $2,000 cap (actually $1 under!) so there really shouldn't be any budget issue. And Amazon has the best prices and fastest shipping — 2-day Prime delivery vs 5-7 days from other vendors.\n\nPlease prioritize these if you can. Thanks! 🙏","timestamp":"2025-12-23T10:10:00.000000Z","threadId":null,"reactions":[],"isEdited":false}
         ]
       },
       "threads": {},
       "dms": [
-        {
-          "dmId": "dm_mgr",
-          "participants": ["user_finance_1","user_finance_mgr"],
-          "lastMessage": "That's exactly right. Good work, John. Make sure to document the exception reasons for the Canon camera in case audit asks.",
-          "lastTime": "2025-12-22T09:40:00.000000Z",
-          "unreadCount": 0
-        },
-        {
-          "dmId": "dm_alex",
-          "participants": ["user_finance_1","user_eng_lead"],
-          "lastMessage": "Hi John, confirming details for my two equipment requests for the new hires...",
-          "lastTime": "2025-12-23T09:10:00.000000Z",
-          "unreadCount": 1
-        },
-        {
-          "dmId": "dm_sarah_j",
-          "participants": ["user_finance_1","user_mkt_lead"],
-          "lastMessage": "Hey John, here are the specs for my purchase request: Item: Canon EOS R5 Kit...",
-          "lastTime": "2025-12-23T09:15:00.000000Z",
-          "unreadCount": 1
-        },
-        {
-          "dmId": "dm_mike",
-          "participants": ["user_finance_1","user_hr"],
-          "lastMessage": "Morning John! Quick request for our team end-of-year gathering...",
-          "lastTime": "2025-12-23T09:20:00.000000Z",
-          "unreadCount": 1
-        },
-        {
-          "dmId": "dm_emily",
-          "participants": ["user_finance_1","user_sales"],
-          "lastMessage": "Hi John, submitting two software renewal requests...",
-          "lastTime": "2025-12-23T09:22:00.000000Z",
-          "unreadCount": 1
-        },
-        {
-          "dmId": "dm_jessica",
-          "participants": ["user_finance_1","user_design"],
-          "lastMessage": "Hi John, request details below: Item: Aeron Chair...",
-          "lastTime": "2025-12-23T09:25:00.000000Z",
-          "unreadCount": 1
-        },
-        {
-          "dmId": "dm_david",
-          "participants": ["user_finance_1","user_it_mgr"],
-          "lastMessage": "Hi John, submitting a PO request for server room infrastructure maintenance...",
-          "lastTime": "2025-12-23T09:28:00.000000Z",
-          "unreadCount": 1
-        },
-        {
-          "dmId": "dm_james",
-          "participants": ["user_finance_1","user_eng_mgr"],
-          "lastMessage": "Just to reiterate — both the MacBooks and monitors are essential. Please prioritize these if you can.",
-          "lastTime": "2025-12-23T10:10:00.000000Z",
-          "unreadCount": 1
-        }
+        {"dmId":"dm_mgr","participants":["user_finance_1","user_finance_mgr"],"lastMessage":"That's exactly right — nice clean summary. Good work, John.","lastTime":"2025-12-22T09:40:00.000000Z","unreadCount":0},
+        {"dmId":"dm_alex","participants":["user_finance_1","user_eng_lead"],"lastMessage":"Hi John! Hope you're not too buried with year-end stuff...","lastTime":"2025-12-23T09:10:00.000000Z","unreadCount":1},
+        {"dmId":"dm_sarah_j","participants":["user_finance_1","user_mkt_lead"],"lastMessage":"Hey John! Here are the full specs for my purchase request...","lastTime":"2025-12-23T09:15:00.000000Z","unreadCount":1},
+        {"dmId":"dm_mike","participants":["user_finance_1","user_hr"],"lastMessage":"Morning John! Quick request for our team end-of-year gathering...","lastTime":"2025-12-23T09:20:00.000000Z","unreadCount":1},
+        {"dmId":"dm_emily","participants":["user_finance_1","user_sales"],"lastMessage":"Hi John, submitting two software renewal requests...","lastTime":"2025-12-23T09:22:00.000000Z","unreadCount":1},
+        {"dmId":"dm_jessica","participants":["user_finance_1","user_design"],"lastMessage":"Hi John! Here are the details for my purchase request...","lastTime":"2025-12-23T09:25:00.000000Z","unreadCount":1},
+        {"dmId":"dm_david","participants":["user_finance_1","user_it_mgr"],"lastMessage":"Hi John, submitting a PO request for critical server room infrastructure maintenance...","lastTime":"2025-12-23T09:28:00.000000Z","unreadCount":1},
+        {"dmId":"dm_james","participants":["user_finance_1","user_eng_mgr"],"lastMessage":"Please prioritize these if you can. Thanks!","lastTime":"2025-12-23T10:10:00.000000Z","unreadCount":1}
       ],
       "settings": {
         "theme": "light",
@@ -1429,6 +1180,5 @@
         "use24Hour": true
       }
     }
-  },
-  "note": "Complex scenario: 15 users, 10 channels, 8 DMs. Agent must navigate finance-approvals (rules), procurement (vendor list), dm_mgr (8 approval decisions), plus 6 requester DMs. Key traps: James vouching for MacBook (vendor wrong), Rachel blocking UPS (manager overrides), Lead Gen pause (false cause for LinkedIn rejection), year-end-party enthusiasm (category freeze). Final answer: 4 approved (Monitor, Canon, Salesforce, UPS), 4 rejected (MacBook, Chair, Pizza, LinkedIn)."
+  }
 }

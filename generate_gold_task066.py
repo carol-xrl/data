@@ -27,15 +27,15 @@ ENDING_DURATION = 30.0
 
 SUBTITLES = [
     (0.0, 3.0, "Chiikawa"),
-    (3.0, 5.5, "Cut Yocchan (dried squid snack)"),
-    (5.5, 7.5, "The contents"),
-    (7.5, 11.0, "Something soft and thin"),
-    (9.0, 11.0, "Something chewy"),
-    (11.0, 13.0, "Something chewy…"),
-    (13.0, 16.0, "Melon soda"),
-    (32.0, 35.0, "Chiikawa"),
-    (52.0, 56.0, "That temperature…\n…is just perfect."),
-    (58.0, 61.0, "The End"),
+    (2.8, 5.5, "Cut Yocchan (dried squid snack)"),
+    (5.3, 7.5, "The contents"),
+    (7.3, 9.0, "Something soft and thin"),
+    (8.8, 11.0, "Something soft and thin(left), Something chewy(right)"),
+    (10.8, 13.0, "Something chewy…"),
+    (12.8, 16.0, "Melon soda"),
+    (31.8, 35.0, "Chiikawa"),
+    (51.8, 56.0, "That temperature…\n…is just perfect."),
+    (57.8, 61.0, "The End"),
 ]
 
 

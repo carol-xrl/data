@@ -29,7 +29,7 @@ SUBTITLES = [
     (0.0, 3.0, "Chiikawa"),
     (3.0, 5.5, "Cut Yocchan (dried squid snack)"),
     (5.5, 7.5, "The contents"),
-    (7.5, 9.0, "Something soft and thin"),
+    (7.5, 11.0, "Something soft and thin"),
     (9.0, 11.0, "Something chewy"),
     (11.0, 13.0, "Something chewy…"),
     (13.0, 16.0, "Melon soda"),
